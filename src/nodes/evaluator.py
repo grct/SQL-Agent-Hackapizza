@@ -1,3 +1,5 @@
+from typing import TypedDict, Annotated, Dict
+
 from langchain_core.output_parsers import JsonOutputParser
 from langchain_core.prompts import PromptTemplate
 from langchain_core.tools import tool, StructuredTool
@@ -8,13 +10,16 @@ from src.settings import llm
 class Evaluation(BaseModel):
     evaluation: float = Field(description="float evaluation between 0 and 1")
 
+class Risultato(BaseModel):
+    query: str = Field(description="Domanda dell'utente")
+    generated: str = Field(description="Dato generato da LLM")
 
-async def tool_evaluator(query: str, generated: str):
+
+def tool_evaluator(risultato: Risultato):
     """Chiama questo tool per verificare la correttezza di un dato generato.
 
     Args:
-        query: Domanda dell'utente
-        generated: Dato generato da LLM
+        risultato: Risultato ottenuto da un tool
     """
 
     prompt = PromptTemplate(
@@ -40,14 +45,14 @@ Punteggio: 1.00
 
 
 DOMANDA:
-{query}
+{risultato.query}
 
 DATO DA VALUTARE:
-{generated}
+{risultato.generated}
 """)
 
     parser = JsonOutputParser(pydantic_object=Evaluation)
     chain = prompt | llm | parser
-    ev = chain.invoke({"query": query, "generated": generated})
+    ev = chain.invoke({"query": risultato.query, "generated": risultato.generated})
 
     return ev
