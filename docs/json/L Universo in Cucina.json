@@ -162,31 +162,31 @@
     "skill": [
       {
         "name": "Abilità Psionica",
-        "level": "II"
+        "level": "2"
       },
       {
         "name": "Tecnologia Singolarità",
-        "level": "VI+"
+        "level": "6+"
       },
       {
         "name": "Quantistica",
-        "level": "XI"
+        "level": "11"
       },
       {
         "name": "Controllo Gravitazionale",
-        "level": "II"
+        "level": "2"
       },
       {
         "name": "Licenza Temporale",
-        "level": "I"
+        "level": "1"
       },
       {
         "name": "Licenza Antimateria",
-        "level": "I"
+        "level": "1"
       },
       {
         "name": "Licenza Luce",
-        "level": "I"
+        "level": "1"
       }
     ]
   }

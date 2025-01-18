@@ -151,28 +151,28 @@
     "chef": "Matteo Nexus",
     "skill": [
       {
-        "Tecnologico": "VI"
+        "Tecnologico": "6"
       },
       {
-        "Gravitazionale": "II"
+        "Gravitazionale": "2"
       },
       {
-        "Psionico": "III"
+        "Psionico": "3"
       },
       {
-        "Quantistica": "II"
+        "Quantistica": "2"
       },
       {
-        "Temporale": "I"
+        "Temporale": "1"
       },
       {
-        "Antimateria": "I"
+        "Antimateria": "1"
       },
       {
-        "Magnetismo": "I"
+        "Magnetismo": "1"
       },
       {
-        "Luce": "I"
+        "Luce": "1"
       }
     ]
   }

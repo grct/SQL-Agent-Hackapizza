@@ -167,19 +167,19 @@
     "chef": "Luna Celestini",
     "skill": [
       {
-        "Psionica": "IV"
+        "Psionica": "4"
       },
       {
-        "Temporale": "III"
+        "Temporale": "3"
       },
       {
         "Quantistica": "8"
       },
       {
-        "Luce": "II"
+        "Luce": "2"
       },
       {
-        "Tecnologico": "V"
+        "Tecnologico": "5"
       }
     ]
   }

@@ -171,16 +171,16 @@
     "chef": "Alessandra Nova",
     "skill": [
       {
-        "Psionica": "IV"
+        "Psionica": "4"
       },
       {
         "Quantistica": "5"
       },
       {
-        "Gravitazionale": "I"
+        "Gravitazionale": "1"
       },
       {
-        "Tecnologico": "III"
+        "Tecnologico": "3"
       }
     ]
   }

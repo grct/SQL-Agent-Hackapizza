@@ -148,15 +148,15 @@
     "skill": [
       {
         "name": "Licenza Psionica",
-        "level": "II"
+        "level": "2"
       },
       {
         "name": "Licenza Temporale",
-        "level": "II"
+        "level": "2"
       },
       {
         "name": "Licenza Gravitazionale",
-        "level": "II"
+        "level": "2"
       },
       {
         "name": "Licenza Quantistica",
@@ -164,11 +164,11 @@
       },
       {
         "name": "Licenza Luce",
-        "level": "I"
+        "level": "1"
       },
       {
         "name": "Licenza LTK",
-        "level": "VI+"
+        "level": "6+"
       }
     ]
   }

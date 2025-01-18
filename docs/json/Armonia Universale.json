@@ -151,19 +151,19 @@
     "chef": "Maestro Alessandro Stellanova",
     "skill": [
       {
-        "Psionica": "I"
+        "Psionica": "1"
       },
       {
-        "Gravitazionale": "I"
+        "Gravitazionale": "1"
       },
       {
-        "Magnetica": "I"
+        "Magnetica": "1"
       },
       {
-        "Quantistica": "VIII"
+        "Quantistica": "8"
       },
       {
-        "Luce": "II"
+        "Luce": "2"
       }
     ]
   }

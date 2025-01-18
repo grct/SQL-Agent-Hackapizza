@@ -1,6 +1,8 @@
 import os
 from langchain_ibm import ChatWatsonx
 import pymysql
+from vanna.openai import OpenAI_Chat
+from vanna.chromadb import ChromaDB_VectorStore
 
 parameters = {
     "decoding_method": "greedy",
@@ -13,6 +15,14 @@ llm = ChatWatsonx(
     project_id=os.environ["PROJECT_ID"],
     params=parameters
 )
+
+
+class MyVanna(ChromaDB_VectorStore, OpenAI_Chat):
+    def __init__(self, config=None):
+        ChromaDB_VectorStore.__init__(self, config=config)
+        OpenAI_Chat.__init__(self, config=config)
+
+vn = MyVanna(config={'api_key': 'sk-...', 'model': 'gpt-4-...'})
 
 
 

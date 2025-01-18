@@ -158,7 +158,7 @@
     "skill": [
       {
         "name": "Psionica",
-        "level": "III"
+        "level": "3"
       },
       {
         "name": "Quantistica",
@@ -166,7 +166,7 @@
       },
       {
         "name": "Gravitazionale",
-        "level": "I"
+        "level": "1"
       }
     ]
   }
