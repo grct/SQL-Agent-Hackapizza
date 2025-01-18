@@ -53,13 +53,12 @@ def query_piatto_from_tecnica(tecnica_id: int):
 SELECT P.nome, P.id
 FROM PIATTI_TECNICHE
 LEFT JOIN PIATTI AS P ON PIATTI_TECNICHE.id_piatto = P.id
-WHERE id_tecnica = %s
-LIMIT 1;
+WHERE id_tecnica = %s;
 """
     with connection.cursor() as cursor:
         cursor.execute(query, (tecnica_id,))
         result = cursor.fetchall()
     connection.close()
-    return result[0]["id"]
+    return [r["id"] for r in result]
 
 print(query_piatto_from_tecnica(query_tecniche("Marinatura temp")["id"]))
