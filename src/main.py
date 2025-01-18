@@ -34,12 +34,12 @@ def router(state: State):
 
 graph_builder.add_node("router", router)
 graph_builder.add_node("tools", tool_node)
-graph_builder.add_node("evaluator", tool_evaluator)
+#graph_builder.add_node("evaluator", tool_evaluator)
 
 
 graph_builder.add_edge(START, "router")
 graph_builder.add_conditional_edges("router", tools_condition)
-graph_builder.add_edge("tools", "evaluator")
+graph_builder.add_edge("tools", "router")
 
 # todo fare end grafo
 
