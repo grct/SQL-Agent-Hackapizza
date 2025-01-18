@@ -36,4 +36,8 @@ LEFT JOIN PIATTI AS P ON PT.id_piatto = P.id;
         cursor.execute(query, {'tecnica': tecnica})
         result = cursor.fetchall()
     connection.close()
-    return [r["id"] for r in result]
+
+    if result:
+        return [{
+            "id": r["id"] for r in result
+        }]

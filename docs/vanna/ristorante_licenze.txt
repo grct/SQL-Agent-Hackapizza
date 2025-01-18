@@ -1,0 +1,3 @@
+Ecco la documentazione per ogni colonna della tabella Ristorante_Licenze nel formato colonna = spiegazione
+Ristorante_Licenze.Id_Ristorante = id del ristorante
+Ristorante_Licenze.Id_Licenza = id della licenza

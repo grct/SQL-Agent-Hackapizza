@@ -1,0 +1,6 @@
+Ecco la documentazione per ogni colonna della tabella Licenze nel formato colonna = spiegazione
+Licenze.Id = id della licenza
+Licenze.Nome = nome del licenza
+Licenze.sigla = sigla della licezna
+Licenze.livello = livello della licenza
+Licenze.descrizione = descrizione della licenza

@@ -5,6 +5,8 @@ from langgraph.prebuilt import ToolNode, tools_condition
 
 from src.settings import llm
 from langgraph.graph import add_messages, StateGraph
+
+from src.tools.ingredienti import tool_ingredienti
 from src.tools.tecniche import tool_tecniche
 from src.nodes.evaluator import tool_evaluator
 
@@ -21,7 +23,8 @@ class State(TypedDict):
 graph_builder = StateGraph(State)
 
 tools = [
-    tool_tecniche
+    tool_tecniche,
+    tool_ingredienti
 ]
 tool_node = ToolNode(tools)
 

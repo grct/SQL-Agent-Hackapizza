@@ -1,0 +1,3 @@
+Ecco la documentazione per ogni colonna della tabella Piatti nel formato colonna = spiegazione
+Piatti.Id = id del piatto
+Piatti.Nome = nome del piatto

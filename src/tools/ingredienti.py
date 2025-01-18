@@ -7,7 +7,7 @@ from src.settings import llm, connect_to_db
 
 
 #@tool
-def tool_tecniche(ingrediente: str):
+def tool_ingredienti(ingrediente: str):
     """Chiama questo tool per cercare dei piatti che contengono un ingrediente specifico.
 
     Args:
@@ -34,4 +34,8 @@ LEFT JOIN PIATTI AS P ON PT.id_piatto = P.id;
         cursor.execute(query, {'ingrediente': ingrediente})
         result = cursor.fetchall()
     connection.close()
-    return [r["id"] for r in result]
+
+    if result:
+        return [{
+            "id": r["id"] for r in result
+        }]
