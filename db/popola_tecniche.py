@@ -1,19 +1,6 @@
-import pymysql
-import json
-import uuid
+from src.settings import connect_to_db
+
 import os
-
-
-# Connessione al database MySQL
-def connect_to_db():
-    return pymysql.connect(
-        host=os.environ["DB_HOST"],
-        user=os.environ["DB_USER"],
-        password=os.environ["DB_PASSWORD"],
-        database=os.environ["DB_NAME"],
-        charset='utf8mb4',
-        cursorclass=pymysql.cursors.DictCursor
-    )
 
 
 def insert_data(json_data):
