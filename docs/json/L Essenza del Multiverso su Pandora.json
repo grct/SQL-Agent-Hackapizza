@@ -1,0 +1,179 @@
+{
+  "piatti": [
+    {
+      "name": "Viaggio Gastronomico tra le Stelle",
+      "ingredients": [
+        "Fusilli del Vento",
+        "Vero Ghiaccio",
+        "Carne di Balena spaziale",
+        "Radici di Singolarità",
+        "Essenza di Tachioni"
+      ],
+      "techniques": [
+        "Ebollizione Magneto-Cinetica Pulsante",
+        "Incisione Elettromagnetica Plasmica"
+      ]
+    },
+    {
+      "name": "Sinfonia del Cosmo Rigenerante",
+      "ingredients": [
+        "Carne di Balena Spaziale",
+        "Cristalli di Memoria",
+        "Uova di Fenice",
+        "Lacrime di Unicorno",
+        "Biscotti della Galassia",
+        "Sale Temporale"
+      ],
+      "techniques": [
+        "Cottura Sottovuoto Frugale Energeticamente Negativa",
+        "Affumicatura tramite Big Bang Microcosmico"
+      ]
+    },
+    {
+      "name": "Delizia Astrale all'Essenza del Multiverso",
+      "ingredients": [
+        "Radici di Singolarità",
+        "Carne di Kraken",
+        "Foglie di Nebulosa",
+        "Granuli di Nebbia Arcobaleno",
+        "Lacrime di Andromeda",
+        "Uova di Fenice",
+        "Alghe Bioluminescenti",
+        "Vero Ghiaccio",
+        "Essenza di Tachioni"
+      ],
+      "techniques": [
+        "Tecnica di Sinergia Elettro-Osmotica Programmabile",
+        "Amalgamazione Sintetica Molecolare"
+      ]
+    },
+    {
+      "name": "Melodia del Multiverso Parallelo",
+      "ingredients": [
+        "Carne di Mucca",
+        "Nettare di Sirena",
+        "Uova di Fenice",
+        "Nduja Fritta Tanto",
+        "Fusilli del Vento",
+        "Amido di Stellarion",
+        "Pane degli Abissi",
+        "Teste di Idra",
+        "Polvere di Crononite"
+      ],
+      "techniques": [
+        "Marinatura Temporale Sincronizzata",
+        "Affumicatura Psionica Sensoriale"
+      ]
+    },
+    {
+      "name": "Portale Interdimensionale di Sapori",
+      "ingredients": [
+        "Gnocchi del Crepuscolo",
+        "Carne di Kraken",
+        "Foglie di Mandragora",
+        "Shard di Materia Oscura",
+        "Riso di Cassandra",
+        "Lacrime di Andromeda"
+      ],
+      "techniques": [
+        "Surgelamento Antimaterico a Risonanza Inversa"
+      ]
+    },
+    {
+      "name": "Ode al Crepuscolo del Multiverso",
+      "ingredients": [
+        "Carne di mucca",
+        "Gnocchi del Crepuscolo",
+        "Pane degli Abissi",
+        "Cristalli di memoria",
+        "Lacrime di Unicorno",
+        "Essenza di Vuoto",
+        "Pane di Luce"
+      ],
+      "techniques": [
+        "Affumicatura Polarizzata a Freddo Iperbarico"
+      ]
+    },
+    {
+      "name": "Sinfonia Interstellare di Fusilli del Vento con Nettare di Sirena",
+      "ingredients": [
+        "Fusilli del Vento",
+        "Teste di Idra",
+        "Radici di Gravità",
+        "Foglie di Mandragora",
+        "Nettare di Sirena",
+        "Polvere di Pulsar"
+      ],
+      "techniques": [
+        "Marinatura a Infusione Gravitazionale"
+      ]
+    },
+    {
+      "name": "La Voce del Vento",
+      "ingredients": [
+        "Carne di Balena Spaziale",
+        "Polvere di Pulsar",
+        "Foglie di Nebulosa",
+        "Funghi dell’Etere",
+        "Sale Temporale"
+      ],
+      "techniques": []
+    },
+    {
+      "name": "Nebulose a Strati",
+      "ingredients": [
+        "Farina di Nettuno",
+        "Essenza di Speziaria",
+        "Carne di Mucca",
+        "Carne di Kraken",
+        "Colonia di Mycoflora",
+        "Radici di Gravità",
+        "Baccacedro",
+        "Prisma Stellare",
+        "Plasma Vitale"
+      ],
+      "techniques": []
+    },
+    {
+      "name": "Sinfonia Aromatica del Multiverso",
+      "ingredients": [
+        "Lattuga Namecciana",
+        "Foglie di Nebulosa",
+        "Cristalli di Memoria",
+        "Spore Quantiche",
+        "Sale Temporale"
+      ],
+      "techniques": []
+    }
+  ],
+  "ristorante": {
+    "name": "L'Essenza del Multiverso su Pandora",
+    "chef": "Matteo Nexus",
+    "skill": [
+      {
+        "Tecnologico": "VI"
+      },
+      {
+        "Gravitazionale": "II"
+      },
+      {
+        "Psionico": "III"
+      },
+      {
+        "Quantistica": "II"
+      },
+      {
+        "Temporale": "I"
+      },
+      {
+        "Antimateria": "I"
+      },
+      {
+        "Magnetismo": "I"
+      },
+      {
+        "Luce": "I"
+      }
+    ]
+  }
+}

@@ -2,12 +2,14 @@ import os
 import json
 from typing import Dict, List
 from langchain_ibm import WatsonxLLM
-from langchain.document_loaders import PyPDFLoader
+from langchain.chat_models import ChatOpenAI
+from langchain_community.document_loaders import PyPDFLoader
 from langchain.chains import LLMChain
 from langchain_core.output_parsers import JsonOutputParser
 from langchain_core.prompts import PromptTemplate
 from pydantic import BaseModel, Field
 from pathlib import Path
+import openai
 
 
 class Dish(BaseModel):
@@ -23,6 +25,8 @@ class Restaurant(BaseModel):
 class MenuResponse(BaseModel):
     piatti: List[Dish] = Field(description="Lista dei piatti nel menu")
     ristorante: Restaurant = Field(description="Ristorante del menu")
+
+openai.api_key = os.environ["OPENAI_API_KEY"]
 
 
 class MenuProcessor:
@@ -42,6 +46,14 @@ class MenuProcessor:
             params=parameters
         )
 
+        '''
+        self.llm = ChatOpenAI(
+            model_name="gpt-4-1106-preview",  # o altro modello a scelta
+            temperature=0,
+            max_tokens=3000,
+            openai_api_key=os.environ["OPENAI_API_KEY"]
+        )'''
+
         # Set up the parser with our Pydantic model
         self.parser = JsonOutputParser(pydantic_object=MenuResponse)
 
@@ -59,11 +71,32 @@ class MenuProcessor:
                 Analizza i piatti del menù per recuperare queste informazioni:
                 - Il nome del piatto
                 - La lista degli ingredienti sotto la sezione "Ingredienti"
-                - La lista delle tecniche sotto la sezione "Tecniche"
+                - La lista delle tecniche sotto la sezione "Tecniche", puoi scegliere solo tra queste tecniche: Le tecniche possono essere SOLO tra queste:
+                    Marinatura a Infusione Gravitazionale
+                    Marinatura Temporale Sincronizzata
+                    Marinatura Psionica
+                    Marinatura tramite Reazioni d'Antimateria Diluite
+                    Marinatura Sotto Zero a Polarita Inversa
+                    Affumicatura a Stratificazione Quantica
+                    Affumicatura Temporale Risonante
+                    Affumicatura Psionica Sensoriale
+                    Affumicatura tramite Big Bang Microcosmico
+                    Affumicatura Polarizzata a Freddo Iperbarico
+                    Fermentazione Quantica a Strati Multiversali
+                    Fermentazione Temporale Sincronizzata
+                    Fermentazione Psionica Energetica
+                    Fermentazione tramite Singolarita
+                    Fermentazione Quantico Biometrica
+                    Impasto Gravitazionale Vorticoso
+                    Amalgamazione Sintetica Molecolare
+                    Impasto a Campi Magnetici Dualistici
+                    Sinergia Elettro-Osmotica Programmabile
+                    Modellatura Onirica Tetrazionale
+            
 
                 {format_instructions}
 
-                Menu:
+                menu:
                 {text}
             """,
             input_variables=["text"],
@@ -123,11 +156,13 @@ class MenuProcessor:
 
         for pdf_file in path.glob("*.pdf"):
             try:
-                menu_response = self.process_pdf(str(pdf_file))
-                results[pdf_file.name] = menu_response
+                if not os.path.exists("../docs/json/"+ Path(str(pdf_file.name)).stem + ".json"):
+                    print("Process file:  " + str(pdf_file.name))
+                    menu_response = self.process_pdf(str(pdf_file))
+                    results[pdf_file.name] = menu_response
 
-                # Salva i risultati in un file JSON
-                self.save_to_json(pdf_file.name, menu_response)
+                    # Salva i risultati in un file JSON
+                    self.save_to_json(pdf_file.name, menu_response)
 
             except Exception as e:
                 print(f"Errore nel processare {pdf_file}: {str(e)}")
@@ -142,5 +177,5 @@ if __name__ == "__main__":
 
     # Stampa un riepilogo dei risultati
     for pdf_name, menu_response in results.items():
-        print(f"\nMenu: {pdf_name}")
+        print(f"\nmenu: {pdf_name}")
         print(f"Numero di piatti estratti: {len(menu_response.piatti)}")
