@@ -17,24 +17,23 @@ def tool_tecniche(tecnica: str):
     connection = connect_to_db()
 
     query = """
-    WITH tecnica_selezionata AS (
-        SELECT *
-        FROM TECNICHE
-        WHERE tipo LIKE CONCAT('%%', %s, '%%')
-           OR descrizione LIKE CONCAT('%%', %s, '%%')
-        ORDER BY
-            LENGTH(tipo) - LENGTH(REPLACE(tipo, %s, '')) DESC,
-            LENGTH(descrizione) - LENGTH(REPLACE(descrizione, %s, '')) DESC
-        LIMIT 1
-    )
-    SELECT P.nome, P.id
-    FROM PIATTI_TECNICHE
-    LEFT JOIN PIATTI AS P ON PIATTI_TECNICHE.id_piatto = P.id
-    WHERE id_tecnica = (SELECT id FROM tecnica_selezionata);
+SELECT P.nome, P.id
+FROM PIATTI_TECNICHE PT
+JOIN (
+    SELECT *
+    FROM TECNICHE
+    WHERE tipo LIKE CONCAT('%%', %(tecnica)s, '%%')
+       OR descrizione LIKE CONCAT('%%', %(tecnica)s, '%%')
+    ORDER BY
+        LENGTH(tipo) - LENGTH(REPLACE(tipo, %(tecnica)s, '')) DESC,
+        LENGTH(descrizione) - LENGTH(REPLACE(descrizione, %(tecnica)s, '')) DESC
+    LIMIT 1
+) TS ON PT.id_tecnica = TS.id
+LEFT JOIN PIATTI AS P ON PT.id_piatto = P.id;
     """
 
     with connection.cursor() as cursor:
-        cursor.execute(query, tecnica)
+        cursor.execute(query, {'tecnica': tecnica})
         result = cursor.fetchall()
     connection.close()
     return [r["id"] for r in result]
