@@ -1,0 +1,148 @@
+{
+  "piatti": [
+    {
+      "name": "Galassia di Fusilli Sferici alla Risonanza Crononica",
+      "ingredients": [
+        "Fusilli del Vento",
+        "Nettare di Sirena",
+        "Carne di Kraken",
+        "Balena Spaziale",
+        "Salsa Szechuan",
+        "Farina di Nettuno",
+        "Polvere di Crononite",
+        "Fibra di Sintetex"
+      ],
+      "techniques": [
+        "Impasto a Campi Magnetici Dualistici"
+      ]
+    },
+    {
+      "name": "Galassia Rinascente",
+      "ingredients": [
+        "Lattuga Namecciana",
+        "Vero Ghiaccio",
+        "Muffa Lunare",
+        "Carne di Drago",
+        "Uovo di Fenice",
+        "Biscotti della Galassia"
+      ],
+      "techniques": []
+    },
+    {
+      "name": "Mandragora e Radici",
+      "ingredients": [
+        "Polvere di Stelle",
+        "Radici di Gravità",
+        "Foglie di Mandragora",
+        "Lacrime di Unicorno",
+        "Nduja Fritta Tanto"
+      ],
+      "techniques": [
+        "Congelamento Bio-Luminiscente Sincronico",
+        "Cottura Sottovuoto Bioma Sintetico",
+        "Cottura Sottovuoto Pulsar Magnetica"
+      ]
+    },
+    {
+      "name": "Galaxia Rinasciata",
+      "ingredients": [
+        "Uova di Fenice",
+        "Lacrime di Unicorno",
+        "Spezie Melange",
+        "Baccacedro",
+        "Biscotti della Galassia"
+      ],
+      "techniques": [
+        "Modellatura Onirica Tetrazionale",
+        "Affumicatura Psionica Sensoriale"
+      ]
+    },
+    {
+      "name": "Cosmic Harmony",
+      "ingredients": [
+        "Foglie di Mandragora",
+        "Radici di Gravità",
+        "Lacrime di Unicorno",
+        "Lattuga Namecciana",
+        "Petali di Eco"
+      ],
+      "techniques": [
+        "Affumicatura Psionica Sensoriale"
+      ]
+    },
+    {
+      "name": "Nebulosa di Sapori Quantici",
+      "ingredients": [
+        "Riso di Cassandra",
+        "Funghi Orbitali",
+        "Essenza di Vuoto",
+        "Radici di Singolarità",
+        "Cristalli di Nebulite"
+      ],
+      "techniques": []
+    },
+    {
+      "name": "Galassia in Tavola: Sinfonia dei Sensi",
+      "ingredients": [
+        "Spaghi del Sole",
+        "Gnocchi del Crepuscolo",
+        "Muffa Lunare",
+        "Baccacedro",
+        "Spezie Melange"
+      ],
+      "techniques": [
+        "Cottura a Vapore con Flusso di Particelle Isoarmoniche",
+        "Congelamento Bio-Luminiscente Sincronico",
+        "Cottura Sottovuoto Pulsar Magnetica"
+      ]
+    },
+    {
+      "name": "Galassie alla Spirale di Vento con Sfera di Ghiaccio Eterno",
+      "ingredients": [
+        "Fusilli del Vento",
+        "Carne di Xenodonte",
+        "Teste di Idra",
+        "Farina di Nettuno",
+        "Gnocchi del Crepuscolo",
+        "Vero Ghiaccio",
+        "Radici di Gravità",
+        "Lacrime di Andromeda",
+        "Nduja Fritta Tanto"
+      ],
+      "techniques": [
+        "Marinatura Psionica",
+        "Affumicatura Polarizzata a Freddo Iperbarico"
+      ]
+    }
+  ],
+  "ristorante": {
+    "name": "Il Firmamento",
+    "chef": "Maestro Alessio \"Eterno\" Stellaris",
+    "skill": [
+      {
+        "Psionica": "IV"
+      },
+      {
+        "Tecnologico LTK": "IV"
+      },
+      {
+        "Temporale": "II"
+      },
+      {
+        "Luce": "II"
+      },
+      {
+        "Quantistica": "2"
+      },
+      {
+        "Gravità": "I"
+      },
+      {
+        "Magnetismo": "I"
+      },
+      {
+        "Antimateria": "I"
+      }
+    ]
+  }
+}

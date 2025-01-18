@@ -1,0 +1,158 @@
+{
+  "piatti": [
+    {
+      "name": "Risotto dei Multiversi",
+      "ingredients": [
+        "Riso di Cassandra",
+        "Cristalli di Nebulite",
+        "Lacrime di Unicorno",
+        "Sale Temporale"
+      ],
+      "techniques": [
+        "Fermentazione Psionica Energetica",
+        "Affumicatura Psionica Sensoriale"
+      ]
+    },
+    {
+      "name": "Panetto di Carne",
+      "ingredients": [
+        "Farina di Nettuno",
+        "Funghi Orbitali",
+        "Pane di Luce",
+        "Carne di Kraken",
+        "Xenodonte",
+        "Sale Temporale",
+        "Cristalli di Nebulite",
+        "Pane degli Abissi"
+      ],
+      "techniques": [
+        "Affumicatura Temporale Risonante",
+        "Affumicatura Polarizzata a Freddo Iperbarico"
+      ]
+    },
+    {
+      "name": "Cosmos Risotto Reale",
+      "ingredients": [
+        "Amido di Stellarion",
+        "Carne di Kraken",
+        "Pane di Luce",
+        "Funghi Orbitali"
+      ],
+      "techniques": []
+    },
+    {
+      "name": "La Balena incontra la Mandragora",
+      "ingredients": [
+        "Vero Ghiaccio",
+        "Radici di Singolarità",
+        "Carne di Balena spaziale",
+        "Muffa Lunare",
+        "Foglie di Mandragora",
+        "Pane di Luce",
+        "Petali di Eco"
+      ],
+      "techniques": [
+        "Marinatura Temporale Sincronizzata"
+      ]
+    },
+    {
+      "name": "Armonia Cosmica della Fenice",
+      "ingredients": [
+        "Polvere di Stelle",
+        "Carne di mucca",
+        "Uova di Fenice",
+        "Lacrime di Unicorno"
+      ],
+      "techniques": []
+    },
+    {
+      "name": "Fenice Galattica",
+      "ingredients": [
+        "Riso di Cassandra",
+        "Cristalli di Nebulite",
+        "Alghe Bioluminescenti",
+        "Lattuga Namecciana",
+        "Uova di Fenice",
+        "Muffa Lunare"
+      ],
+      "techniques": [
+        "Marinatura Temporale Sincronizzata"
+      ]
+    },
+    {
+      "name": "Rapsodia Quantistica nel Cosmo",
+      "ingredients": [
+        "Carne di Balena Spaziale",
+        "Carne di Xenodonte",
+        "Cristalli di Nebulite",
+        "Lacrime di Unicorno"
+      ],
+      "techniques": [
+        "Marinatura Sotto Zero a Polarità Inversa"
+      ]
+    },
+    {
+      "name": "Galassia di Sapore Quantum",
+      "ingredients": [
+        "Fusilli del Vento",
+        "Alghe Bioluminescenti",
+        "Risotto dei Multiversi",
+        "Polvere di Crononite",
+        "Biscotti della Galassia"
+      ],
+      "techniques": []
+    },
+    {
+      "name": "Tris di Carne con Pane",
+      "ingredients": [
+        "Pane di Luce",
+        "Carne di Xenodonte",
+        "Carne di Kraken",
+        "Fusilli del Vento",
+        "Carne di Balena spaziale",
+        "Lacrime di Unicorno",
+        "Cristalli di Memoria",
+        "Pane degli Abissi",
+        "Sale Temporale"
+      ],
+      "techniques": [
+        "Impasto a Campi Magnetici Dualistici",
+        "Cottura Olografica Quantum Fluttuante"
+      ]
+    }
+  ],
+  "ristorante": {
+    "name": "Universo Gastronomico di Namecc",
+    "chef": "Alice Quantum-Rossi",
+    "skill": [
+      {
+        "name": "LTK",
+        "level": "6"
+      },
+      {
+        "name": "Quantistica",
+        "level": "15"
+      },
+      {
+        "name": "Psionica",
+        "level": "2"
+      },
+      {
+        "name": "Temporale",
+        "level": "1"
+      },
+      {
+        "name": "Gravitazionale",
+        "level": "1"
+      },
+      {
+        "name": "Magnetica",
+        "level": "1"
+      },
+      {
+        "name": "Luce",
+        "level": "1"
+      }
+    ]
+  }
+}
