@@ -1,0 +1,7 @@
+Ecco la documentazione per ogni colonna della tabella Piatti_Sostanze nel formato colonna = spiegazione
+Piatti_Sostanze.IdPiatto = id del piatto
+Piatti_Sostanze.NomeSostanza1 = nome della prima sostanza del piatto
+Piatti_Sostanze.valore1 = valore della prima sostanza del piatto
+Piatti_Sostanze.NomeSostanza2 = nome della seconda sostanza del piatto
+Piatti_Sostanze.valore2 = valore della seconda sostanza del piatto
+

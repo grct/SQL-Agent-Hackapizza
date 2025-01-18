@@ -1,0 +1,3 @@
+Ecco la documentazione per ogni colonna della tabella Piatti_Ingredienti nel formato colonna = spiegazione
+Piatti_ingredienti.Id_Piatto = id del piatto
+Piatti_ingredienti.Id_Ingrediente = id dell'ingrediente

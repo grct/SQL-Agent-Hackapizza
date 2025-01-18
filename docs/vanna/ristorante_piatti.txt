@@ -1,0 +1,3 @@
+Ecco la documentazione per ogni colonna della tabella Ristorante_Piatti nel formato colonna = spiegazione
+Ristorante_Piatti.Id_Ristorante = id del ristorante
+Ristorante_Piatti.Id_Piatti = id della piatti
