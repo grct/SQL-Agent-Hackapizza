@@ -1,4 +1,5 @@
 from langchain_core.output_parsers import JsonOutputParser
+from langchain_core.prompts import PromptTemplate
 from langchain_core.tools import tool, StructuredTool
 from pydantic import BaseModel, Field
 
@@ -8,7 +9,6 @@ class Evaluation(BaseModel):
     evaluation: float = Field(description="float evaluation between 0 and 1")
 
 
-@tool
 async def tool_evaluator(query: str, generated: str):
     """Chiama questo tool per verificare la correttezza di un dato generato.
 
@@ -17,7 +17,9 @@ async def tool_evaluator(query: str, generated: str):
         generated: Dato generato da LLM
     """
 
-    prompt = f"""
+    prompt = PromptTemplate(
+        input_variables=["query", "generated"],
+        template = f"""
 Devi valutare un dato rispetto a una domanda principale, calcolando un punteggio complessivo da 0 a 1 in base a quanto il dato sia inerente alla domanda.
 
 Restituisci solo un punteggio numerico da 0 a 1, calcolato sulla base dei criteri sopra indicati.
@@ -42,11 +44,10 @@ DOMANDA:
 
 DATO DA VALUTARE:
 {generated}
-"""
+""")
 
     parser = JsonOutputParser(pydantic_object=Evaluation)
     chain = prompt | llm | parser
-    eval = chain.invoke()
+    ev = chain.invoke({"query": query, "generated": generated})
 
-
-    return {"messages": f"New tool {name} created"}
+    return ev
