@@ -27,7 +27,7 @@ CREATE TABLE LICENZE (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(255) NOT NULL,
     sigla VARCHAR(50) NULL,
-    livello INT NOT NULL,
+    livello VARCHAR(11) NOT NULL,
     descrizione TEXT
 );
 
