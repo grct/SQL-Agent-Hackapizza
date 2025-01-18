@@ -1,5 +1,5 @@
 import os
-from langchain_ibm import WatsonxLLM
+from langchain_ibm import ChatWatsonx
 import pymysql
 
 parameters = {
@@ -8,7 +8,7 @@ parameters = {
     "temperature": 0
 }
 
-llm = WatsonxLLM(
+llm = ChatWatsonx(
     model_id=os.environ["MODEL"],
     project_id=os.environ["PROJECT_ID"],
     params=parameters
