@@ -16,6 +16,7 @@ CREATE TABLE INGREDIENTI (
 -- Creazione della tabella TECNICHE
 CREATE TABLE TECNICHE (
     id INT AUTO_INCREMENT PRIMARY KEY,
+    tipo VARCHAR(255) NULL,
     vantaggi TEXT,
     svantaggi TEXT,
     descrizione TEXT
