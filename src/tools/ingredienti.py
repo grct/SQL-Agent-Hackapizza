@@ -35,5 +35,3 @@ LEFT JOIN PIATTI AS P ON PT.id_piatto = P.id;
         result = cursor.fetchall()
     connection.close()
     return [r["id"] for r in result]
-
-print(tool_tecniche("be"))
