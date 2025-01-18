@@ -182,15 +182,15 @@
     "skill": [
       {
         "name": "Psionica",
-        "level": "II"
+        "level": "2"
       },
       {
         "name": "Temporale",
-        "level": "I"
+        "level": "1"
       },
       {
         "name": "Gravitazionale",
-        "level": "I"
+        "level": "1"
       },
       {
         "name": "Quantistica",
@@ -198,7 +198,7 @@
       },
       {
         "name": "Luce",
-        "level": "II"
+        "level": "2"
       }
     ]
   }

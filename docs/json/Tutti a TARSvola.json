@@ -184,7 +184,7 @@
     "skill": [
       {
         "name": "Psionica",
-        "level": "IV"
+        "level": "4"
       },
       {
         "name": "Quantistica",
@@ -192,15 +192,15 @@
       },
       {
         "name": "Luce",
-        "level": "II"
+        "level": "2"
       },
       {
         "name": "Gravitazionale",
-        "level": "I"
+        "level": "1"
       },
       {
         "name": "Antimateria",
-        "level": "I"
+        "level": "1"
       }
     ]
   }

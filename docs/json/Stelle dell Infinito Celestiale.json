@@ -167,31 +167,31 @@
     "skill": [
       {
         "name": "Psionica",
-        "level": "I"
+        "level": "1"
       },
       {
         "name": "Temporale",
-        "level": "I"
+        "level": "1"
       },
       {
         "name": "Gravitazionale",
-        "level": "III"
+        "level": "3"
       },
       {
         "name": "Magnetica",
-        "level": "I"
+        "level": "1"
       },
       {
         "name": "Antimateria",
-        "level": "I"
+        "level": "1"
       },
       {
         "name": "Quantica",
-        "level": "IX"
+        "level": "9"
       },
       {
         "name": "Luce a doppio fascio",
-        "level": "II"
+        "level": "2"
       }
     ]
   }

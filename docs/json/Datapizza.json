@@ -3,7 +3,7 @@
     {
       "name": "Pizza Fra",
       "ingredients": [
-        "Risotto di Amido di Stellarion",
+        "Amido di Stellarion",
         "Fibra di Sintetex",
         "Vero Ghiaccio",
         "Radici di Gravità",
@@ -13,8 +13,6 @@
         "Salsa Szechuan"
       ],
       "techniques": [
-        "Forno Dinamico Inversionale",
-        "Affettamento a Pulsazioni Quantistiche",
         "Marinatura Temporale Sincronizzata",
         "Fermentazione Quantico Biometrica",
         "Ebollizione Magneto-Cinetica Pulsante"
@@ -28,15 +26,13 @@
         "Cristalli di Memoria",
         "Lacrime di Andromeda",
         "Radici di Gravità",
-        "Liane di Plasmodio",
-        "Erba Pipa"
+        "Liane di Plasmodio"
       ],
       "techniques": [
         "Sferificazione Filamentare a Molecole Vibrazionali",
         "Affumicatura Temporale Risonante",
         "Idro-Cristallizzazione Sonora Quantistica",
-        "Marinatura tramite Reazioni d'Antimateria Diluite",
-        "Ebollizione Magneto-Cinetica Pulsante"
+        "Marinatura tramite Reazioni d'Antimateria Diluite"
       ]
     },
     {
@@ -97,17 +93,14 @@
         "Granuli di Nebbia Arcobaleno",
         "Funghi dell'Etere",
         "Essenza di Speziaria",
-        "Cristalli di Memoria",
         "Farina di Nettuno",
         "Baccacedro",
         "Radici di Gravità",
         "Uova di Fenice"
       ],
       "techniques": [
-        "Sferificazione con Campi Magnetici Entropici",
         "Affumicatura a Stratificazione Quantica",
-        "Congelazione Iperdimensionalmente Stratificata",
-        "Microonde Entropiche Sincronizzate"
+        "Sferificazione con Campi Magnetici Entropici"
       ]
     },
     {
@@ -127,8 +120,7 @@
         "Cottura a Vapore Termocinetica Multipla",
         "Bollitura Termografica a Rotazione Veloce",
         "Grigliatura Elettro-Molecolare a Spaziatura Variabile",
-        "Congelazione Iperdimensionalmente Stratificata",
-        "Bollitura Entropica Sincronizzata"
+        "Congelazione Iperdimensionalmente Stratificata"
       ]
     },
     {
@@ -148,8 +140,7 @@
       ],
       "techniques": [
         "Bollitura Entropica Sincronizzata",
-        "Amalgamazione Sintetica Molecolare",
-        "Bollitura Termografica a Rotazione Veloce"
+        "Amalgamazione Sintetica Molecolare"
       ]
     },
     {
@@ -166,8 +157,8 @@
         "Crononite"
       ],
       "techniques": [
-        "Forno dinamico inversionale",
         "Taglio a Risonanza Sonica Rigenerativa",
+        "Cottura a Forno Dinamico Inversionale",
         "Bollitura Termografica a Rotazione Veloce",
         "Cryo-Tessitura Energetica Polarizzata",
         "Decostruzione Interdimensionale Lovecraftiana"
@@ -183,7 +174,7 @@
         "level": "11"
       },
       {
-        "name": "Tessuto temporale",
+        "name": "Temporale",
         "level": "II"
       },
       {

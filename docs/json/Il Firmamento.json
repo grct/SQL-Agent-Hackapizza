@@ -120,28 +120,28 @@
     "chef": "Maestro Alessio \"Eterno\" Stellaris",
     "skill": [
       {
-        "Psionica": "IV"
+        "Psionica": "4"
       },
       {
-        "Tecnologico LTK": "IV"
+        "Tecnologico LTK": "4"
       },
       {
-        "Temporale": "II"
+        "Temporale": "2"
       },
       {
-        "Luce": "II"
+        "Luce": "2"
       },
       {
         "Quantistica": "2"
       },
       {
-        "Gravità": "I"
+        "Gravità": "1"
       },
       {
-        "Magnetismo": "I"
+        "Magnetismo": "1"
       },
       {
-        "Antimateria": "I"
+        "Antimateria": "1"
       }
     ]
   }

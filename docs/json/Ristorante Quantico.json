@@ -150,25 +150,25 @@
     "chef": "Alessandra Temporini",
     "skill": [
       {
-        "Psionica": "IV"
+        "Psionica": "4"
       },
       {
-        "Temporale": "III"
+        "Temporale": "3"
       },
       {
         "Quantistica": "11"
       },
       {
-        "Gravitazionale": "II"
+        "Gravitazionale": "2"
       },
       {
-        "Antimateria": "I"
+        "Antimateria": "1"
       },
       {
-        "Magnetica": "I"
+        "Magnetica": "1"
       },
       {
-        "Luce": "I"
+        "Luce": "1"
       }
     ]
   }
