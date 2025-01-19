@@ -11,6 +11,8 @@ from src.settings import llm,vn
 from langgraph.graph import add_messages, StateGraph
 
 from src.tools.ingredienti import tool_ingredienti
+from src.tools.licenze import tool_licenze
+from src.tools.sostanze import tool_sostanza
 from src.tools.tecniche import tool_tecniche
 from src.training import training
 
@@ -28,7 +30,9 @@ graph_builder = StateGraph(State)
 
 tools = [
     tool_tecniche,
-    tool_ingredienti
+    tool_ingredienti,
+    tool_licenze,
+    tool_sostanza
 ]
 tool_node = ToolNode(tools)
 
@@ -52,7 +56,7 @@ graph_builder.add_edge("tools", "merger")
 
 graph = graph_builder.compile()
 
-q = "Quali piatti usano la Sferificazione Filamentare a Molecole Vibrazionali, ma evitano la Decostruzione Magnetica Risonante?"
+q = "Che piatti che contengono sia Petali di Eco che Foglie di Mandragora posso mangiare se voglio che nessun ingrediente superi le quantità legali prescritte dal Codice di Galattico?"
 r = graph.invoke({"messages": q})
 
 print(r)

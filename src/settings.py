@@ -11,7 +11,7 @@ parameters = {
 }
 
 llm = ChatWatsonx(
-    model_id=os.environ["MODEL"],
+    model_id="mistralai/mistral-large",
     project_id=os.environ["PROJECT_ID"],
     params=parameters
 )
