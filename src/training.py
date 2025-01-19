@@ -22,11 +22,11 @@ def training(vn):
                         INNER JOIN INGREDIENTI I ON PI.id_ingrediente = I.id
                         WHERE I.nome LIKE '%Chocobo%' 
                     """)
-    vn.train(question="Mostra tutti i telefoni con una valutazione maggiore di 4.5",
+    vn.train(question="Trova i piatti che utilizzano la tecnica Marinatura a Infusione",
              sql="""
-                        SELECT Model, Rating, , id
-                        FROM Product 
-                        WHERE Rating > 4.5;
+                        select PT.id_piatto from PIATTI_TECNICHE PT
+                        INNER JOIN TECNICHE T ON PT.id_tecnica = T.id
+                         where T.descrizione LIKE '%Marinatura a infusione%'
                     """)
     vn.train(question="Dimmi tutti i telefoni Samsung con 12 GB di RAM.",
              sql="""
