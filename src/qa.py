@@ -27,6 +27,7 @@ with open("../docs/dish_mapping.json", "r") as f:
 
 results = []
 default_value = 50
+counter = 1
 # Salvare i risultati
 for q in tqdm(questions, desc="Processing questions"):
     print("Domanda:", q)
@@ -34,7 +35,7 @@ for q in tqdm(questions, desc="Processing questions"):
     result = None
     try:
         result = palle(q)
-
+        print(f"{counter:03}) " + result)
     except Exception as e:
         print(f"Errore su {q} : {e}")
         pass
