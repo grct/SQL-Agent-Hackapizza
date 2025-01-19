@@ -13,10 +13,7 @@
         "Baccacedro",
         "Polvere di Crononite"
       ],
-      "techniques": [
-        "Cottura a Vapore con Flusso di Particelle Isoarmoniche",
-        "Cottura Sottovuoto Frugale Energeticamente Negativa"
-      ]
+      "techniques": []
     },
     {
       "name": "Galassia Aurorale",
@@ -33,10 +30,7 @@
         "Amido di Stellarion",
         "Plasma Vitale"
       ],
-      "techniques": [
-        "Cottura a Forno Dinamico Inversionale",
-        "Cottura a Vapore Ecodinamico Bilanciato"
-      ]
+      "techniques": []
     },
     {
       "name": "Galassia di Sapori: L'Eterno Ritorno",
@@ -53,8 +47,6 @@
         "Fibra di Sintetex"
       ],
       "techniques": [
-        "Cottura a Vapore con Flusso di Particelle Isoarmoniche",
-        "Cottura Sottovuoto Frugale Energeticamente Negativa",
         "Amalgamazione Sintetica Molecolare"
       ]
     },
@@ -72,7 +64,6 @@
       "techniques": [
         "Marinatura a Infusione Gravitazionale",
         "Sinergia Elettro-Osmotica Programmabile",
-        "Cottura Sottovuoto Frugale Energeticamente Negativa",
         "Affumicatura tramite Big Bang Microcosmico"
       ]
     },
@@ -150,8 +141,6 @@
       ],
       "techniques": [
         "Marinatura Temporale Sincronizzata",
-        "Cottura con Microonde Entropiche Sincronizzate",
-        "Cottura Sottovuoto Frugale Energeticamente Negativa",
         "Decostruzione Interdimensionale Lovecraftiana"
       ]
     }
@@ -161,32 +150,25 @@
     "chef": "Crina Cosmi",
     "skill": [
       {
-        "name": "Abilità Psionica",
-        "level": "2"
+        "Psionica": "2"
       },
       {
-        "name": "Tecnologia Singolarità",
-        "level": "6+"
+        "LTK": "6+"
       },
       {
-        "name": "Quantistica",
-        "level": "11"
+        "Quantistica": "11"
       },
       {
-        "name": "Controllo Gravitazionale",
-        "level": "2"
+        "Gravitazionale": "2"
       },
       {
-        "name": "Licenza Temporale",
-        "level": "1"
+        "Temporale": "1"
       },
       {
-        "name": "Licenza Antimateria",
-        "level": "1"
+        "Antimateria": "1"
       },
       {
-        "name": "Licenza Luce",
-        "level": "1"
+        "Luce": "1"
       }
     ]
   }

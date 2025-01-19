@@ -5,8 +5,10 @@
       "ingredients": [
         "Pane di Luce",
         "Spore Quantiche",
+        "Proteine di mare e terra",
         "Essenza di Tachioni",
         "Farina di Nettuno",
+        "Sferificazione tramite Matrici Biofotiche",
         "Cristalli di Memoria",
         "Biscotti della Galassia"
       ],
@@ -21,7 +23,7 @@
         "Nettare di Sirena",
         "Proteine rigenerative delle teste di idra",
         "Alghe Bioluminescenti",
-        "Biscotti della Galassia frantumati",
+        "Biscotti della Galassia",
         "Shard di Materia Oscura",
         "Essenza di Speziaria"
       ],
@@ -48,7 +50,7 @@
         "Shard di Materia Oscura",
         "Funghi Orbitali",
         "Granuli di Nebbia Arcobaleno",
-        "Baccacedro"
+        "Succo di Baccacedro"
       ],
       "techniques": [
         "Fermentazione Quantico Biometrica"
@@ -59,12 +61,14 @@
       "ingredients": [
         "Spaghi del Sole",
         "Gnocchi del Crepuscolo",
-        "Carni succulente di Xenodonte",
+        "Carni di Xenodonte",
         "Radici di Singolarità",
         "Colonia di Mycoflora",
         "Spore Quantiche"
       ],
-      "techniques": []
+      "techniques": [
+        "Amalgamazione Sintetica Molecolare"
+      ]
     },
     {
       "name": "Simfonia Celeste di Aurora",
@@ -104,6 +108,7 @@
         "Lattuga Namecciana",
         "Carne di Drago",
         "Carne di Mucca",
+        "Nettare di Sirena",
         "Teste di Idra",
         "Spezie Melange"
       ],
@@ -114,6 +119,7 @@
       "ingredients": [
         "Radici di Singolarità",
         "Lattuga Namecciana",
+        "Sferificazione tramite Matrici Biofotiche",
         "Muffa Lunare",
         "Cristalli di Memoria",
         "Spezie Melange"
@@ -134,7 +140,10 @@
         "Pane di Luce",
         "Lacrime di Andromeda"
       ],
-      "techniques": []
+      "techniques": [
+        "Marinatura Psionica",
+        "Fermentazione Quantico Biometrica"
+      ]
     }
   ],
   "ristorante": {

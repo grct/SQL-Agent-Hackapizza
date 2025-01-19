@@ -10,11 +10,9 @@
         "Biscotti della Galassia"
       ],
       "techniques": [
-        "Psionica",
-        "Quantico Biometrica",
-        "Cottura a vapore termocinetica multipla",
-        "Affumicatura a stratificazione quantica",
-        "Cottura Sottovuoto Frugale Energeticamente Negativa"
+        "Fermentazione Quantico Biometrica",
+        "Marinatura Psionica",
+        "Affumicatura a Stratificazione Quantica"
       ]
     },
     {
@@ -26,14 +24,13 @@
         "Carne di Kraken",
         "Teste di Idra",
         "Fusilli del Vento",
+        "Frammenti di Supernova",
         "Erba Pipa"
       ],
       "techniques": [
         "Marinatura Psionica",
         "Fermentazione Quantico Biometrica",
-        "Amalgamazione Sintetica Molecolare",
-        "Gravitazione controllata",
-        "Taglio classico"
+        "Amalgamazione Sintetica Molecolare"
       ]
     },
     {
@@ -46,9 +43,7 @@
         "Erba Pipa"
       ],
       "techniques": [
-        "Grigliatura Elettro-Molecolare a Spaziatura Variabile",
-        "Amalgamazione Sintetica Molecolare",
-        "Taglio a Risonanza Sonica Rigenerativa"
+        "Amalgamazione Sintetica Molecolare"
       ]
     },
     {
@@ -59,31 +54,28 @@
         "Foglie di Mandragora",
         "Fibra di Sintetex",
         "Uova di Fenice",
-        "Plasma Vitale"
+        "Plasma Vitale",
+        "Essenza di Tachioni"
       ],
       "techniques": [
         "Impasto Gravitazionale Vorticoso",
-        "Amalgamazione Sintetica Molecolare",
-        "Cottura con Microonde Entropiche Sincronizzate",
-        "Essenza di Tachioni"
+        "Amalgamazione Sintetica Molecolare"
       ]
     },
     {
       "name": "Galassia nel Piatto: Sinfonia Universale di Aromi e Sapori",
       "ingredients": [
         "Riso di Cassandra",
-        "Sintetex",
         "Carne di Drago",
         "Carne di Xenodonte",
         "Salsa Szechuan",
         "Spaghi del Sole",
         "Muffa Lunare",
-        "Biscotti della Galassia"
+        "Biscotti della Galassia",
+        "Vero Ghiaccio"
       ],
       "techniques": [
-        "Affumicatura a Stratificazione Quantica",
-        "Bollitura Infrasonica Armonizzata",
-        "Cottura con Microonde Entropiche Sincronizzate"
+        "Affumicatura a Stratificazione Quantica"
       ]
     },
     {
@@ -91,16 +83,13 @@
       "ingredients": [
         "Lattuga Namecciana",
         "Carne di Balena spaziale",
-        "Carne rigenerativa delle Teste di Idra",
+        "Carne delle Teste di Idra",
         "Fibra di Sintetex",
         "Funghi Orbitali",
         "Nduja Fritta Tanto"
       ],
       "techniques": [
-        "Marinatura Psionica",
-        "Cottura a Vapore Ecodinamico Bilanciato",
-        "Microonde Entropiche Sincronizzate",
-        "Cottura a Vapore Termocinetica Multipla"
+        "Marinatura Psionica"
       ]
     },
     {
@@ -110,11 +99,11 @@
         "Fibra di Sintetex",
         "Uova di Fenice",
         "Funghi dell’Etere",
-        "Amido di Stellarion"
+        "Amido di Stellarion",
+        "Nduja Fritta Tanto"
       ],
       "techniques": [
-        "Grigliatura Elettro-Molecolare a Spaziatura Variabile",
-        "Cottura con Microonde Entropiche Sincronizzate",
+        "Affumicatura a Stratificazione Quantica",
         "Fermentazione Quantico Biometrica",
         "Impasto Gravitazionale Vorticoso"
       ]
@@ -130,10 +119,7 @@
         "Pane di Luce"
       ],
       "techniques": [
-        "Cottura a Vapore con Flusso di Particelle Isoarmoniche",
-        "Marinatura Psionica",
-        "Cottura con Microonde Entropiche Sincronizzate",
-        "Cottura a Vapore Termocinetica Multipla"
+        "Marinatura Psionica"
       ]
     },
     {
@@ -145,10 +131,7 @@
         "Muffa Lunare"
       ],
       "techniques": [
-        "Cottura a Vapore Termocinetica Multipla",
-        "Cottura con Microonde Entropiche Sincronizzate",
-        "Fermentazione Quantico Biometrica",
-        "Cottura a Vapore Ecodinamico Bilanciato"
+        "Fermentazione Quantico Biometrica"
       ]
     }
   ],
@@ -157,16 +140,16 @@
     "chef": "Aurora Celestini",
     "skill": [
       {
-        "name": "Psionica",
-        "level": "3"
+        "Psionica": "3"
       },
       {
-        "name": "Quantistica",
-        "level": "2"
+        "Quantistica": "2"
       },
       {
-        "name": "Gravitazionale",
-        "level": "1"
+        "Gravitazionale": "1"
+      },
+      {
+        "LTK": "2"
       }
     ]
   }

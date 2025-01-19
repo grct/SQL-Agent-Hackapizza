@@ -12,7 +12,6 @@
       ],
       "techniques": [
         "Affumicatura Temporale Risonante",
-        "Taglio a Risonanza Sonica Rigenerativa",
         "Fermentazione Psionica Energetica"
       ]
     },
@@ -28,10 +27,7 @@
         "Spore Quantiche",
         "Essenza di Speziaria"
       ],
-      "techniques": [
-        "Grigliatura Eletro-Molecolare a Spaziatura Variabile",
-        "Cottura Sottovuoto Bioma Sintetico"
-      ]
+      "techniques": []
     },
     {
       "name": "Essenze dell'Infinito",
@@ -43,11 +39,9 @@
         "Essenza di Vuoto"
       ],
       "techniques": [
-        "Congelamento Bio-Luminiscente Sincronico",
-        "Cottura Olografica Quantum Fluttuante",
-        "Fermentazione Quantico Biometrica",
         "Affumicatura Temporale Risonante",
-        "Affumicatura tramite Big Bang Microcosmico"
+        "Affumicatura tramite Big Bang Microcosmico",
+        "Fermentazione Quantico Biometrica"
       ]
     },
     {
@@ -60,9 +54,20 @@
         "Granuli di Nebbia Arcobaleno"
       ],
       "techniques": [
-        "Marinatura tramite Reazioni d'Antimateria Diluite",
-        "Decostruzione Magnetica Risonante",
-        "Cottura a Vapore con Flusso di Particelle Isoarmoniche"
+        "Marinatura tramite Reazioni d'Antimateria Diluite"
+      ]
+    },
+    {
+      "name": "Sinfonia del Multiverso Calante",
+      "ingredients": [
+        "Shard di Prisma Stellare",
+        "Granuli di Nebbia Arcobaleno",
+        "Fusilli del Vento",
+        "Pane degli Abissi",
+        "Lacrime di Unicorno"
+      ],
+      "techniques": [
+        "Sinergia Elettro-Osmotica Programmabile"
       ]
     },
     {
@@ -77,13 +82,11 @@
       ],
       "techniques": [
         "Sinergia Elettro-Osmotica Programmabile",
-        "Cottura Olografica Quantum Fluttuante",
-        "Marinatura Temporale Sincronizzata",
         "Fermentazione Psionica Energetica"
       ]
     },
     {
-      "name": "Sinfonia Temporale di Fenice e Xenodonte su Pane degli Abissi con Colata di Plasma Vitale e Polvere di Crononite",
+      "name": "Sinfonia Temporale di Fenice e Xenodonte su Pane degli Abissi",
       "ingredients": [
         "Polvere di Crononite",
         "Uova di Fenice",
@@ -91,10 +94,7 @@
         "Pane degli Abissi",
         "Plasma Vitale"
       ],
-      "techniques": [
-        "Bollitura Termografica a Rotazione Veloce",
-        "Taglio Dimensionale a Lame Fotofiliche"
-      ]
+      "techniques": []
     },
     {
       "name": "Nebulare Asteroideo con Crepuscolo di Mucca",
@@ -111,11 +111,7 @@
         "Plasma Vitale",
         "Erba Pipa"
       ],
-      "techniques": [
-        "Cottura Sottovuoto Multirealità Collassante",
-        "Sferificazione Filamentare a Molecole Vibrazionali",
-        "Ebollizione Magneto-Cinetica Pulsante"
-      ]
+      "techniques": []
     },
     {
       "name": "Sinfonia Temporale del Drago",
@@ -128,10 +124,7 @@
         "Biscotti della Galassia",
         "Nettare di Sirena"
       ],
-      "techniques": [
-        "Saltare in Padella Realtà Energetiche Parallele",
-        "Bollitura Entropica Sincronizzata"
-      ]
+      "techniques": []
     },
     {
       "name": "Il Viaggio delle Dimensioni Confluenti",
@@ -147,8 +140,6 @@
         "Essenza di Speziaria"
       ],
       "techniques": [
-        "Cottura Sottovuoto Antimateria",
-        "Sferificazione Cromatica Interdimensionale",
         "Marinatura Sotto Zero a Polarità Inversa"
       ]
     }
@@ -158,25 +149,32 @@
     "chef": "Alessandro Quantum",
     "skill": [
       {
-        "Quantistica": "11"
+        "name": "Licenza Quantistica",
+        "level": "11"
       },
       {
-        "Luce": "3"
+        "name": "Luce",
+        "level": "3"
       },
       {
-        "Magnetica": "1"
+        "name": "Magnetica",
+        "level": "1"
       },
       {
-        "Gravitazionale": "1"
+        "name": "Gravitazionale",
+        "level": "1"
       },
       {
-        "Antimateria": "1"
+        "name": "Antimateria",
+        "level": "1"
       },
       {
-        "Psionica": "2"
+        "name": "Psionica",
+        "level": "2"
       },
       {
-        "Temporale": "2"
+        "name": "Temporale",
+        "level": "2"
       }
     ]
   }

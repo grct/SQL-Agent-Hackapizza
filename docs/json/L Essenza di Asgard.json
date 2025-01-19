@@ -88,8 +88,7 @@
         "Essenza di Tachioni"
       ],
       "techniques": [
-        "Fermentazione Psionica Energetica",
-        "Idro-Cristallizzazione Sonora Quantistica"
+        "Fermentazione Psionica Energetica"
       ]
     },
     {
@@ -158,9 +157,7 @@
         "Muffa Lunare",
         "Petali di Eco"
       ],
-      "techniques": [
-        "Congelazione Iperdimensionalmente Stratificata"
-      ]
+      "techniques": []
     }
   ],
   "ristorante": {
@@ -169,7 +166,7 @@
     "skill": [
       {
         "name": "LTK",
-        "level": "6"
+        "level": "7"
       },
       {
         "name": "Connessione Psichica",

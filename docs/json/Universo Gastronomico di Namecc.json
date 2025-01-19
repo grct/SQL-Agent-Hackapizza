@@ -6,7 +6,8 @@
         "Riso di Cassandra",
         "Cristalli di Nebulite",
         "Lacrime di Unicorno",
-        "Sale Temporale"
+        "Sale Temporale",
+        "Spaghi del Sole"
       ],
       "techniques": [
         "Fermentazione Psionica Energetica",
@@ -36,7 +37,9 @@
         "Amido di Stellarion",
         "Carne di Kraken",
         "Pane di Luce",
-        "Funghi Orbitali"
+        "Funghi Orbitali",
+        "Essenza di Vuoto",
+        "Ghiaccio di Criofenice"
       ],
       "techniques": []
     },
@@ -61,9 +64,13 @@
         "Polvere di Stelle",
         "Carne di mucca",
         "Uova di Fenice",
-        "Lacrime di Unicorno"
+        "Fibra di Sintetex",
+        "Lacrime di Unicorno",
+        "Essenza di Tachioni"
       ],
-      "techniques": []
+      "techniques": [
+        "Fermentazione Psionica Energetica"
+      ]
     },
     {
       "name": "Fenice Galattica",
@@ -85,6 +92,7 @@
         "Carne di Balena Spaziale",
         "Carne di Xenodonte",
         "Cristalli di Nebulite",
+        "Fibra di Sintetex",
         "Lacrime di Unicorno"
       ],
       "techniques": [
@@ -98,9 +106,12 @@
         "Alghe Bioluminescenti",
         "Risotto dei Multiversi",
         "Polvere di Crononite",
-        "Biscotti della Galassia"
+        "Biscotti della Galassia",
+        "Essenza di Tachioni"
       ],
-      "techniques": []
+      "techniques": [
+        "Impasto Gravitazionale Vorticoso"
+      ]
     },
     {
       "name": "Tris di Carne con Pane",
@@ -116,8 +127,7 @@
         "Sale Temporale"
       ],
       "techniques": [
-        "Impasto a Campi Magnetici Dualistici",
-        "Cottura Olografica Quantum Fluttuante"
+        "Impasto a Campi Magnetici Dualistici"
       ]
     }
   ],
@@ -127,7 +137,7 @@
     "skill": [
       {
         "name": "LTK",
-        "level": "6"
+        "level": "6+"
       },
       {
         "name": "Quantistica",

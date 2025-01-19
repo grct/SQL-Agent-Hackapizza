@@ -7,8 +7,8 @@
         "Foglie di Nebulosa",
         "Polvere di Stelle",
         "Granuli di Nebbia Arcobaleno",
-        "liane di plasmodio",
-        "lacrime di Andromeda",
+        "Liane di plasmodio",
+        "Lacrime di Andromeda",
         "Farina di Nettuno"
       ],
       "techniques": []
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "name": "Abbraccio del Cosmo",
+      "name": "L'Abbraccio del Cosmo",
       "ingredients": [
         "Carne di Xenodonte",
         "Carne di Kraken",
@@ -40,7 +40,9 @@
         "Salsa Szechuan",
         "Polvere di Stelle"
       ],
-      "techniques": []
+      "techniques": [
+        "Affumicatura a Stratificazione Quantica"
+      ]
     },
     {
       "name": "Cosmic Harmony Infusion",
@@ -99,7 +101,9 @@
         "Amido di Stellarion",
         "Colonie di Mycoflora"
       ],
-      "techniques": []
+      "techniques": [
+        "Sferificazione Filamentare a Molecole Vibrazionali"
+      ]
     },
     {
       "name": "Sinfonia Multiversale in Otto Movimenti",
@@ -110,7 +114,7 @@
         "Lattuga Namecciana",
         "Risotto di Cassandra",
         "Essenza di Tachioni",
-        "Tartare di Teste di Idra",
+        "Teste di Idra",
         "Muffa Lunare"
       ],
       "techniques": [
@@ -145,7 +149,9 @@
         "Cristalli di Memoria",
         "Liane di Plasmodio"
       ],
-      "techniques": []
+      "techniques": [
+        "Cryo-Tessitura Energetica Polarizzata"
+      ]
     }
   ],
   "ristorante": {

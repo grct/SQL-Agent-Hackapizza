@@ -4,14 +4,12 @@
       "name": "Echi del Mare Eterno",
       "ingredients": [
         "Carne di Kraken",
-        "Plasma Vitale",
+        "Sciroppo di Plasma Vitale",
         "Teste di Idra",
         "Salsa Szechuan interdimensionale",
         "Cristalli di Memoria"
       ],
-      "techniques": [
-        "Cryo-Tessitura Energetica Polarizzata"
-      ]
+      "techniques": []
     },
     {
       "name": "Odissea Temporale",
@@ -38,8 +36,7 @@
         "Essenza di Vuoto"
       ],
       "techniques": [
-        "Impasto Gravitazionale Vorticoso",
-        "Cryo-Tessitura Energetica Polarizzata"
+        "Impasto Gravitazionale Vorticoso"
       ]
     },
     {
@@ -47,10 +44,9 @@
       "ingredients": [
         "Muffa Lunare",
         "Polvere di Crononite",
-        "succo di Baccacedro",
+        "Succo di Baccacedro",
         "Pane degli Abissi",
-        "Sale Temporale",
-        "polvere di luce"
+        "Sale Temporale"
       ],
       "techniques": []
     },
@@ -96,8 +92,10 @@
         "Foglie di Mandragora"
       ],
       "techniques": [
+        "Impasto a Campi Magnetici Dualistici",
         "Marinatura tramite Reazioni d'Antimateria Diluite",
-        "Affumicatura Temporale Risonante"
+        "Affumicatura Temporale Risonante",
+        "Amalgamazione Sintetica Molecolare"
       ]
     },
     {
@@ -112,7 +110,8 @@
         "Salsa Szechuan interdimensionale"
       ],
       "techniques": [
-        "Marinatura tramite Reazioni d'Antimateria Diluite"
+        "Marinatura tramite Reazioni d'Antimateria Diluite",
+        "Marinatura Psionica"
       ]
     },
     {
@@ -128,7 +127,9 @@
         "Plasma Vitale",
         "Essenza di Tachioni"
       ],
-      "techniques": []
+      "techniques": [
+        "Amalgamazione Sintetica Molecolare"
+      ]
     },
     {
       "name": "Sinfonia Cosmica di Mare e Stelle",
@@ -140,8 +141,7 @@
         "Lacrime di Andromeda"
       ],
       "techniques": [
-        "Marinatura Sotto Zero a Polarita Inversa",
-        "Cryo-Tessitura Energetica Polarizzata"
+        "Marinatura Sotto Zero a Polarita Inversa"
       ]
     }
   ],

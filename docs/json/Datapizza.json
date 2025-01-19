@@ -14,24 +14,21 @@
       ],
       "techniques": [
         "Marinatura Temporale Sincronizzata",
-        "Fermentazione Quantico Biometrica",
-        "Ebollizione Magneto-Cinetica Pulsante"
+        "Fermentazione Quantico Biometrica"
       ]
     },
     {
       "name": "Pizza Gio",
       "ingredients": [
         "Pane di Luce",
-        "Risotto malinconico",
         "Cristalli di Memoria",
         "Lacrime di Andromeda",
         "Radici di Gravità",
-        "Liane di Plasmodio"
+        "Liane di Plasmodio",
+        "Erba Pipa"
       ],
       "techniques": [
-        "Sferificazione Filamentare a Molecole Vibrazionali",
         "Affumicatura Temporale Risonante",
-        "Idro-Cristallizzazione Sonora Quantistica",
         "Marinatura tramite Reazioni d'Antimateria Diluite"
       ]
     },
@@ -45,12 +42,7 @@
         "Foglie di Mandragora",
         "Essenza di Speziaria"
       ],
-      "techniques": [
-        "Affettamento a Pulsazioni Quantistiche",
-        "Grigliatura Elettro-Molecolare a Spaziatura Variabile",
-        "Idro-Cristallizzazione Sonora Quantistica",
-        "Congelazione Iperdimensionalmente Stratificata"
-      ]
+      "techniques": []
     },
     {
       "name": "Pizza Luca",
@@ -64,9 +56,7 @@
       ],
       "techniques": [
         "Sinergia Elettro-Osmotica Programmabile",
-        "Cottura a Vapore Ecodinamico Bilanciato",
-        "Marinatura Sotto Zero a Polarità Inversa",
-        "Bollitura Termografica a Rotazione Veloce"
+        "Marinatura Sotto Zero a Polarita Inversa"
       ]
     },
     {
@@ -80,10 +70,8 @@
         "Essenza di Vuoto"
       ],
       "techniques": [
-        "Marinatura Sotto Zero a Polarità Inversa",
-        "Cottura a Forno Dinamico Inversionale",
-        "Affumicatura a Stratificazione Quantica",
-        "Decostruzione Magnetica Risonante"
+        "Marinatura Sotto Zero a Polarita Inversa",
+        "Affumicatura a Stratificazione Quantica"
       ]
     },
     {
@@ -93,14 +81,14 @@
         "Granuli di Nebbia Arcobaleno",
         "Funghi dell'Etere",
         "Essenza di Speziaria",
+        "Cristalli di Memoria",
         "Farina di Nettuno",
         "Baccacedro",
         "Radici di Gravità",
         "Uova di Fenice"
       ],
       "techniques": [
-        "Affumicatura a Stratificazione Quantica",
-        "Sferificazione con Campi Magnetici Entropici"
+        "Affumicatura a Stratificazione Quantica"
       ]
     },
     {
@@ -116,30 +104,23 @@
         "Biscotti della Galassia",
         "Frammenti di Supernova"
       ],
-      "techniques": [
-        "Cottura a Vapore Termocinetica Multipla",
-        "Bollitura Termografica a Rotazione Veloce",
-        "Grigliatura Elettro-Molecolare a Spaziatura Variabile",
-        "Congelazione Iperdimensionalmente Stratificata"
-      ]
+      "techniques": []
     },
     {
       "name": "Pizza Baby Lorenzo",
       "ingredients": [
         "Riso di Cassandra",
         "Carne di Balena spaziale",
-        "Amalgamazione Sintetica Molecolare",
         "Carne di Drago",
         "Radici di Gravità",
+        "Cristalli di Sale Temporale",
         "Uova di Fenice",
         "Baccacedro",
-        "Sale Temporale",
         "Pane di Luce",
         "Frammenti di Supernova",
         "Lacrime di Andromeda"
       ],
       "techniques": [
-        "Bollitura Entropica Sincronizzata",
         "Amalgamazione Sintetica Molecolare"
       ]
     },
@@ -156,13 +137,7 @@
         "Baccacedro",
         "Crononite"
       ],
-      "techniques": [
-        "Taglio a Risonanza Sonica Rigenerativa",
-        "Cottura a Forno Dinamico Inversionale",
-        "Bollitura Termografica a Rotazione Veloce",
-        "Cryo-Tessitura Energetica Polarizzata",
-        "Decostruzione Interdimensionale Lovecraftiana"
-      ]
+      "techniques": []
     }
   ],
   "ristorante": {
@@ -175,19 +150,23 @@
       },
       {
         "name": "Temporale",
-        "level": "II"
+        "level": "2"
       },
       {
         "name": "Antimateria",
-        "level": "I"
+        "level": "1"
       },
       {
         "name": "Magnetica",
-        "level": "I"
+        "level": "1"
       },
       {
         "name": "Luce",
-        "level": "I"
+        "level": "1"
+      },
+      {
+        "name": "LTK",
+        "level": "9"
       }
     ]
   }

@@ -24,7 +24,8 @@
         "Muffa Lunare",
         "Carne di Drago",
         "Uovo di Fenice",
-        "Biscotti della Galassia"
+        "Biscotti della Galassia",
+        "Carne delle Teste di Idra"
       ],
       "techniques": []
     },
@@ -37,11 +38,7 @@
         "Lacrime di Unicorno",
         "Nduja Fritta Tanto"
       ],
-      "techniques": [
-        "Congelamento Bio-Luminiscente Sincronico",
-        "Cottura Sottovuoto Bioma Sintetico",
-        "Cottura Sottovuoto Pulsar Magnetica"
-      ]
+      "techniques": []
     },
     {
       "name": "Galaxia Rinasciata",
@@ -90,11 +87,7 @@
         "Baccacedro",
         "Spezie Melange"
       ],
-      "techniques": [
-        "Cottura a Vapore con Flusso di Particelle Isoarmoniche",
-        "Congelamento Bio-Luminiscente Sincronico",
-        "Cottura Sottovuoto Pulsar Magnetica"
-      ]
+      "techniques": []
     },
     {
       "name": "Galassie alla Spirale di Vento con Sfera di Ghiaccio Eterno",
@@ -111,6 +104,7 @@
       ],
       "techniques": [
         "Marinatura Psionica",
+        "Modellatura Onirica Tetrazionale",
         "Affumicatura Polarizzata a Freddo Iperbarico"
       ]
     }

@@ -3,11 +3,12 @@ from typing import TypedDict, Annotated
 from langgraph.constants import START
 from langgraph.prebuilt import ToolNode, tools_condition
 
-from src.settings import llm
+from src.settings import llm,vn
 from langgraph.graph import add_messages, StateGraph
 
 from src.tools.ingredienti import tool_ingredienti
 from src.tools.tecniche import tool_tecniche
+from src.training import training
 from src.nodes.evaluator import tool_evaluator
 
 
@@ -15,6 +16,9 @@ from src.nodes.evaluator import tool_evaluator
 # da domanda identificare che tool chiamare
 # tools: ingredienti, tecniche, distanza,
 
+
+
+training(vn)
 
 class State(TypedDict):
     messages: Annotated[list, add_messages]

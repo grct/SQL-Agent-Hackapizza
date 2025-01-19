@@ -52,7 +52,7 @@
         "Spaghi del Sole",
         "Shard di Prisma Stellare",
         "Nettare di Sirena",
-        "Granuli di Nebbia Arcobaleno",
+        "Nebbia Arcobaleno",
         "Baccacedro",
         "Erba Pipa"
       ],
@@ -66,8 +66,8 @@
         "Carne di balena spaziale",
         "Teste di Idra",
         "Fibra di Sintetex",
-        "Biscotti della galassia",
-        "Polvere di stelle"
+        "Biscotti della Galassia",
+        "Polvere di Stelle"
       ],
       "techniques": [
         "Affumicatura a Stratificazione Quantica"
@@ -82,10 +82,13 @@
         "Pane di Luce",
         "Uova di Fenice",
         "Amido di Stellarion",
-        "Polvere di Pulsar"
+        "Polvere di Pulsar",
+        "Spore Quantiche",
+        "Nduja Fritta Tanto"
       ],
       "techniques": [
-        "Affumicatura Psionica Sensoriale"
+        "Affumicatura Psionica Sensoriale",
+        "Fermentazione Quantico Biometrica"
       ]
     },
     {
@@ -121,7 +124,7 @@
     "chef": "Asteria Nova",
     "skill": [
       {
-        "name": "LTK",
+        "name": "Conoscenza Tecnologica",
         "level": "4"
       },
       {
@@ -129,11 +132,11 @@
         "level": "3"
       },
       {
-        "name": "Gravitazionale",
+        "name": "Manipolazione Gravitazionale",
         "level": "2"
       },
       {
-        "name": "Luce",
+        "name": "Comprensione dello Spettro Elettromagnetico",
         "level": "3"
       }
     ]

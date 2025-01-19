@@ -13,10 +13,7 @@
         "Sale Temporale"
       ],
       "techniques": [
-        "Marinatura Temporale Sincronizzata",
-        "Cottura Sottovuoto Frugale Energeticamente Negativa",
-        "Cottura a Vapore Termocinetica Multipla",
-        "Cottura a Vapore Ecodinamico Bilanciato"
+        "Marinatura Temporale Sincronizzata"
       ]
     },
     {
@@ -33,10 +30,7 @@
         "Nduja Fritta Tanto"
       ],
       "techniques": [
-        "Cottura Sottovuoto Frugale Energeticamente Negativa",
-        "Cottura a Vapore Termocinetica Multipla",
-        "Marinatura Temporale Sincronizzata",
-        "Evanescenza Quantica"
+        "Marinatura Temporale Sincronizzata"
       ]
     },
     {
@@ -51,14 +45,11 @@
         "Petali di Eco"
       ],
       "techniques": [
-        "Cottura Sottovuoto Frugale Energeticamente Negativa",
-        "Grigliatura Eletro-Molecolare a Spaziatura Variabile",
-        "Bollitura Termografica a Rotazione Veloce",
         "Affumicatura a Stratificazione Quantica"
       ]
     },
     {
-      "name": "Saltare in Padella Classica Galassia di Sapori Sublimi",
+      "name": "Galassia di Sapori Sublimi",
       "ingredients": [
         "Frammenti di Supernova",
         "Baccacedro",
@@ -68,9 +59,6 @@
         "Fusilli del Vento"
       ],
       "techniques": [
-        "Cottura con Microonde Entropiche Sincronizzate",
-        "Congelamento Bio-Luminiscente Sincronico",
-        "Cottura Sottovuoto Frugale Energeticamente Negativa",
         "Marinatura Temporale Sincronizzata",
         "Impasto Gravitazionale Vorticoso"
       ]
@@ -87,9 +75,6 @@
         "Nduja Fritta Tanto"
       ],
       "techniques": [
-        "Grigliatura Eletro-Molecolare a Spaziatura Variabile",
-        "Cottura a Vapore Termocinetica Multipla",
-        "Cottura Sottovuoto Frugale Energeticamente Negativa",
         "Impasto Gravitazionale Vorticoso"
       ]
     },
@@ -106,9 +91,7 @@
         "Nduja Fritta Tanto"
       ],
       "techniques": [
-        "Congelamento Bio-Luminiscente Sincronico",
-        "Affumicatura a Stratificazione Quantica",
-        "Bollitura Infrasonica Armonizzata"
+        "Affumicatura a Stratificazione Quantica"
       ]
     },
     {
@@ -120,11 +103,7 @@
         "Funghi Orbitali",
         "Sale Temporale"
       ],
-      "techniques": [
-        "Saltare in Padella Classica",
-        "Bollitura Infrasonica Armonizzata",
-        "Cottura Sottovuoto Frugale Energeticamente Negativa"
-      ]
+      "techniques": []
     },
     {
       "name": "Pioggia di Dimensioni Galattiche",
@@ -137,7 +116,6 @@
         "Essenza di Vuoto"
       ],
       "techniques": [
-        "Bollitura Termografica a Rotazione Veloce",
         "Affumicatura a Stratificazione Quantica",
         "Fermentazione Quantico Biometrica"
       ]
@@ -155,7 +133,6 @@
         "Spezie Melange"
       ],
       "techniques": [
-        "Grigliatura Eletro-Molecolare a Spaziatura Variabile",
         "Marinatura Temporale Sincronizzata"
       ]
     },
@@ -171,7 +148,6 @@
         "Funghi dell’Etere"
       ],
       "techniques": [
-        "Cottura a Vapore con Flusso di Particelle Isoarmoniche",
         "Marinatura Temporale Sincronizzata"
       ]
     }
@@ -181,24 +157,22 @@
     "chef": "Alessandra Quanti",
     "skill": [
       {
-        "name": "Psionica",
-        "level": "2"
+        "Psionica": "2"
       },
       {
-        "name": "Temporale",
-        "level": "1"
+        "Temporale": "1"
       },
       {
-        "name": "Gravitazionale",
-        "level": "1"
+        "Gravitazionale": "1"
       },
       {
-        "name": "Quantistica",
-        "level": "13"
+        "Quantistica": "13"
       },
       {
-        "name": "Luce",
-        "level": "2"
+        "Luce": "2"
+      },
+      {
+        "LTK": "2"
       }
     ]
   }

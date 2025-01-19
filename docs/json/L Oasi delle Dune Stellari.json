@@ -27,7 +27,6 @@
         "Essenza di Tachioni"
       ],
       "techniques": [
-        "Congelazione Iperdimensionalmente Stratificata",
         "Sinergia Elettro-Osmotica Programmabile"
       ]
     },
@@ -55,7 +54,10 @@
         "Nettare di Sirena",
         "Essenza di Tachioni"
       ],
-      "techniques": []
+      "techniques": [
+        "Sferificazione a Gravità Psionica Variabile",
+        "Ebollizione Magneto-Cinetica Pulsante"
+      ]
     },
     {
       "name": "Ecosistema Celeste",
@@ -87,7 +89,9 @@
         "Nduja Fritta Tanto"
       ],
       "techniques": [
-        "Sferificazione con Campi Magnetici Entropici"
+        "Cottura Sottovuoto Bioma Sintetico",
+        "Sferificazione con Campi Magnetici Entropici",
+        "Idro-Cristallizzazione Sonora Quantistica"
       ]
     },
     {
@@ -104,7 +108,9 @@
       ],
       "techniques": [
         "Affumicatura Temporale Risonante",
-        "Surgelamento Antimaterico a Risonanza Inversa"
+        "Affumicatura tramite Big Bang Microcosmico",
+        "Surgelamento Antimaterico a Risonanza Inversa",
+        "Sferificazione Cromatica Interdimensionale"
       ]
     },
     {
@@ -121,7 +127,10 @@
       ],
       "techniques": [
         "Ebollizione Magneto-Cinetica Pulsante",
-        "Sferificazione tramite Matrici Biofotiche"
+        "Bollitura Entropica Sincronizzata",
+        "Sferificazione tramite Matrici Biofotiche",
+        "Incisione Elettromagnetica Plasmica",
+        "Idro-Cristallizzazione Sonora Quantistica"
       ]
     },
     {
@@ -137,7 +146,9 @@
       ],
       "techniques": [
         "Sferificazione tramite Matrici Biofotiche",
-        "Affumicatura Polarizzata a Freddo Iperbarico"
+        "Ebollizione Magneto-Cinetica Pulsante",
+        "Affumicatura Polarizzata a Freddo Iperbarico",
+        "Cryo-Tessitura Energetica Polarizzata"
       ]
     }
   ],
