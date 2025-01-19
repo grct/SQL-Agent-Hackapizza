@@ -45,7 +45,7 @@ for q in tqdm(questions, desc="Processing questions"):
     results.append(result)
 
 # Salvare i risultati
-with open("risultati.csv", "w") as f:
+with open("risultati_old.csv", "w") as f:
     # Write the file csv
     csv_writer = csv.writer(f)
     # Write the data

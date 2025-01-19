@@ -26,7 +26,6 @@ class MyVanna(ChromaDB_VectorStore, OpenAI_Chat):
 
 vn = MyVanna(config={'api_key': os.getenv('OPENAI_API_KEY'), 'model': 'gpt-4o-mini', 'temperature':0})
 
-
 # Connessione al database MySQL
 def connect_to_db():
     return pymysql.connect(

@@ -43,5 +43,14 @@ def training(vn):
                         WHERE p.Brand = 'Google'
                         AND CAST(SUBSTRING_INDEX(ps.ROM, ' ', 1) AS UNSIGNED) > 128;
                     """)
+    vn.train(question="Che piatti posso mangiare da ristoranti che hanno le corrette licenze e certificazioni descritte dal Codice Galattico?",
+             sql="""
+                        SELECT p.Model, p.Price, ps.ROM, p.id
+                        FROM Product p
+                        JOIN Product_Stats ps ON p.Product_Stats = ps.Id
+                        WHERE p.Brand = 'Google'
+                        AND CAST(SUBSTRING_INDEX(ps.ROM, ' ', 1) AS UNSIGNED) > 128;
+                    """)
 
     vn.train(documentation="Includi sempre nella risposta la colonna product.id")
+

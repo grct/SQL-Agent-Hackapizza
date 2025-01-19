@@ -56,7 +56,7 @@ graph_builder.add_edge("tools", "merger")
 
 graph = graph_builder.compile()
 
-q = "Che piatti che contengono sia Petali di Eco che Foglie di Mandragora posso mangiare se voglio che nessun ingrediente superi le quantità legali prescritte dal Codice di Galattico?"
+q = "Che piatti posso mangiare che contengano i Fusilli del Vento ma che abbia nella sua preparazione la Marinatura a Infusione Gravitazionale correttamente operata da un chef che ha le corrette licenze e certificazioni descritte dal Codice di Galattico?"
 r = graph.invoke({"messages": q})
 
 print(r)

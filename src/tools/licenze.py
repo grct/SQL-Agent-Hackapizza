@@ -8,6 +8,7 @@ from src.settings import vn
 @tool
 def tool_licenze(licenza: str, livello: int):
     """Chiama questo tool per cercare dei piatti cucinati da Chief o Ristoranti con delle determinate Licenze o Certificazioni.
+        Il codice galattico non è una licenza, ma un elenco di tutte le licenze.
 
     Args:
         licenza: Il nome della Licenza o Certificazione
