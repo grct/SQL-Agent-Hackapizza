@@ -31,10 +31,7 @@
         "Lacrime di Unicorno",
         "Spezie Melange"
       ],
-      "techniques": [
-        "Cottura con Microonde Entropiche Sincronizzate",
-        "Cottura a Vapore Ecodinamico Bilanciato"
-      ]
+      "techniques": []
     },
     {
       "name": "Galassia Risvegliata",
@@ -46,10 +43,7 @@
         "Riso di Cassandra",
         "Nettare di Sirena"
       ],
-      "techniques": [
-        "Decostruzione Ancestrale",
-        "Cottura a Forno Dinamico Inversionale"
-      ]
+      "techniques": []
     },
     {
       "name": "Sinfonia Temporale nello Spaghi del Sole",
@@ -92,10 +86,7 @@
         "Funghi Orbitali",
         "Sale Temporale"
       ],
-      "techniques": [
-        "Taglio a Risonanza Sonica Rigenerativa",
-        "Bollitura Infrasonica Armonizzata"
-      ]
+      "techniques": []
     },
     {
       "name": "Viaggio dei Sensi: Bolla Temporale di Aromi Ancestrali",
@@ -107,7 +98,8 @@
         "Essenza di Tachioni"
       ],
       "techniques": [
-        "Affumicatura a Stratificazione Quantica"
+        "Affumicatura a Stratificazione Quantica",
+        "Amalgamazione Sintetica Molecolare"
       ]
     },
     {
@@ -151,9 +143,7 @@
         "Spore Quantiche",
         "Essenza di Tachioni"
       ],
-      "techniques": [
-        "Cottura a Vapore Ecodinamico Bilanciato"
-      ]
+      "techniques": []
     }
   ],
   "ristorante": {

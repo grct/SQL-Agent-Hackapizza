@@ -13,12 +13,7 @@
         "Funghi dell’Etere",
         "Spezie Melange"
       ],
-      "techniques": [
-        "Cottura a Vapore con Flusso di Particelle Isoarmoniche",
-        "Cottura a Vapore Termocinetica Multipla",
-        "Taglio a Risonanza Sonica Rigenerativa",
-        "Cottura con Microonde Entropiche Sincronizzate"
-      ]
+      "techniques": []
     },
     {
       "name": "Sinfonia Cosmica ma Fatta Male",
@@ -32,8 +27,7 @@
         "Erba Pipa"
       ],
       "techniques": [
-        "Affumicatura a Stratificazione Quantica",
-        "Cottura a Forno Dinamico Inversionale"
+        "Affumicatura a Stratificazione Quantica"
       ]
     },
     {
@@ -46,7 +40,6 @@
         "Sale Temporale"
       ],
       "techniques": [
-        "Saltare in Padella Classica",
         "Marinatura tramite Reazioni d'Antimateria Diluite"
       ]
     },
@@ -61,8 +54,7 @@
         "Erba Pipa"
       ],
       "techniques": [
-        "Marinatura a Infusione Gravitazionale",
-        "Grigliatura Eletro-Molecolare a Spaziatura Variabile"
+        "Marinatura a Infusione Gravitazionale"
       ]
     },
     {
@@ -78,10 +70,7 @@
         "Nduja Fritta Tanto"
       ],
       "techniques": [
-        "Cottura a Vapore Ecodinamico Bilanciato",
-        "Cottura Idrodinamica Autoregolante",
-        "Marinatura tramite Reazioni d'Antimateria Diluite",
-        "Bollitura Termografica a Rotazione Veloce"
+        "Marinatura tramite Reazioni d'Antimateria Diluite"
       ]
     },
     {
@@ -115,6 +104,7 @@
       "techniques": [
         "Bollitura Infrasonica Armonizzata",
         "Cottura Idrodinamica Autoregolante",
+        "Sinergia Elettro-Osmotica Programmabile",
         "Marinatura Temporale Sincronizzata"
       ]
     },
@@ -143,8 +133,7 @@
         "Essenza di Vuoto"
       ],
       "techniques": [
-        "Bollitura Infrasonica Armonizzata",
-        "Bollitura Termografica a Rotazione Veloce"
+        "Bollitura Infrasonica Armonizzata"
       ]
     },
     {

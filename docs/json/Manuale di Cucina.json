@@ -1,0 +1,250 @@
+{
+  "tecnicheList": [
+    {
+      "tipo": "Marinatura",
+      "descrizione": "Marinatura a Infusione Gravitazionale",
+      "vantaggi": "Preserva perfettamente le qualità nutritive; applicabile ad alta quota o ambienti a pressione variabile.",
+      "svantaggi": "Richiede continua analisi entropica per monitorare variazioni reattive."
+    },
+    {
+      "tipo": "Grigliare",
+      "descrizione": "Grigliatura a Energia Stellare DiV",
+      "vantaggi": "Garantisce una cottura uniforme con energia immensa; perfetto per carni spesse.",
+      "svantaggi": "Richiede infrastruttura avanzata e controllo astrofisico."
+    },
+    {
+      "tipo": "Grigliare",
+      "descrizione": "Grigliatura Plasma Sintetico Risonante",
+      "vantaggi": "Permette caramellizzazione perfetta delle superfici esterne.",
+      "svantaggi": "Necessita di camere di contenimento allo stato dell'arte."
+    },
+    {
+      "tipo": "Grigliare",
+      "descrizione": "Grigliatura Eletro-Molecolare a Spaziatura Variabile",
+      "vantaggi": "Consente grigliatura mirata a strati multipli.",
+      "svantaggi": "Richiede aggiornamenti costanti alle impostazioni dei campi."
+    },
+    {
+      "tipo": "Grigliare",
+      "descrizione": "Grigliatura Tachionica Refrattaria",
+      "vantaggi": "Mantiene gli alimenti allo stato ottimale anche prima della cottura.",
+      "svantaggi": "Richiede complessi calcoli spazio-temporali."
+    },
+    {
+      "tipo": "Grigliare",
+      "descrizione": "Grigliatura Psionica Dinamica Ritmica",
+      "vantaggi": "Crea connessione armoniosa tra energia mentale e grigliatura.",
+      "svantaggi": "Richiede individui altamente addestrati nell'utilizzo psionico."
+    },
+    {
+      "tipo": "Forno",
+      "descrizione": "Cottura al Forno con Paradosso Temporale Cronospeculare",
+      "vantaggi": "Assicura consistenza ideale sia all'interno che all'esterno.",
+      "svantaggi": "Necessita di algoritmi temporali di precisione."
+    },
+    {
+      "tipo": "Forno",
+      "descrizione": "Cottura con Microonde Entropiche Sincronizzate",
+      "vantaggi": "Garantisce doratura omogenea mantenendo l'umidità interna.",
+      "svantaggi": "Richiede bilanciamento meticoloso tra frequenze entropiche."
+    },
+    {
+      "tipo": "Forno",
+      "descrizione": "Cottura a Forno Dinamico Inversionale",
+      "vantaggi": "Consente stratificazioni precise del calore.",
+      "svantaggi": "Esige regolazioni continue delle impostazioni di valvolazione."
+    },
+    {
+      "tipo": "Forno",
+      "descrizione": "Cottura Olografica Quantum Fluttuante",
+      "vantaggi": "Offre versatilità infinita nella cottura dei cibi.",
+      "svantaggi": "Richiede software sofisticati per modellare correttamente gli spazi olografici."
+    },
+    {
+      "tipo": "Forno",
+      "descrizione": "Cottura Geomagnetica Psicosincronizzata",
+      "vantaggi": "Abilita un controllo intuitivo straordinario sulla distribuzione del calore.",
+      "svantaggi": "Necessità di cuochi altamente addestrati mentalmente."
+    },
+    {
+      "tipo": "Vapore",
+      "descrizione": "Cottura a Vapore con Flusso di Particelle Isoarmoniche",
+      "vantaggi": "Preserva il colore naturale e i nutrienti degli ingredienti.",
+      "svantaggi": "Richiede accurata calibrazione delle frequenze isoarmoniche."
+    },
+    {
+      "tipo": "Vapore",
+      "descrizione": "Cottura a Vapore Ecodinamico Bilanciato",
+      "vantaggi": "Riduce al minimo l'impronta energetica.",
+      "svantaggi": "Necessita di infrastruttura adeguata per supportare il sistema ecodinamico."
+    },
+    {
+      "tipo": "Vapore",
+      "descrizione": "Cottura a Vapore Risonante Simbiotico",
+      "vantaggi": "Accentua gli amidi senza compromettere l'intensità del gusto.",
+      "svantaggi": "Richiede comprensione avanzata dei legami proteici."
+    },
+    {
+      "tipo": "Vapore",
+      "descrizione": "Cottura a Vapore Termocinetica Multipla",
+      "vantaggi": "Offre straordinaria penetrazione del calore.",
+      "svantaggi": "Richiede tecnologia all'avanguardia per gestire i rotori termocinetici."
+    },
+    {
+      "tipo": "Vapore",
+      "descrizione": "Cottura Idrodinamica Autoregolante",
+      "vantaggi": "Assicura precisione ineguagliabile nella cottura a vapore.",
+      "svantaggi": "Posa sfide nell'installazione dovute alla complessità tecnologica."
+    },
+    {
+      "tipo": "Sottovuoto",
+      "descrizione": "Cottura Sottovuoto Antimateria",
+      "vantaggi": "Consente cottura estremamente precisa e uniforme.",
+      "svantaggi": "Richiede gestione meticolosa dell'antimateria."
+    },
+    {
+      "tipo": "Sottovuoto",
+      "descrizione": "Cottura Sottovuoto Multirealità Collassante",
+      "vantaggi": "Consente accesso a uno spettro infinito di combinazioni culinarie.",
+      "svantaggi": "La complessità nell'armonizzare realtà multiple potrebbe causare effetti indesiderati."
+    },
+    {
+      "tipo": "Sottovuoto",
+      "descrizione": "Cottura Sottovuoto Frugale Energeticamente Negativa",
+      "vantaggi": "Permette un'impronta energetica negativa.",
+      "svantaggi": "Richiede comprensione approfondita delle dinamiche energetiche quantistiche."
+    },
+    {
+      "tipo": "Sottovuoto",
+      "descrizione": "Cottura Sottovuoto Pulsar Magnetica",
+      "vantaggi": "Mantiene l'integrità strutturale degli ingredienti.",
+      "svantaggi": "Richiede elevata precisione nel controllo dei campi magnetici."
+    },
+    {
+      "tipo": "Sottovuoto",
+      "descrizione": "Cottura Sottovuoto Bioma Sintetico",
+      "vantaggi": "Offre controllo senza precedenti sulle condizioni di cottura.",
+      "svantaggi": "Necessita di gestione tecnica sofisticata per bilanciare l'ecosistema sintetico."
+    },
+    {
+      "tipo": "Saltare in Padella",
+      "descrizione": "Saltare in Padella Big Bang Termico",
+      "vantaggi": "Consente di ottenere una crosta esterna croccante e un interno morbido con rapidità.",
+      "svantaggi": "Richiede apparecchiature termoresistenti avanzate."
+    },
+    {
+      "tipo": "Saltare in Padella",
+      "descrizione": "Saltare in Padella Realtà Energetiche Parallele",
+      "vantaggi": "Offre un margine d'errore nullo grazie alla possibilità di esplorare diverse combinazioni di cottura.",
+      "svantaggi": "Suscettibile a fluttuazioni impreviste tra le realtà."
+    },
+    {
+      "tipo": "Saltare in Padella",
+      "descrizione": "Saltare in Padella Singolarità Inversa",
+      "vantaggi": "Assicura una distribuzione uniforme e spettacolare dei sapori.",
+      "svantaggi": "Necessita di controllo preciso sul micro buco nero."
+    },
+    {
+      "tipo": "Saltare in Padella",
+      "descrizione": "Saltare in Padella Sinergia Psionica",
+      "vantaggi": "Permette personalizzazione assoluta nel processo culinario.",
+      "svantaggi": "Richiede alto livello di disciplina mentale e allenamento psichico."
+    },
+    {
+      "tipo": "Saltare in Padella",
+      "descrizione": "Saltare in Padella Classica",
+      "vantaggi": "Offre semplicità ed efficacia testate nel tempo.",
+      "svantaggi": "Può richiedere un ciclo leggermente più lungo rispetto a metodi avveniristici."
+    },
+    {
+      "tipo": "Decostruzione",
+      "descrizione": "Decostruzione Atomica a Strati Energetici",
+      "vantaggi": "Permette la creazione di texture e forme impossibili.",
+      "svantaggi": "Richiede uso responsabile per evitare reazioni indesiderate."
+    },
+    {
+      "tipo": "Decostruzione",
+      "descrizione": "Decostruzione Magnetica Risonante",
+      "vantaggi": "Precisione estrema in ogni elemento sapore e consistenza.",
+      "svantaggi": "Richiede strumentazione complessa ed è sensibile ai disturbi elettromagnetici."
+    },
+    {
+      "tipo": "Decostruzione",
+      "descrizione": "Decostruzione Bio-Fotonica Emotiva",
+      "vantaggi": "Personalizzazione emotiva dei piatti.",
+      "svantaggi": "Richiede chef dotati di competenze empatiche elevate."
+    },
+    {
+      "tipo": "Decostruzione",
+      "descrizione": "Decostruzione Ancestrale",
+      "vantaggi": "Fornisce accesso a sapori di epoche passate.",
+      "svantaggi": "Ricordare le memorie ancestrali può provocare perdita della propria identità."
+    },
+    {
+      "tipo": "Decostruzione",
+      "descrizione": "Decostruzione Interdimensionale Lovecraftiana",
+      "vantaggi": "Produce profili gustativi alieni e inaspettati.",
+      "svantaggi": "Elevato rischio di manifestazioni indesiderate."
+    },
+    {
+      "tipo": "Sferificazione",
+      "descrizione": "Sferificazione a Gravità Psionica Variabile",
+      "vantaggi": "Consente la creazione di sfere con consistenze e diametri personalizzati.",
+      "svantaggi": "Necessita di controllo preciso della gravità."
+    },
+    {
+      "tipo": "Sferificazione",
+      "descrizione": "Sferificazione Filamentare a Molecole Vibrazionali",
+      "vantaggi": "Sfere con strutture interne uniche e sapori stratificati.",
+      "svantaggi": "Energia vibratoria elevata può innescare risonanze indesiderate."
+    },
+    {
+      "tipo": "Sferificazione",
+      "descrizione": "Sferificazione Cromatica Interdimensionale",
+      "vantaggi": "Sfere dai colori straordinari e mai visti.",
+      "svantaggi": "Mancata sincronizzazione tra i piani potrebbe risultare in instabilità strutturali."
+    },
+    {
+      "tipo": "Sferificazione",
+      "descrizione": "Sferificazione con Campi Magnetici Entropici",
+      "vantaggi": "Sfere con variazioni naturali nella texture.",
+      "svantaggi": "Gestione complessa del campo magnetico."
+    },
+    {
+      "tipo": "Sferificazione",
+      "descrizione": "Sferificazione tramite Matrici Biofotiche",
+      "vantaggi": "Sfere brillano in modo sottile o intenso.",
+      "svantaggi": "Richiede fonti luminose adeguate."
+    },
+    {
+      "tipo": "Tecniche di Taglio",
+      "descrizione": "Taglio Dimensionale a Lame Fotofiliche",
+      "vantaggi": "Tagli incredibilmente precisi e puliti.",
+      "svantaggi": "Richiede allineamento esatto delle dimensioni."
+    },
+    {
+      "tipo": "Tecniche di Taglio",
+      "descrizione": "Taglio a Risonanza Sonica Rigenerativa",
+      "vantaggi": "Preserva freschezza e proprietà nutritive.",
+      "svantaggi": "Essenziale controllare intensità e frequenza."
+    },
+    {
+      "tipo": "Tecniche di Taglio",
+      "descrizione": "Affettamento a Pulsazioni Quantistiche",
+      "vantaggi": "Creazione di fette estremamente sottili.",
+      "svantaggi": "Richiede calibrazione accurata del campo quantico."
+    },
+    {
+      "tipo": "Tecniche di Taglio",
+      "descrizione": "Taglio Sinaptico Biomimetico",
+      "vantaggi": "Offre controllo intuitivo del processo di taglio.",
+      "svantaggi": "Richiede formazione specializzata."
+    },
+    {
+      "tipo": "Tecniche di Taglio",
+      "descrizione": "Incisione Elettromagnetica Plasmica",
+      "vantaggi": "Ideale per lavorazioni sofisticate e decorative.",
+      "svantaggi": "Necessita di fonte continua di energia plasmatica."
+    }
+  ]
+}

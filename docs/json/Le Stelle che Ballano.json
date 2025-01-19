@@ -10,10 +10,7 @@
         "Essenza di Tachioni"
       ],
       "techniques": [
-        "Affumicatura Psionica Sensoriale",
-        "Cottura a Vapore con Flusso di Particelle Isoarmoniche",
-        "Bollitura Infrasonica Armonizzata",
-        "Sferificazione a Gravità Psionica Variabile"
+        "Affumicatura Psionica Sensoriale"
       ]
     },
     {
@@ -26,9 +23,7 @@
         "Funghi dell’Etere"
       ],
       "techniques": [
-        "Marinatura Psionica",
-        "Cottura a Vapore Termocinetica Multipla",
-        "Cottura Sottovuoto Frugale Energeticamente Negativa"
+        "Marinatura Psionica"
       ]
     },
     {
@@ -42,9 +37,7 @@
         "Funghi Orbitali",
         "Sale Temporale"
       ],
-      "techniques": [
-        "Cottura a Vapore con Flusso di Particelle Isoarmoniche"
-      ]
+      "techniques": []
     },
     {
       "name": "Viaggio Galattico: Sinfonia dei Sensi",
@@ -59,8 +52,6 @@
         "Essenza di Speziaria"
       ],
       "techniques": [
-        "Bollitura Entropica Sincronizzata",
-        "Cottura a Vapore con Flusso di Particelle Isoarmoniche",
         "Affumicatura a Stratificazione Quantica"
       ]
     },
@@ -75,10 +66,7 @@
         "Essenza di Tachioni"
       ],
       "techniques": [
-        "Bollitura Entropica Sincronizzata",
-        "Cottura a Vapore Termocinetica Multipla",
-        "Marinatura Psionica",
-        "Sferificazione a Gravità Psionica Variabile"
+        "Marinatura Psionica"
       ]
     },
     {
@@ -91,9 +79,7 @@
         "Lacrime di Unicorno"
       ],
       "techniques": [
-        "Cottura Olografica Quantum Fluttuante",
-        "Fermentazione Psionica Energetica",
-        "Taglio a Risonanza Sonica Rigenerativa"
+        "Fermentazione Psionica Energetica"
       ]
     },
     {
@@ -109,8 +95,7 @@
         "Erba Pipa"
       ],
       "techniques": [
-        "Amalgamazione Sintetica Molecolare",
-        "Cottura con Microonde Entropiche Sincronizzate"
+        "Amalgamazione Sintetica Molecolare"
       ]
     },
     {
@@ -125,10 +110,7 @@
         "Nettare di Sirena",
         "Essenza di Speziaria"
       ],
-      "techniques": [
-        "Taglio a Risonanza Sonica Rigenerativa",
-        "Saltare in Padella Classica"
-      ]
+      "techniques": []
     },
     {
       "name": "Il Viaggio Celeste",
@@ -143,7 +125,6 @@
         "Erba Pipa"
       ],
       "techniques": [
-        "Cottura a Vapore Termocinetica Multipla",
         "Fermentazione Quantico Biometrica"
       ]
     },
@@ -157,13 +138,7 @@
         "Lacrime di Unicorno",
         "Essenza di Speziaria"
       ],
-      "techniques": [
-        "Taglio Sinaptico Biomimetico",
-        "Idro-Cristallizzazione Sonora Quantistica",
-        "Grigliatura Eletro-Molecolare a Spaziatura Variabile",
-        "Cottura a Vapore Risonante Simbiotico",
-        "Affettamento a Pulsazioni Quantistiche"
-      ]
+      "techniques": []
     }
   ],
   "ristorante": {
@@ -177,10 +152,10 @@
         "Quantistica": "5"
       },
       {
-        "Gravitazionale": "1"
+        "Tecnologico": "3"
       },
       {
-        "Tecnologico": "3"
+        "Gravitazionale": "1"
       }
     ]
   }

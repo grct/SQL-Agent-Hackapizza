@@ -4,15 +4,12 @@
       "name": "Viaggio Gastronomico tra le Stelle",
       "ingredients": [
         "Fusilli del Vento",
-        "Vero Ghiaccio",
+        "Brodo di Vero Ghiaccio",
         "Carne di Balena spaziale",
         "Radici di Singolarità",
         "Essenza di Tachioni"
       ],
-      "techniques": [
-        "Ebollizione Magneto-Cinetica Pulsante",
-        "Incisione Elettromagnetica Plasmica"
-      ]
+      "techniques": []
     },
     {
       "name": "Sinfonia del Cosmo Rigenerante",
@@ -25,7 +22,6 @@
         "Sale Temporale"
       ],
       "techniques": [
-        "Cottura Sottovuoto Frugale Energeticamente Negativa",
         "Affumicatura tramite Big Bang Microcosmico"
       ]
     },
@@ -43,7 +39,7 @@
         "Essenza di Tachioni"
       ],
       "techniques": [
-        "Tecnica di Sinergia Elettro-Osmotica Programmabile",
+        "Sinergia Elettro-Osmotica Programmabile",
         "Amalgamazione Sintetica Molecolare"
       ]
     },
@@ -75,17 +71,15 @@
         "Riso di Cassandra",
         "Lacrime di Andromeda"
       ],
-      "techniques": [
-        "Surgelamento Antimaterico a Risonanza Inversa"
-      ]
+      "techniques": []
     },
     {
       "name": "Ode al Crepuscolo del Multiverso",
       "ingredients": [
-        "Carne di mucca",
+        "Carne di Mucca",
         "Gnocchi del Crepuscolo",
         "Pane degli Abissi",
-        "Cristalli di memoria",
+        "Cristalli di Memoria",
         "Lacrime di Unicorno",
         "Essenza di Vuoto",
         "Pane di Luce"
@@ -129,7 +123,7 @@
         "Colonia di Mycoflora",
         "Radici di Gravità",
         "Baccacedro",
-        "Prisma Stellare",
+        "Shard di Prisma Stellare",
         "Plasma Vitale"
       ],
       "techniques": []
@@ -151,28 +145,36 @@
     "chef": "Matteo Nexus",
     "skill": [
       {
-        "Tecnologico": "6"
+        "name": "Tecnologia",
+        "level": "6"
       },
       {
-        "Gravitazionale": "2"
+        "name": "Gravitazionale",
+        "level": "2"
       },
       {
-        "Psionico": "3"
+        "name": "Psionico",
+        "level": "3"
       },
       {
-        "Quantistica": "2"
+        "name": "Quantistica",
+        "level": "2"
       },
       {
-        "Temporale": "1"
+        "name": "Temporale",
+        "level": "1"
       },
       {
-        "Antimateria": "1"
+        "name": "Antimateria",
+        "level": "1"
       },
       {
-        "Magnetismo": "1"
+        "name": "Magnetismo",
+        "level": "1"
       },
       {
-        "Luce": "1"
+        "name": "Luce",
+        "level": "1"
       }
     ]
   }

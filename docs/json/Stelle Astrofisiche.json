@@ -4,29 +4,24 @@
       "name": "Viaggio Cosmico tra Mare e Stelle",
       "ingredients": [
         "Carne di Balena Spaziale",
-        "Kraken",
+        "Carne di Kraken",
         "Teste di Idra",
+        "Lacrime di Andromeda",
         "Riso di Cassandra",
         "Pane degli Abissi",
         "Spezie Melange"
       ],
-      "techniques": [
-        "Cottura a Vapore Termocinetica Multipla",
-        "Taglio a Risonanza Sonica Rigenerativa",
-        "Cottura con Microonde Entropiche Sincronizzate"
-      ]
+      "techniques": []
     },
     {
       "name": "Nebulosa di Dragone all'Essenza di Vuoto",
       "ingredients": [
         "Lattuga Namecciana",
-        "Polvere di stelle",
         "Carne di Drago",
         "Spore Quantiche",
         "Essenza di Vuoto"
       ],
       "techniques": [
-        "Bollitura Termografica a Rotazione Veloce",
         "Sinergia Elettro-Osmotica Programmabile"
       ]
     },
@@ -41,8 +36,7 @@
         "Colonia di Mycoflora"
       ],
       "techniques": [
-        "Amalgamazione Sintetica Molecolare",
-        "Cryo-Tessitura Energetica Polarizzata"
+        "Amalgamazione Sintetica Molecolare"
       ]
     },
     {
@@ -54,9 +48,7 @@
         "Materia Oscura"
       ],
       "techniques": [
-        "Cottura a Vapore Termocinetica Multipla",
-        "Amalgamazione Sintetica Molecolare",
-        "Cottura a Vapore con Flusso di Particelle Isoarmoniche"
+        "Amalgamazione Sintetica Molecolare"
       ]
     },
     {
@@ -69,8 +61,6 @@
         "Nettare di Sirena"
       ],
       "techniques": [
-        "Cottura a Vapore con Flusso di Particelle Isoarmoniche",
-        "Bollitura Termografica a Rotazione Veloce",
         "Amalgamazione Sintetica Molecolare"
       ]
     },
@@ -84,11 +74,7 @@
         "Nettare di Sirena",
         "Biscotti della Galassia"
       ],
-      "techniques": [
-        "Cottura a Vapore Termocinetica Multipla",
-        "Saltare in Padella Classica",
-        "Essenza di Speziaria"
-      ]
+      "techniques": []
     },
     {
       "name": "Eclissi del Drago nell'Abbraccio del Kraken",
@@ -100,10 +86,7 @@
         "Plasma Vitale",
         "Shard di Materia Oscura"
       ],
-      "techniques": [
-        "Grigliatura Elettro-Molecolare a Spaziatura Variabile",
-        "Cottura a Vapore Termocinetica Multipla"
-      ]
+      "techniques": []
     },
     {
       "name": "Sinfonia Quantica Galattica",
@@ -114,11 +97,7 @@
         "Salsa Szechuan",
         "Biscotti della Galassia"
       ],
-      "techniques": [
-        "Taglio a Risonanza Sonica Rigenerativa",
-        "Cottura a Vapore Termocinetica Multipla",
-        "Flusso di Particelle Isoarmoniche"
-      ]
+      "techniques": []
     },
     {
       "name": "Sinfonia Galattica Agentica",
@@ -130,9 +109,7 @@
         "Plasma Vitale"
       ],
       "techniques": [
-        "Sinergia Elettro-Osmotica Programmabile",
-        "Cryo-Tessitura Energetica Polarizzata",
-        "Cottura con Microonde Entropiche Sincronizzate"
+        "Sinergia Elettro-Osmotica Programmabile"
       ]
     }
   ],
@@ -141,20 +118,16 @@
     "chef": "Alessandro Zod-Marinetti",
     "skill": [
       {
-        "name": "Licenza Quantistica",
-        "level": "Q: 4"
+        "Licenza Quantistica Q": "4"
       },
       {
-        "name": "Licenza Luce",
-        "level": "c: III"
+        "Licenza Luce c": "3"
       },
       {
-        "name": "Licenza Gravitazionale",
-        "level": "G:II"
+        "Licenza Gravitazionale G": "2"
       },
       {
-        "name": "Licenza Antimateria",
-        "level": "e+: I"
+        "Licenza Antimateria e+": "1"
       }
     ]
   }

@@ -59,9 +59,7 @@
       ],
       "techniques": [
         "Marinatura Psionica",
-        "Impasto a Campi Magnetici Dualistici",
-        "Cryo-Tessitura Energetica Polarizzata",
-        "Decostruzione Bio-Fotonica Emotiva"
+        "Impasto a Campi Magnetici Dualistici"
       ]
     },
     {
@@ -74,8 +72,7 @@
         "Essenza di Vuoto"
       ],
       "techniques": [
-        "Affumicatura Polarizzata a Freddo Iperbarico",
-        "Cottura a Vapore Termocinetica Multipla"
+        "Affumicatura Polarizzata a Freddo Iperbarico"
       ]
     },
     {
@@ -90,11 +87,9 @@
         "Essenza di Vuoto"
       ],
       "techniques": [
-        "Decostruzione Ancestrale",
         "Affumicatura a Stratificazione Quantica",
         "Marinatura Temporale Sincronizzata",
-        "Amalgamazione Sintetica Molecolare",
-        "Congelamento Bio-Luminiscente Sincronico"
+        "Amalgamazione Sintetica Molecolare"
       ]
     },
     {
@@ -124,8 +119,7 @@
         "Fusilli del Vento"
       ],
       "techniques": [
-        "Cottura a Vapore con Flusso di Particelle Isoarmoniche",
-        "Sferificazione con Campi Magnetici Entropici"
+        "Cottura a Vapore con Flusso di Particelle Isoarmoniche"
       ]
     },
     {
@@ -138,7 +132,6 @@
         "Essenza di Vuoto"
       ],
       "techniques": [
-        "Bollitura Termografica a Rotazione Veloce",
         "Decostruzione Bio-Fotonica Emotiva",
         "Grigliatura a Energia Stellare DiV",
         "Amalgamazione Sintetica Molecolare"
@@ -163,7 +156,7 @@
     }
   ],
   "ristorante": {
-    "name": "Il Ristorante delle Dune Stellari",
+    "name": "Ristorante delle Dune Stellari",
     "chef": "Alessandro Temporini",
     "skill": [
       {

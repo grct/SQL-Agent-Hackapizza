@@ -18,14 +18,17 @@
       "name": "Sinfonia Astrale - Risotto Multiversale con Risacca Celeste",
       "ingredients": [
         "Riso di Cassandra",
-        "brodo di Teste di Idra",
+        "Brodo di Teste di Idra",
         "Carne di Xenodonte",
         "Polvere di Pulsar",
         "Lattuga Namecciana",
         "Amido di Stellarion",
-        "Lacrime di Andromeda"
+        "Lacrime di Andromeda",
+        "Farina di Nettuno"
       ],
-      "techniques": []
+      "techniques": [
+        "Congelazione Iperdimensionalmente Stratificata"
+      ]
     },
     {
       "name": "Sinfonia Temporale Galattica",
@@ -37,7 +40,9 @@
         "Bacche di Baccacedro",
         "Sale Temporale"
       ],
-      "techniques": []
+      "techniques": [
+        "Gravitazionale"
+      ]
     },
     {
       "name": "Sinfonia del Multiverso di Gusto",
@@ -64,10 +69,11 @@
         "Radici di Singolarità",
         "Pane degli Abissi",
         "Funghi dell’Etere",
-        "Essenza di Vuoto",
         "Baccacedro caramellato"
       ],
-      "techniques": []
+      "techniques": [
+        "Affettamento a Pulsazioni Quantistiche"
+      ]
     },
     {
       "name": "Danza Cosmica al Crepuscolo",
@@ -88,7 +94,7 @@
         "Riso di Cassandra",
         "Pane degli Abissi",
         "Gnocchi del Crepuscolo",
-        "Nduja Fritta Tanto",
+        "Nduja Fritta",
         "Uova di Fenice",
         "Lacrime di Unicorno",
         "Frammenti di Supernova"
@@ -105,7 +111,11 @@
         "Nettare di Sirena",
         "Foglie di Nebulosa"
       ],
-      "techniques": []
+      "techniques": [
+        "Affumicatura Temporale Risonante",
+        "Fermentazione Psionica Energetica",
+        "Affumicatura Psionica Sensoriale"
+      ]
     },
     {
       "name": "Cosmos Culinary Symphony",
@@ -131,14 +141,15 @@
         "Amido di Stellarion",
         "Carne di Drago",
         "Radici di Singolarità",
-        "Gravità",
+        "Radici di Gravità",
         "Uovo di Fenice",
         "Granuli di Nebbia Arcobaleno",
         "Essenza di Speziaria",
         "Vero Ghiaccio"
       ],
       "techniques": [
-        "Marinatura Temporale Sincronizzata"
+        "Marinatura Temporale Sincronizzata",
+        "Decostruzione Interdimensionale Lovecraftiana"
       ]
     }
   ],
@@ -147,27 +158,27 @@
     "chef": "Alessandro Quantum",
     "skill": [
       {
-        "name": "Licenza Psionica",
+        "name": "Psionica",
         "level": "2"
       },
       {
-        "name": "Licenza Temporale",
+        "name": "Temporale",
         "level": "2"
       },
       {
-        "name": "Licenza Gravitazionale",
+        "name": "Gravitazionale",
         "level": "2"
       },
       {
-        "name": "Licenza Quantistica",
+        "name": "Quantistica",
         "level": "7"
       },
       {
-        "name": "Licenza Luce",
+        "name": "Luce",
         "level": "1"
       },
       {
-        "name": "Licenza LTK",
+        "name": "LTK",
         "level": "6+"
       }
     ]

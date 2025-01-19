@@ -10,11 +10,7 @@
         "Lacrime di Andromeda",
         "Petali di Eco"
       ],
-      "techniques": [
-        "Cottura Olografica Quantum Fluttuante",
-        "Decostruzione Interdimensionale Lovecraftiana",
-        "Piccola Odissea Cosmica"
-      ]
+      "techniques": []
     },
     {
       "name": "Piccola Odissea Cosmica",
@@ -26,10 +22,7 @@
         "Spaghi del Sole",
         "Essenza di Vuoto"
       ],
-      "techniques": [
-        "Affettamento a Pulsazioni Quantistiche",
-        "Bollitura Entropica Sincronizzata"
-      ]
+      "techniques": []
     },
     {
       "name": "L'Unicorno piange il Kraken",
@@ -44,10 +37,7 @@
         "Spezie Melange"
       ],
       "techniques": [
-        "Cottura Olografica Quantum Fluttuante",
-        "Saltare in Padella Singolarità Inversa",
-        "Cottura con Microonde Entropiche Sincronizzate",
-        "Affettamento a Pulsazioni Quantistiche"
+        "Affumicatura a Stratificazione Quantica"
       ]
     },
     {
@@ -62,11 +52,9 @@
         "Funghi dell’Etere"
       ],
       "techniques": [
-        "Cottura Sottovuoto Pulsar Magnetica",
         "Affumicatura a Stratificazione Quantica",
         "Marinatura tramite Reazioni d'Antimateria Diluite",
-        "Impasto Gravitazionale Vorticoso",
-        "Ebollizione Magneto-Cinetica Pulsante"
+        "Impasto Gravitazionale Vorticoso"
       ]
     },
     {
@@ -79,11 +67,7 @@
         "Nduja Fritta Tanto"
       ],
       "techniques": [
-        "Cottura Sottovuoto Antimateria",
-        "Impasto Gravitazionale Vorticoso",
-        "Decostruzione Interdimensionale Lovecraftiana",
-        "Cottura Sottovuoto Multirealità Collassante",
-        "Sferificazione con Campi Magnetici Entropici"
+        "Impasto Gravitazionale Vorticoso"
       ]
     },
     {
@@ -97,11 +81,8 @@
         "Spezie Melange"
       ],
       "techniques": [
-        "Cottura Idrodinamica Autoregolante",
-        "Sferificazione con Campi Magnetici Entropici",
-        "Impasto Gravitazionale Vorticoso",
         "Affumicatura a Stratificazione Quantica",
-        "Grigliatura Plasma Sintetico Risonante"
+        "Impasto Gravitazionale Vorticoso"
       ]
     },
     {
@@ -117,13 +98,7 @@
         "Muffa Lunare",
         "Spezie Melange"
       ],
-      "techniques": [
-        "Congelamento Bio-Luminiscente Sincronico",
-        "Decostruzione Magnetica Risonante",
-        "Affettamento a Pulsazioni Quantistiche",
-        "Grigliatura Plasma Sintetico Risonante",
-        "Decostruzione Interdimensionale Lovecraftiana"
-      ]
+      "techniques": []
     },
     {
       "name": "Galassia di Cosmo-Delizie",
@@ -135,10 +110,7 @@
         "Lacrime di Unicorno",
         "Essenza di Speziaria"
       ],
-      "techniques": [
-        "Decostruzione Magnetica Risonante",
-        "Cottura Sottovuoto Pulsar Magnetica"
-      ]
+      "techniques": []
     },
     {
       "name": "Nebulosa di Confini Sfondati",
@@ -153,11 +125,7 @@
         "Petali di Eco"
       ],
       "techniques": [
-        "Cottura Olografica Quantum Fluttuante",
-        "Congelamento Bio-Luminiscente Sincronico",
-        "Saltare in Padella Singolarità Inversa",
-        "Affumicatura a Stratificazione Quantica",
-        "Surgelamento Antimaterico a Risonanza Inversa"
+        "Affumicatura a Stratificazione Quantica"
       ]
     }
   ],

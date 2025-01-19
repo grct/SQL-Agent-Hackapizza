@@ -11,9 +11,7 @@
         "Lacrime di Unicorno",
         "Petali di Eco"
       ],
-      "techniques": [
-        "Congelamento Bio-Luminiscente Sincronico"
-      ]
+      "techniques": []
     },
     {
       "name": "Enigma Celeste",
@@ -37,9 +35,7 @@
         "Lacrime di Unicorno",
         "Cristalli di Nebulite"
       ],
-      "techniques": [
-        "Congelamento Bio-Luminiscente Sincronico"
-      ]
+      "techniques": []
     },
     {
       "name": "Galassia a Tavola: Sinfonia di Tempeste Cosmiche",
@@ -64,7 +60,8 @@
         "Nduja Fritta Tanto"
       ],
       "techniques": [
-        "Amalgamazione Sintetica Molecolare"
+        "Amalgamazione Sintetica Molecolare",
+        "Marinatura Temporale Sincronizzata"
       ]
     },
     {
@@ -81,11 +78,12 @@
     {
       "name": "Galassia di Celestial Delight",
       "ingredients": [
-        "Vero Ghiaccio",
+        "Soufflé al Vero Ghiaccio",
         "Uova di Fenice",
         "Radici di Singolarità",
         "Colonia di Mycoflora",
-        "pane di Farina di Nettuno"
+        "Essenza di Tachioni",
+        "Pane di Farina di Nettuno"
       ],
       "techniques": [
         "Impasto Gravitazionale Vorticoso"
@@ -96,10 +94,11 @@
       "ingredients": [
         "Carne di balena spaziale",
         "Spaghi del Sole",
-        "materia oscura",
-        "foglie di mandragora",
-        "petali di eco",
-        "baccacedro"
+        "Shard di materia oscura",
+        "Plasma vitale",
+        "Foglie di mandragora",
+        "Petali di eco",
+        "Buccia del baccacedro"
       ],
       "techniques": []
     },
@@ -109,6 +108,7 @@
         "Liane di Plasmodio",
         "Carne di Balena spaziale",
         "Spaghi del Sole",
+        "Polvere di Pulsar",
         "Muffa Lunare",
         "Sale Temporale",
         "Biscotti della Galassia"
@@ -134,16 +134,20 @@
     "chef": "Alessandra Tempesti",
     "skill": [
       {
-        "LTK V": "5"
+        "name": "LTK",
+        "level": "5"
       },
       {
-        "Temporale": "3"
+        "name": "Temporale",
+        "level": "3"
       },
       {
-        "Luce": "2"
+        "name": "Luce",
+        "level": "2"
       },
       {
-        "Gravitazionale": "1"
+        "name": "Gravitazionale",
+        "level": "1"
       }
     ]
   }

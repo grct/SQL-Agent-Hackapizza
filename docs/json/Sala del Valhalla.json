@@ -27,9 +27,7 @@
         "Granuli di Nebbia Arcobaleno",
         "Muffa Lunare"
       ],
-      "techniques": [
-        "Grigliatura Eletro-Molecolare a Spaziatura Variabile"
-      ]
+      "techniques": []
     },
     {
       "name": "Il Risveglio del Multiverso",
@@ -40,10 +38,7 @@
         "Granuli di Nebbia Arcobaleno",
         "Plasma Vitale"
       ],
-      "techniques": [
-        "Cottura a Vapore con Flusso di Particelle Isoarmoniche",
-        "Cottura Sottovuoto Frugale Energeticamente Negativa"
-      ]
+      "techniques": []
     },
     {
       "name": "Sinfonia del Cosmo e della Leggenda",
@@ -55,11 +50,7 @@
         "Nduja Fritta Tanto"
       ],
       "techniques": [
-        "Decostruzione Interdimensionale Lovecraftiana",
-        "Affumicatura tramite Big Bang Microcosmico",
-        "Idro-Cristallizzazione Sonora Quantistica",
-        "Bollitura Infrasonica Armonizzata",
-        "Taglio a Risonanza Sonica Rigenerativa"
+        "Affumicatura tramite Big Bang Microcosmico"
       ]
     },
     {
@@ -72,8 +63,7 @@
         "Nduja Fritta Tanto"
       ],
       "techniques": [
-        "Affumicatura a Stratificazione Quantica",
-        "Bollitura Infrasonica Armonizzata"
+        "Affumicatura a Stratificazione Quantica"
       ]
     },
     {
@@ -87,9 +77,7 @@
         "Spezie Melange"
       ],
       "techniques": [
-        "Idro-Cristallizzazione Sonora Quantistica",
-        "Impasto Gravitazionale Vorticoso",
-        "Grigliatura Eletro-Molecolare a Spaziatura Variabile"
+        "Impasto Gravitazionale Vorticoso"
       ]
     },
     {
@@ -103,11 +91,7 @@
         "Biscotti della Galassia",
         "Essenza di Vuoto"
       ],
-      "techniques": [
-        "Cottura a Forno Dinamico Inversionale",
-        "Grigliatura Eletro-Molecolare a Spaziatura Variabile",
-        "Taglio a Risonanza Sonica Rigenerativa"
-      ]
+      "techniques": []
     },
     {
       "name": "Risotto Interdimensionale alla Carne di Drago e Balena Spaziale con Biscotti della Galassia Croccanti",
@@ -121,9 +105,7 @@
         "Pane di Luce",
         "Spezie Melange"
       ],
-      "techniques": [
-        "Saltare in Padella Classica"
-      ]
+      "techniques": []
     },
     {
       "name": "Alternate Realities Risotto",
@@ -137,8 +119,7 @@
         "Sale Temporale"
       ],
       "techniques": [
-        "Sinergia Elettro-Osmotica Programmabile",
-        "Grigliatura Eletro-Molecolare a Spaziatura Variabile"
+        "Sinergia Elettro-Osmotica Programmabile"
       ]
     }
   ],
@@ -147,13 +128,16 @@
     "chef": "Alessandro Quantum",
     "skill": [
       {
-        "Quantistica": "8"
+        "name": "Licenza Quantistica",
+        "livello": "8"
       },
       {
-        "Gravitazionale": "1"
+        "name": "Licenza Gravitazionale",
+        "livello": "1"
       },
       {
-        "Antimateria": "1"
+        "name": "Licenza Antimateria",
+        "livello": "1"
       }
     ]
   }

@@ -24,9 +24,7 @@
         "Polvere di crononite",
         "Cristalli di sale temporale"
       ],
-      "techniques": [
-        "Impasto Gravitazionale Vorticoso"
-      ]
+      "techniques": []
     },
     {
       "name": "Sinfonia del Cosmo",
@@ -34,7 +32,6 @@
         "Brodo di Liane di Plasmodio",
         "Funghi Orbitali",
         "Fibra di Sintetex",
-        "Sale Temporale",
         "Foglie di Nebulosa"
       ],
       "techniques": [
@@ -44,6 +41,7 @@
     {
       "name": "Rapsodia dei Ricordi Celesti",
       "ingredients": [
+        "Croissant celestiale",
         "Farina di Nettuno",
         "Carne di Xenodonte",
         "Carne di Mucca",
@@ -84,14 +82,13 @@
         "Plasma Vitale"
       ],
       "techniques": [
-        "Cryo-Tessitura Energetica Polarizzata",
         "Marinatura Sotto Zero a Polarità Inversa"
       ]
     },
     {
       "name": "Sinfonia Crepuscolare",
       "ingredients": [
-        "Gnocchi del Crepuscolo",
+        "Gnoccchi del Crepuscolo",
         "Pane di Luce",
         "Biscotti della Galassia",
         "Spore Quantiche",
@@ -134,25 +131,31 @@
   ],
   "ristorante": {
     "name": "L'Essenza delle Dune",
-    "chef": "Alessandra \"Memory Weaver\" Luminetti",
+    "chef": "Alessandra Luminetti",
     "skill": [
       {
-        "Psionica": "4"
+        "name": "Maestria Psionica",
+        "level": "4"
       },
       {
-        "Luce": "3"
+        "name": "Controllo della Luce",
+        "level": "3"
       },
       {
-        "Magnetico": "1"
+        "name": "Magnetico",
+        "level": "1"
       },
       {
-        "Temporale": "1"
+        "name": "Temporale",
+        "level": "1"
       },
       {
-        "Gravitazionale": "1"
+        "name": "Gravitazionale",
+        "level": "1"
       },
       {
-        "Antimateria": "1"
+        "name": "Antimateria",
+        "level": "1"
       }
     ]
   }

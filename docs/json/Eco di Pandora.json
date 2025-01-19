@@ -10,13 +10,7 @@
         "Nettare di Sirena",
         "Essenza di Speziaria"
       ],
-      "techniques": [
-        "Cottura Sottovuoto Multirealità Collassante",
-        "Sferificazione Filamentare a Molecole Vibrazionali",
-        "Grigliatura Psionica Dinamica Ritmica",
-        "Cottura a Forno Dinamico Inversionale",
-        "Taglio a Risonanza Sonica Rigenerativa"
-      ]
+      "techniques": []
     },
     {
       "name": "Euforia Cosmica",
@@ -30,9 +24,7 @@
         "Essenza di Vuoto"
       ],
       "techniques": [
-        "Grigliatura Eletro-Molecolare a Spaziatura Variabile",
-        "Amalgamazione Sintetica Molecolare",
-        "Surgelamento Antimaterico a Risonanza Inversa"
+        "Amalgamazione Sintetica Molecolare"
       ]
     },
     {
@@ -51,8 +43,6 @@
         "Sale Temporale"
       ],
       "techniques": [
-        "Cottura Olografica Quantum Fluttuante",
-        "Cottura a Vapore Termocinetica Multipla",
         "Affumicatura tramite Big Bang Microcosmico",
         "Marinatura tramite Reazioni d'Antimateria Diluite"
       ]
@@ -68,7 +58,6 @@
       ],
       "techniques": [
         "Amalgamazione Sintetica Molecolare",
-        "Incisione Elettromagnetica Plasmica",
         "Sferificazione Filamentare a Molecole Vibrazionali",
         "Impasto Gravitazionale Vorticoso"
       ]
@@ -84,6 +73,7 @@
       ],
       "techniques": [
         "Affumicatura Polarizzata a Freddo Iperbarico",
+        "Affumicatura Psionica Sensoriale",
         "Sferificazione Filamentare a Molecole Vibrazionali"
       ]
     },
@@ -110,10 +100,7 @@
         "Nettare di Sirena",
         "Essenza di Vuoto"
       ],
-      "techniques": [
-        "Bollitura Entropica Sincronizzata",
-        "Saltare in Padella Classica"
-      ]
+      "techniques": []
     },
     {
       "name": "Microcosmo in un Boccone",
@@ -130,9 +117,7 @@
         "Essenza di Speziaria"
       ],
       "techniques": [
-        "Impasto a Campi Magnetici Dualistici",
-        "Decostruzione Magnetica Risonante",
-        "Cryo-Tessitura Energetica Polarizzata"
+        "Impasto a Campi Magnetici Dualistici"
       ]
     },
     {
@@ -148,7 +133,6 @@
       ],
       "techniques": [
         "Fermentazione Quantico Biometrica",
-        "Congelazione Iperdimensionalmente Stratificata",
         "Incisione Elettromagnetica Plasmica"
       ]
     },
@@ -166,7 +150,6 @@
         "Sale Temporale"
       ],
       "techniques": [
-        "Fermentazione Psionica Energetica",
         "Affumicatura a Stratificazione Quantica"
       ]
     }

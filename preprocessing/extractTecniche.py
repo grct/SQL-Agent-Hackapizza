@@ -1,6 +1,6 @@
 import os
 import json
-from typing import Dict, List
+from typing import Dict, List, Optional
 from langchain_ibm import WatsonxLLM
 from langchain.chat_models import ChatOpenAI
 from langchain_community.document_loaders import PyPDFLoader
@@ -25,6 +25,16 @@ class Restaurant(BaseModel):
 class MenuResponse(BaseModel):
     piatti: List[Dish] = Field(description="Lista dei piatti nel menu")
     ristorante: Restaurant = Field(description="Ristorante del menu")
+
+
+class Tecniche(BaseModel):
+    tipo: str = Field(description="Categoria di Tecnica")
+    descrizione: str = Field(description="Nome della Tecnica")
+    vantaggi: Optional[str] = Field(default="", description="Riassunto dei vantaggi")
+    svantaggi: Optional[str] = Field(default="Svantaggi")  # Cambiato da str a Optional[str] con valore di default
+
+class TecnicheList(BaseModel):
+    tecnicheList: List[Tecniche] = Field(description="Lista Delle Tecniche di Preparazione")
 
 
 openai.api_key = os.environ["OPENAI_API_KEY"]
@@ -56,45 +66,18 @@ class MenuProcessor:
         )
 
         # Set up the parser with our Pydantic model
-        self.parser = JsonOutputParser(pydantic_object=MenuResponse)
+        self.parser = JsonOutputParser(pydantic_object=TecnicheList)
 
         # Create prompt template with parser instructions
         self.extract_prompt = PromptTemplate(
             template="""
-                Analizza il menu per recuperare le informazioni sul ristorante:
-                - Il nome del ristorante
-                - Il nome della chef
-                - La lista di Skill e Certificazioni con il proprio livello
-                
-                Il livello delle Skill può essere anche in numero romano quindi convertilo.
-                
-                
-                Analizza i piatti del menù per recuperare queste informazioni:
-                - Il nome del piatto
-                - La lista degli ingredienti sotto la sezione "Ingredienti"
-                - La lista delle tecniche sotto la sezione "Tecniche", puoi scegliere solo tra queste tecniche: Le tecniche possono essere SOLO tra queste:
-                    Marinatura a Infusione Gravitazionale
-                    Marinatura Temporale Sincronizzata
-                    Marinatura Psionica
-                    Marinatura tramite Reazioni d'Antimateria Diluite
-                    Marinatura Sotto Zero a Polarita Inversa
-                    Affumicatura a Stratificazione Quantica
-                    Affumicatura Temporale Risonante
-                    Affumicatura Psionica Sensoriale
-                    Affumicatura tramite Big Bang Microcosmico
-                    Affumicatura Polarizzata a Freddo Iperbarico
-                    Fermentazione Quantica a Strati Multiversali
-                    Fermentazione Temporale Sincronizzata
-                    Fermentazione Psionica Energetica
-                    Fermentazione tramite Singolarita
-                    Fermentazione Quantico Biometrica
-                    Impasto Gravitazionale Vorticoso
-                    Amalgamazione Sintetica Molecolare
-                    Impasto a Campi Magnetici Dualistici
-                    Sinergia Elettro-Osmotica Programmabile
-                    Modellatura Onirica Tetrazionale
+                Estrai le tecniche e preparazioni recuperando le seguenti informazioni per ogni tecnica che trovi:
+                - Categoria di Tecnica/Preparazione (ad esempio Marinatura)
+                - Nome Categoria (ad esempio  Marinatura a Infusione Gravitazionale)
+                - Vantaggi : riassunto corto dei vantaggi della tecnica
+                - Svantaggi: riassunto corto degli svantaggi della tecnica
             
-
+                
                 {format_instructions}
 
                 menu:
@@ -104,7 +87,7 @@ class MenuProcessor:
             partial_variables={"format_instructions": self.parser.get_format_instructions()}
         )
 
-    def save_to_json(self, menu_name: str, data: MenuResponse):
+    def save_to_json(self, menu_name: str, data: TecnicheList):
         """
         Salva i risultati in un file JSON nella cartella 'json'.
 
@@ -135,18 +118,18 @@ class MenuProcessor:
         pages = loader.load()
 
         # Unisci il testo di tutte le pagine
-        text = " ".join([page.page_content for page in pages])
+        text = " ".join([page.page_content for page in pages[9:]])
 
         # Create and execute the chain with the parser
         chain = self.extract_prompt | self.llm | self.parser
 
         try:
             result = chain.invoke({"text": text})
-            menu_response = MenuResponse(**result)
+            menu_response = TecnicheList(**result)
             return menu_response
         except Exception as e:
             print(f"Errore nell'elaborazione del menu {pdf_path}: {str(e)}")
-            return MenuResponse(piatti=[])
+            return ""
 
     def process_directory(self, directory_path: str) -> Dict[str, MenuResponse]:
         """
@@ -161,6 +144,7 @@ class MenuProcessor:
                     print("Process file:  " + str(pdf_file.name))
                     menu_response = self.process_pdf(str(pdf_file))
                     results[pdf_file.name] = menu_response
+                    print(menu_response)
 
                     # Salva i risultati in un file JSON
                     self.save_to_json(pdf_file.name, menu_response)
@@ -174,9 +158,4 @@ class MenuProcessor:
 
 if __name__ == "__main__":
     processor = MenuProcessor()
-    results = processor.process_directory("../docs/menu/")
-
-    # Stampa un riepilogo dei risultati
-    for pdf_name, menu_response in results.items():
-        print(f"\nmenu: {pdf_name}")
-        print(f"Numero di piatti estratti: {len(menu_response.piatti)}")
+    results = processor.process_directory("../docs/")

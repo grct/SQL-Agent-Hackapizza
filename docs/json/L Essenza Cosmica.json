@@ -7,7 +7,8 @@
         "Pane di Luce",
         "Amido di Stellarion",
         "Nettare di Sirena",
-        "Salsa Szechuan"
+        "Salsa Szechuan",
+        "Verdure stagionali"
       ],
       "techniques": [
         "Marinatura Temporale Sincronizzata"
@@ -35,7 +36,7 @@
         "Colonia di Mycoflora",
         "Shard di Prisma Stellare",
         "Alghe Bioluminescenti",
-        "Orbitali",
+        "Funghi Orbitali",
         "Essenza di Speziaria"
       ],
       "techniques": [
@@ -50,7 +51,8 @@
         "Radici di Singolarità",
         "Foglie di Mandragora",
         "Salsa Szechuan",
-        "Baccacedro"
+        "Baccacedro",
+        "Spore Quantiche"
       ],
       "techniques": []
     },
@@ -65,7 +67,7 @@
         "Shard di Materia Oscura",
         "Pane di Luce",
         "Nettare di Sirena",
-        "Salsa Szechuan interdimensionale",
+        "Salsa Szechuan",
         "Carne di Balena spaziale"
       ],
       "techniques": [
@@ -143,7 +145,8 @@
         "Lacrime di Unicorno"
       ],
       "techniques": [
-        "Affumicatura Temporale Risonante"
+        "Affumicatura Temporale Risonante",
+        "Amalgamazione Sintetica Molecolare"
       ]
     }
   ],
@@ -164,7 +167,7 @@
         "Gravitazionali": "1"
       },
       {
-        "LTK": "3"
+        "Certificazione LTK": "3"
       }
     ]
   }

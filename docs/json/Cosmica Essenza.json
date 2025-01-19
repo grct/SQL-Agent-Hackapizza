@@ -44,10 +44,7 @@
         "Spore Quantiche",
         "Essenza di Speziaria"
       ],
-      "techniques": [
-        "Cryo-Tessitura Energetica Polarizzata",
-        "Sferificazione a Gravità Psionica Variabile"
-      ]
+      "techniques": []
     },
     {
       "name": "Sinfonia Cosmica di Andromeda",
@@ -58,9 +55,7 @@
         "Lacrime di Andromeda",
         "Petali di Eco"
       ],
-      "techniques": [
-        "Sferificazione a Gravità Psionica Variabile"
-      ]
+      "techniques": []
     },
     {
       "name": "Risveglio Cosmico: Una Sinfonia di Sapori Universali",
@@ -128,7 +123,7 @@
         "Spezie Melange"
       ],
       "techniques": [
-        "Cryo-Tessitura Energetica Polarizzata"
+        "Sinergia Elettro-Osmotica Programmabile"
       ]
     },
     {
@@ -152,22 +147,28 @@
     "chef": "Aurelio \"Starweaver\" Celestini",
     "skill": [
       {
-        "Psionica": "5"
+        "name": "Sensibilità Psionica",
+        "level": "5"
       },
       {
-        "Quantica": "9"
+        "name": "Eccellenza Quantica",
+        "level": "9"
       },
       {
-        "Gravitazionale": "3"
+        "name": "Controllo Gravitazionale",
+        "level": "3"
       },
       {
-        "Antimateria": "1"
+        "name": "Comprensione dell'Antimateria",
+        "level": "1"
       },
       {
-        "Cucina nella galassia": "3"
+        "name": "Tecniche all'avanguardia",
+        "level": "3"
       },
       {
-        "Luce": "2"
+        "name": "Luce",
+        "level": "2"
       }
     ]
   }
