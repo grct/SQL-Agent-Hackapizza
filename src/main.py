@@ -1,15 +1,16 @@
-from typing import TypedDict, Annotated
+from typing import TypedDict, Annotated, List, Dict
 
 from langgraph.constants import START
 from langgraph.prebuilt import ToolNode, tools_condition
 
+from src.models import State
+from src.nodes.merger import merger
 from src.settings import llm,vn
 from langgraph.graph import add_messages, StateGraph
 
 from src.tools.ingredienti import tool_ingredienti
 from src.tools.tecniche import tool_tecniche
 from src.training import training
-from src.nodes.evaluator import tool_evaluator
 
 
 # todo
@@ -19,9 +20,6 @@ from src.nodes.evaluator import tool_evaluator
 
 
 training(vn)
-
-class State(TypedDict):
-    messages: Annotated[list, add_messages]
 
 
 graph_builder = StateGraph(State)
@@ -38,15 +36,15 @@ def router(state: State):
     return {"messages": [llm_with_tools.invoke(state["messages"])]}
 
 
-
 graph_builder.add_node("router", router)
 graph_builder.add_node("tools", tool_node)
+graph_builder.add_node("merger", merger)
 #graph_builder.add_node("evaluator", tool_evaluator)
 
 
 graph_builder.add_edge(START, "router")
 graph_builder.add_conditional_edges("router", tools_condition)
-graph_builder.add_edge("tools", "router")
+graph_builder.add_edge("tools", "merger")
 
 # todo fare end grafo
 

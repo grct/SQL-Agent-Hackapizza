@@ -1,6 +1,6 @@
 import os
 
-folder_path = r'..\docs\vanna'
+folder_path = r'../docs/vanna'
 
 def training(vn):
     vn.connect_to_mysql(host=os.getenv('DB_HOST'), dbname=os.getenv('DB_NAME'), user=os.getenv('DB_USER'),

@@ -1,6 +1,6 @@
-Ecco la documentazione per ogni colonna della tabella Tecniche nel formato colonna = spiegazione
-Tecniche.Id = id della tecnica
-Tecniche.Descrizione = nome e/o descrizione della tecnica
-Tecniche.Tipo = tipo della tecnica
-Tecniìche.Vantaggi = vantaggi della tecnica
-Tecniche.Svantaggi = svantaggi della tecnica
+Ecco la documentazione per ogni colonna della tabella TECNICHE nel formato colonna = spiegazione
+TECNICHE.id = id della tecnica
+TECNICHE.descrizione = nome identificativo della tecnica
+TECNICHE.tipo = tipologia della tecnica
+TECNICHE.vantaggi = vantaggi della tecnica
+TECNICHE.svantaggi = svantaggi della tecnica
