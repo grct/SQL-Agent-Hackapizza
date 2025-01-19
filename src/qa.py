@@ -1,5 +1,6 @@
 import csv
 import json
+from tqdm import tqdm
 
 with open("../docs/domande.csv", "r") as f:
     # Read the file csv
@@ -15,11 +16,18 @@ with open("../docs/dish_mapping.json", "r") as f:
 results = []
 default_value = 50
 # Salvare i risultati
-for q in questions:
+for q in tqdm(questions, desc="Processing questions"):
     print("Domanda:", q)
     # RISPOSTA
     result = None
-    results.append(result ? result : default_value)
+    try:
+        pass
+    except Exception as e:
+        pass
+
+    if result is None:
+        result = default_value
+    results.append(result)
 
 # Salvare i risultati
 with open("risultati.csv", "w") as f:
