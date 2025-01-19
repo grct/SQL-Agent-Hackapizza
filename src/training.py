@@ -18,7 +18,9 @@ def training(vn):
 
     vn.train(question="Quali sono i piatti che includono le Chocobo Wings come ingrediente?",
              sql="""
-                        SELECT 
+                        SELECT id_piatto FROM PIATTI_INGREDIENTI PI
+                        INNER JOIN INGREDIENTI I ON PI.id_ingrediente = I.id
+                        WHERE I.nome LIKE '%Chocobo%' 
                     """)
     vn.train(question="Mostra tutti i telefoni con una valutazione maggiore di 4.5",
              sql="""
