@@ -15,7 +15,7 @@ def tool_ingredienti(ingrediente: str):
     query = f"Trova i Piatti che utilizzano l'ingrediente {ingrediente}"
 
     sem.acquire()
-    result = vn.ask(query)
+    result = vn.ask(query, visualize=False)
     sem.release()
 
     if len(result):

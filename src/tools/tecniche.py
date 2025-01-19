@@ -20,7 +20,7 @@ def tool_tecniche(tecnica: str):
     """
 
     sem.acquire()
-    result = vn.ask(f"Trova i Piatti che utilizzano la Tecnica {tecnica}")
+    result = vn.ask(f"Trova i Piatti che utilizzano la Tecnica {tecnica}", visualize=False)
     sem.release()
 
     if len(result):

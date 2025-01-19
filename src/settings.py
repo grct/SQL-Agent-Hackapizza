@@ -1,4 +1,7 @@
 import os
+from typing import Union
+
+import pandas as pd
 from langchain_ibm import ChatWatsonx
 import pymysql
 from vanna.openai import OpenAI_Chat
@@ -21,7 +24,6 @@ class MyVanna(ChromaDB_VectorStore, OpenAI_Chat):
     def __init__(self, config=None, allow_llm_to_see_data=True):
         ChromaDB_VectorStore.__init__(self, config=config)
         OpenAI_Chat.__init__(self, config=config)
-
 
 
 vn = MyVanna(config={'api_key': os.getenv('OPENAI_API_KEY'), 'model': 'gpt-4o-mini', 'temperature':0})

@@ -18,7 +18,7 @@ def tool_licenze(licenza: str, livello: int):
     query = f"Trova i Piatti dei Ristoranti che utilizzano la licenza {licenza} con il livello {livello}"
 
     sem.acquire()
-    result = vn.ask(query)
+    result = vn.ask(query, visualize=False)
     sem.release()
 
     if len(result):

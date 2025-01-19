@@ -24,7 +24,7 @@ def tool_sostanza(sostanza: str):
     """
 
     sem.acquire()
-    result = vn.ask(f"Trova i Piatti che utilizzano la Sostanza {sostanza}")
+    result = vn.ask(f"Trova i Piatti che utilizzano la Sostanza {sostanza}", visualize=False)
     sem.release()
 
     if len(result):
