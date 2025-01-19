@@ -30,6 +30,5 @@ def tool_tecniche(tecnica: str, state: Annotated[dict, InjectedState]):
     res = vn.ask(f"Trova i Piatti che utilizzano la Tecnica {tecnica}")
     sem.release()
 
-    print("ciao", res[1])
 
     return res[1]
