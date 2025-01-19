@@ -1,0 +1,146 @@
+{
+  "piatti": [
+    {
+      "name": "Rivisitazione del Kraken sotto Molecole",
+      "ingredients": [
+        "Carne di Kraken",
+        "Colonia di Mycoflora",
+        "Spezie Melange",
+        "Fusilli del Vento",
+        "Foglie di Mandragora",
+        "Polvere di Crononite",
+        "Pane di Luce",
+        "Fibra di Sintetex"
+      ],
+      "techniques": [
+        "Amalgamazione Sintetica Molecolare"
+      ]
+    },
+    {
+      "name": "Sinfonia Celestiale",
+      "ingredients": [
+        "Gnocchi del Crepuscolo",
+        "Muffa Lunare",
+        "Pane degli Abissi",
+        "Uova di Fenice",
+        "Polvere di Stelle",
+        "Teste di Idra",
+        "Petali di Eco",
+        "Biscotti della Galassia"
+      ],
+      "techniques": []
+    },
+    {
+      "name": "Sinfonia Cosmica di Sapori",
+      "ingredients": [
+        "Liane di Plasmodio",
+        "Teste di Idra",
+        "Alghe Bioluminescenti",
+        "Biscotti della Galassia",
+        "Lattuga Namecciana",
+        "Shard di Materia Oscura",
+        "Nduja Fritta Tanto",
+        "Nettare di Sirena"
+      ],
+      "techniques": [
+        "Fermentazione Psionica Energetica"
+      ]
+    },
+    {
+      "name": "Galassia di Sogni Cosmogastronomici",
+      "ingredients": [
+        "Spaghi del Sole",
+        "Shard di Prisma Stellare",
+        "Nettare di Sirena",
+        "Nebbia Arcobaleno",
+        "Baccacedro",
+        "Erba Pipa"
+      ],
+      "techniques": [
+        "Fermentazione Quantico Biometrica"
+      ]
+    },
+    {
+      "name": "Entropia Eterna",
+      "ingredients": [
+        "Carne di balena spaziale",
+        "Teste di Idra",
+        "Radici di gravità",
+        "Fibra di Sintetex",
+        "Biscotti della galassia",
+        "Polvere di stelle"
+      ],
+      "techniques": [
+        "Affumicatura a Stratificazione Quantica"
+      ]
+    },
+    {
+      "name": "Valzer delle Stelle",
+      "ingredients": [
+        "Carne di Drago",
+        "Spaghi del Sole",
+        "Carne di Kraken",
+        "Pane di Luce",
+        "Uova di Fenice",
+        "Amido di Stellarion",
+        "Polvere di Pulsar",
+        "Spore Quantiche",
+        "Nduja Fritta Tanto"
+      ],
+      "techniques": [
+        "Affumicatura Psionica Sensoriale",
+        "Fermentazione Quantico Biometrica"
+      ]
+    },
+    {
+      "name": "Sinfonia di Galassie Riflesse",
+      "ingredients": [
+        "Fusilli del Vento",
+        "Carne di Kraken",
+        "Funghi dell’Etere",
+        "Shard di Materia Oscura",
+        "Foglie di Mandragora",
+        "Colonia di Mycoflora",
+        "Petali di Eco"
+      ],
+      "techniques": []
+    },
+    {
+      "name": "Valzer Cosmico di Asteria",
+      "ingredients": [
+        "Carne di Xenodonte",
+        "Pane di Luce",
+        "Nettare di Sirena",
+        "Frammenti di Supernova",
+        "Uova di Fenice",
+        "Erba Pipa"
+      ],
+      "techniques": [
+        "Affumicatura a Stratificazione Quantica"
+      ]
+    }
+  ],
+  "ristorante": {
+    "name": "Le Stelle Danzanti",
+    "pianeta": "Crocevia Dimensionale",
+    "chef": "Asteria Nova",
+    "skill": [
+      {
+        "name": "Conoscenza Tecnologica",
+        "livello": "4"
+      },
+      {
+        "name": "Percezione Psionica",
+        "livello": "3"
+      },
+      {
+        "name": "Manipolazione Gravitazionale",
+        "livello": "2"
+      },
+      {
+        "name": "Comprensione dello Spettro Elettromagnetico",
+        "livello": "3"
+      }
+    ]
+  }
+}

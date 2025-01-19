@@ -1,0 +1,163 @@
+{
+  "piatti": [
+    {
+      "name": "Nebulosa Galattica",
+      "ingredients": [
+        "Radici di Gravità",
+        "Alghe Bioluminescenti",
+        "Foglie di Nebulosa",
+        "Gnocchi del Crepuscolo",
+        "Essenza di Tachioni"
+      ],
+      "techniques": [
+        "Affumicatura Psionica Sensoriale"
+      ]
+    },
+    {
+      "name": "Sinfonia Cosmica di Proteine Interstellari",
+      "ingredients": [
+        "Carne di Balena spaziale",
+        "Carne di Mucca",
+        "Carne di Xenodonte",
+        "Pane degli Abissi",
+        "Funghi dell’Etere"
+      ],
+      "techniques": [
+        "Marinatura Psionica"
+      ]
+    },
+    {
+      "name": "L'Estasi Cosmica di Nova",
+      "ingredients": [
+        "Polvere di Pulsar",
+        "Foglie di Mandragora",
+        "Carne di Balena spaziale",
+        "Pane di Luce",
+        "Granuli di Nebbia Arcobaleno",
+        "Funghi Orbitali",
+        "Sale Temporale"
+      ],
+      "techniques": []
+    },
+    {
+      "name": "Viaggio Galattico: Sinfonia dei Sensi",
+      "ingredients": [
+        "Shard di Prisma Stellare",
+        "Baccacedro",
+        "Carne di Xenodonte",
+        "Carne di Kraken",
+        "Biscotti della Galassia",
+        "Amido di Stellarion",
+        "Riso di Cassandra",
+        "Essenza di Speziaria"
+      ],
+      "techniques": [
+        "Affumicatura a Stratificazione Quantica"
+      ]
+    },
+    {
+      "name": "Cosmic Synchrony: Il Destino di Pulsar",
+      "ingredients": [
+        "Polvere di Pulsar",
+        "Foglie di Mandragora",
+        "Spaghi del Sole",
+        "Farina di Nettuno",
+        "Plasma Vitale",
+        "Essenza di Tachioni"
+      ],
+      "techniques": [
+        "Marinatura Psionica"
+      ]
+    },
+    {
+      "name": "Il Crepuscolo dell’Unicorno",
+      "ingredients": [
+        "Shard di Materia Oscura",
+        "Radici di Gravità",
+        "Alghe Bioluminescenti",
+        "Amido di Stellarion",
+        "Lacrime di Unicorno"
+      ],
+      "techniques": [
+        "Fermentazione Psionica Energetica"
+      ]
+    },
+    {
+      "name": "Galassia di Sapore",
+      "ingredients": [
+        "Shard di Prisma Stellare",
+        "Colonia di Mycoflora",
+        "Lattuga Namecciana",
+        "Carne di Balena spaziale",
+        "Carne di Xenodonte",
+        "Carne di Kraken",
+        "Amido di Stellarion",
+        "Erba Pipa"
+      ],
+      "techniques": [
+        "Amalgamazione Sintetica Molecolare"
+      ]
+    },
+    {
+      "name": "Il Risveglio della Fenice sull'Arcobaleno d'Oceano",
+      "ingredients": [
+        "Polvere di Pulsar",
+        "Colonia di Mycoflora",
+        "Foglie di Nebulosa",
+        "Uova di Fenice",
+        "Pane degli Abissi",
+        "Granuli di Nebbia Arcobaleno",
+        "Nettare di Sirena",
+        "Essenza di Speziaria"
+      ],
+      "techniques": []
+    },
+    {
+      "name": "Il Viaggio Celeste",
+      "ingredients": [
+        "Polvere di Crononite",
+        "Lattuga Namecciana",
+        "Fibra di Sintetex",
+        "Carne di Kraken",
+        "Carne di Drago",
+        "Gnocchi del Crepuscolo",
+        "Muffa Lunare",
+        "Erba Pipa"
+      ],
+      "techniques": [
+        "Fermentazione Quantico Biometrica"
+      ]
+    },
+    {
+      "name": "Luce e Ombra di Nomea Spaziale",
+      "ingredients": [
+        "Lattuga Namecciana",
+        "Carne di Balena spaziale",
+        "Fusilli del Vento",
+        "Pane di Luce",
+        "Lacrime di Unicorno",
+        "Essenza di Speziaria"
+      ],
+      "techniques": []
+    }
+  ],
+  "ristorante": {
+    "name": "Le Stelle che Ballano",
+    "pianeta": "Krypton",
+    "chef": "Alessandra Nova",
+    "skill": [
+      {
+        "Psionica": "4"
+      },
+      {
+        "Quantistica": "5"
+      },
+      {
+        "Tecnologico": "3"
+      },
+      {
+        "Gravitazionale": "1"
+      }
+    ]
+  }
+}

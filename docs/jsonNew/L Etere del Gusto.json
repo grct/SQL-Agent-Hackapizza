@@ -1,0 +1,185 @@
+{
+  "piatti": [
+    {
+      "name": "Galassia di Sapori Eterei",
+      "ingredients": [
+        "Riso di Cassandra",
+        "Foglie di Nebulosa",
+        "Polvere di Stelle",
+        "Granuli di Nebbia Arcobaleno",
+        "Liane di plasmodio",
+        "Lacrime di Andromeda",
+        "Farina di Nettuno"
+      ],
+      "techniques": []
+    },
+    {
+      "name": "Il Risveglio del Drago Celeste",
+      "ingredients": [
+        "Riso di Cassandra",
+        "Carne di Drago",
+        "Carne di Mucca",
+        "Teste di Idra",
+        "Gnocchi del Crepuscolo",
+        "Radici di Singolarità",
+        "Spore Quantiche",
+        "Shard di Prisma Stellare",
+        "Essenza di Tachioni"
+      ],
+      "techniques": [
+        "Fermentazione Quantico Biometrica",
+        "Sinergia Elettro-Osmotica Programmabile"
+      ]
+    },
+    {
+      "name": "L'Abbraccio del Cosmo",
+      "ingredients": [
+        "Carne di Xenodonte",
+        "Carne di Kraken",
+        "Teste di Idra",
+        "Salsa Szechuan",
+        "Polvere di Stelle"
+      ],
+      "techniques": []
+    },
+    {
+      "name": "Cosmic Harmony Infusion",
+      "ingredients": [
+        "Carne di Balena Spaziale",
+        "Carne di Kraken",
+        "Pane degli Abissi",
+        "Pane di Luce",
+        "Carne di Xenodonte",
+        "Petali di Eco",
+        "Polvere di Crononite"
+      ],
+      "techniques": [
+        "Affumicatura a Stratificazione Quantica"
+      ]
+    },
+    {
+      "name": "Concordanza Cosmica - Sinfonia di Sapori Multidimensionali",
+      "ingredients": [
+        "Farina di Nettuno",
+        "Carne di Balena Spaziale",
+        "Radici di Singolarità",
+        "Shard di Prisma Stellare",
+        "Pane di Luce",
+        "Uova di Fenice",
+        "Nettare di Sirena",
+        "Essenza di Tachioni"
+      ],
+      "techniques": [
+        "Affumicatura Psionica Sensoriale"
+      ]
+    },
+    {
+      "name": "Universo Incantato: Sinfonia dei Gusti Cosmogonici",
+      "ingredients": [
+        "Spaghi del Sole",
+        "Polvere di Pulsar",
+        "Foglie di Nebulosa",
+        "Lattuga Namecciana",
+        "Essenza di Speziaria",
+        "Nettare di Sirena"
+      ],
+      "techniques": []
+    },
+    {
+      "name": "Eclissi Quantica: Viaggio nei Reami del Gusto",
+      "ingredients": [
+        "Funghi Orbitali",
+        "Farina di Nettuno",
+        "Carne di Mucca",
+        "Fibra di Sintetex",
+        "Alghe Bioluminescenti",
+        "Polvere di Stelle",
+        "Foglie di Mandragora",
+        "Amido di Stellarion",
+        "Colonie di Mycoflora"
+      ],
+      "techniques": []
+    },
+    {
+      "name": "Sinfonia Multiversale in Otto Movimenti",
+      "ingredients": [
+        "Brodo di Plasmodio",
+        "Liane di Plasmodio",
+        "Alghe Bioluminescenti",
+        "Lattuga Namecciana",
+        "Risotto di Cassandra",
+        "Essenza di Tachioni",
+        "Teste di Idra",
+        "Muffa Lunare"
+      ],
+      "techniques": [
+        "Impasto a Campi Magnetici Dualistici"
+      ]
+    },
+    {
+      "name": "La Sinfonia dell'Universo",
+      "ingredients": [
+        "Spaghi del Sole",
+        "Carne di Drago",
+        "Carne di Mucca",
+        "Biscotti della Galassia",
+        "Farina di Nettuno",
+        "Vero Ghiaccio",
+        "Nettare di Sirena",
+        "Salsa Szechuan"
+      ],
+      "techniques": [
+        "Sinergia Psionica",
+        "Impasto Gravitazionale Vorticoso"
+      ]
+    },
+    {
+      "name": "Sinfonia dell'Universo Morente",
+      "ingredients": [
+        "Riso di Cassandra",
+        "Granuli di Nebbia Arcobaleno",
+        "Carpaccio di Funghi Orbitali",
+        "Gnocchi del Crepuscolo",
+        "Nduja Fritta Tanto",
+        "Cristalli di Memoria",
+        "Liane di Plasmodio"
+      ],
+      "techniques": []
+    }
+  ],
+  "ristorante": {
+    "name": "L'Etere del Gusto",
+    "pianeta": "Pandora",
+    "chef": "Pierino \"Il Custode\" Temporali",
+    "skill": [
+      {
+        "name": "LTK",
+        "level": "3"
+      },
+      {
+        "name": "Psionica",
+        "level": "5"
+      },
+      {
+        "name": "Temporale",
+        "level": "2"
+      },
+      {
+        "name": "Magnetica",
+        "level": "1"
+      },
+      {
+        "name": "Luce",
+        "level": "2"
+      },
+      {
+        "name": "Gravitazionale",
+        "level": "1"
+      },
+      {
+        "name": "Antimateria",
+        "level": "1"
+      }
+    ]
+  }
+}

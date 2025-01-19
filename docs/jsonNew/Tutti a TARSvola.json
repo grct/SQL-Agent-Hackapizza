@@ -1,0 +1,182 @@
+{
+  "piatti": [
+    {
+      "name": "Galassia Sensoriale",
+      "ingredients": [
+        "Frammenti di Supernova",
+        "Pane di Luce",
+        "Spaghi del Sole",
+        "Riso di Cassandra",
+        "Nettare di Sirena",
+        "Petali di Eco"
+      ],
+      "techniques": [
+        "Marinatura Psionica"
+      ]
+    },
+    {
+      "name": "Cosmopastico di Meraviglie Celesti",
+      "ingredients": [
+        "Carne di Kraken",
+        "Uova di Fenice",
+        "Carne di Drago",
+        "Pane di Luce",
+        "Spaghi del Sole",
+        "Riso di Cassandra",
+        "Spezie Melange"
+      ],
+      "techniques": [
+        "Impasto Gravitazionale Vorticoso",
+        "Sinergia Elettro-Osmotica Programmabile",
+        "Marinatura Psionica"
+      ]
+    },
+    {
+      "name": "Sinfonia Cosmica all'Alba di Fenice",
+      "ingredients": [
+        "Cristalli di Nebulite",
+        "Uova di Fenice",
+        "Carne di Mucca",
+        "Carne di Kraken",
+        "Funghi dell’Etere",
+        "Essenza di Tachioni"
+      ],
+      "techniques": [
+        "Impasto Gravitazionale Vorticoso"
+      ]
+    },
+    {
+      "name": "Sinfonia Cosmica alla Szechuan",
+      "ingredients": [
+        "Lattuga Namecciana",
+        "Colonia di Mycoflora",
+        "Teste di Idra",
+        "Granuli di Nebbia Arcobaleno",
+        "Plasma Vitale",
+        "Salsa Szechuan"
+      ],
+      "techniques": [
+        "Impasto Gravitazionale Vorticoso"
+      ]
+    },
+    {
+      "name": "Sinfonia Cosmica: Il Crescendo delle Stelle",
+      "ingredients": [
+        "Radici di Gravità",
+        "Radici di Singolarità",
+        "Liane di Plasmodio",
+        "Carne di Balena spaziale",
+        "Uova di Fenice",
+        "Carne di Kraken",
+        "Gnocchi del Crepuscolo",
+        "Pane di Luce",
+        "Funghi Orbitali",
+        "Petali di Eco"
+      ],
+      "techniques": [
+        "Amalgamazione Sintetica Molecolare"
+      ]
+    },
+    {
+      "name": "Cosmofantasia di Terra e Mare nel Vortice delle Stelle",
+      "ingredients": [
+        "Shard di Materia Oscura",
+        "Lattuga Namecciana",
+        "Radici di Gravità",
+        "Carne di Kraken",
+        "Carne di Mucca",
+        "Carne di Balena spaziale",
+        "Amido di Stellarion",
+        "Nettare di Sirena",
+        "Essenza di Tachioni"
+      ],
+      "techniques": [
+        "Impasto Gravitazionale Vorticoso",
+        "Marinatura Psionica"
+      ]
+    },
+    {
+      "name": "Cosmic Symphony di Ghiaccio e Fuoco",
+      "ingredients": [
+        "Vero Ghiaccio",
+        "Colonia di Mycoflora",
+        "Radici di Gravità",
+        "Pane di Luce",
+        "Lacrime di Andromeda",
+        "Nduja Fritta Tanto"
+      ],
+      "techniques": [
+        "Amalgamazione Sintetica Molecolare",
+        "Marinatura Psionica"
+      ]
+    },
+    {
+      "name": "Odissea Celestiale",
+      "ingredients": [
+        "Cristalli di Memoria",
+        "Fibra di Sintetex",
+        "Carne di Drago",
+        "Biscotti della Galassia",
+        "Pane degli Abissi",
+        "Gnocchi del Crepuscolo",
+        "Muffa Lunare",
+        "Spezie Melange"
+      ],
+      "techniques": [
+        "Impasto Gravitazionale Vorticoso",
+        "Amalgamazione Sintetica Molecolare"
+      ]
+    },
+    {
+      "name": "Il Banchetto delle Galassie",
+      "ingredients": [
+        "Lattuga Namecciana",
+        "Liane di Plasmodio",
+        "Carne di Kraken",
+        "Carne di Mucca",
+        "Pane di Luce",
+        "Pane degli Abissi",
+        "Funghi dell’Etere",
+        "Essenza di Speziaria"
+      ],
+      "techniques": [
+        "Sinergia Elettro-Osmotica Programmabile"
+      ]
+    },
+    {
+      "name": "Cosmologia Terrestre: Viaggio in Otto Dimensioni",
+      "ingredients": [
+        "Baccacedro",
+        "Radici di Gravità",
+        "Foglie di Mandragora",
+        "Carne di Mucca",
+        "Salsa Szechuan"
+      ],
+      "techniques": [
+        "Sinergia Elettro-Osmotica Programmabile"
+      ]
+    }
+  ],
+  "ristorante": {
+    "name": "Tutti a TARSvola",
+    "pianeta": "Tatooine",
+    "chef": "Isabella Quantum-Stellari",
+    "skill": [
+      {
+        "Psionica": "4"
+      },
+      {
+        "Quantistica": "8"
+      },
+      {
+        "Luce": "2"
+      },
+      {
+        "Gravitazionale": "1"
+      },
+      {
+        "Antimateria": "1"
+      }
+    ]
+  }
+}

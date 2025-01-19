@@ -1,0 +1,182 @@
+{
+  "piatti": [
+    {
+      "name": "Universo in Fluttuazione",
+      "ingredients": [
+        "Vero Ghiaccio",
+        "Scorza artica",
+        "Farina di Nettuno",
+        "Pane di Luce",
+        "Carne di Drago",
+        "Lacrime di Unicorno",
+        "Amido di Stellarion"
+      ],
+      "techniques": [
+        "Fermentazione Quantica a Strati Multiversali"
+      ]
+    },
+    {
+      "name": "Sinfonia Astrale - Risotto Multiversale con Risacca Celeste",
+      "ingredients": [
+        "Riso di Cassandra",
+        "Brodo di Teste di Idra",
+        "Carne di Xenodonte",
+        "Polvere di Pulsar",
+        "Lattuga Namecciana",
+        "Amido di Stellarion",
+        "Lacrime di Andromeda",
+        "Farina di Nettuno"
+      ],
+      "techniques": [
+        "Fermentazione Psionica Energetica"
+      ]
+    },
+    {
+      "name": "Sinfonia Temporale Galattica",
+      "ingredients": [
+        "Colonies di Mycoflora",
+        "Fibra di Sintetex",
+        "Cristalli di Nebulite",
+        "Spore Quantiche",
+        "Bacche di Baccacedro",
+        "Sale Temporale"
+      ],
+      "techniques": [
+        "Gravitazionale"
+      ]
+    },
+    {
+      "name": "Sinfonia del Multiverso di Gusto",
+      "ingredients": [
+        "Amido di Stellarion",
+        "Fusilli del Vento",
+        "Granuli di Nebbia Arcobaleno",
+        "Carne di Xenodonte",
+        "Carne di Kraken",
+        "Carne di Mucca",
+        "Erba Pipa"
+      ],
+      "techniques": [
+        "Fermentazione Psionica Energetica"
+      ]
+    },
+    {
+      "name": "Sinfonia Cosmica",
+      "ingredients": [
+        "Shard di Prisma Stellare",
+        "Granuli di Nebbia Arcobaleno",
+        "Colonia di Mycoflora",
+        "Carne di Balena Spaziale",
+        "Radici di Singolarità",
+        "Pane degli Abissi",
+        "Funghi dell’Etere",
+        "Baccacedro caramellato"
+      ],
+      "techniques": [
+        "Affettamento a Pulsazioni Quantistiche"
+      ]
+    },
+    {
+      "name": "Danza Cosmica al Crepuscolo",
+      "ingredients": [
+        "Gnocchi del Crepuscolo",
+        "Carne di Drago",
+        "Muffa Lunare",
+        "Polvere di Stelle",
+        "Essenza di Vuoto"
+      ],
+      "techniques": [
+        "Fermentazione Quantico Biometrica"
+      ]
+    },
+    {
+      "name": "Sinfonia Astrale",
+      "ingredients": [
+        "Riso di Cassandra",
+        "Pane degli Abissi",
+        "Gnocchi del Crepuscolo",
+        "Nduja Fritta",
+        "Uova di Fenice",
+        "Lacrime di Unicorno",
+        "Frammenti di Supernova"
+      ],
+      "techniques": []
+    },
+    {
+      "name": "Dimensioni di Sapori Infusi",
+      "ingredients": [
+        "Riso di Cassandra",
+        "Carne di Mucca",
+        "Pane di Luce",
+        "Colonia di Mycoflora",
+        "Nettare di Sirena",
+        "Foglie di Nebulosa"
+      ],
+      "techniques": [
+        "Affumicatura Temporale Risonante",
+        "Fermentazione Psionica Energetica",
+        "Affumicatura Psionica Sensoriale"
+      ]
+    },
+    {
+      "name": "Cosmos Culinary Symphony",
+      "ingredients": [
+        "Biscotti della Galassia",
+        "Spaghi del Sole",
+        "Carne di Mucca",
+        "Salsa Szechuan",
+        "Amido di Stellarion",
+        "Radici di Gravità",
+        "Plasma Vitale",
+        "Uova di Fenice",
+        "Lattuga Namecciana",
+        "Vero Ghiaccio"
+      ],
+      "techniques": []
+    },
+    {
+      "name": "Portale delle Meraviglie",
+      "ingredients": [
+        "Pane di Luce",
+        "Carne di Balena spaziale",
+        "Amido di Stellarion",
+        "Carne di Drago",
+        "Radici di Singolarità",
+        "Radici di Gravità",
+        "Uovo di Fenice",
+        "Granuli di Nebbia Arcobaleno",
+        "Essenza di Speziaria",
+        "Vero Ghiaccio"
+      ],
+      "techniques": [
+        "Marinatura Temporale Sincronizzata",
+        "Decostruzione Interdimensionale Lovecraftiana"
+      ]
+    }
+  ],
+  "ristorante": {
+    "name": "L'Infinito in un Boccone",
+    "pianeta": "Krypton",
+    "chef": "Alessandro Quantum",
+    "skill": [
+      {
+        "Licenza Psionica": "II"
+      },
+      {
+        "Licenza Temporale": "II"
+      },
+      {
+        "Licenza Gravitazionale": "II"
+      },
+      {
+        "Licenza Quantistica": "7"
+      },
+      {
+        "Licenza Luce": "I"
+      },
+      {
+        "Licenza LTK": "VI+"
+      }
+    ]
+  }
+}

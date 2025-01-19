@@ -1,0 +1,166 @@
+{
+  "piatti": [
+    {
+      "name": "Il Ricordo del Fuoco Celeste",
+      "ingredients": [
+        "Farina di Nettuno",
+        "Carne di Drago",
+        "Lattuga Namecciana",
+        "Salsa Szechuan",
+        "Uova di Fenice",
+        "Spaghi del Sole",
+        "Shard di Materia Oscura"
+      ],
+      "techniques": [
+        "Amalgamazione Sintetica Molecolare"
+      ]
+    },
+    {
+      "name": "Sinfonia dei Ricordi Celesti",
+      "ingredients": [
+        "Carne di balena spaziale",
+        "Granuli di nebbia arcobaleno",
+        "Impasto gravitazionale vorticoso",
+        "Polvere di crononite",
+        "Cristalli di sale temporale"
+      ],
+      "techniques": []
+    },
+    {
+      "name": "Sinfonia del Cosmo",
+      "ingredients": [
+        "Brodo di Liane di Plasmodio",
+        "Funghi Orbitali",
+        "Fibra di Sintetex",
+        "Foglie di Nebulosa"
+      ],
+      "techniques": [
+        "Sinergia Elettro-Osmotica Programmabile"
+      ]
+    },
+    {
+      "name": "Rapsodia dei Ricordi Celesti",
+      "ingredients": [
+        "Croissant celestiale",
+        "Farina di Nettuno",
+        "Carne di Xenodonte",
+        "Carne di Mucca",
+        "Carne di Drago",
+        "Lacrime di Andromeda",
+        "Foglie di Nebulosa",
+        "Essenza di Speziaria"
+      ],
+      "techniques": [
+        "Impasto a Campi Magnetici Dualistici"
+      ]
+    },
+    {
+      "name": "Il Simposio degli Infiniti Ricordi",
+      "ingredients": [
+        "Pane degli Abissi",
+        "Carne di Balena spaziale",
+        "Carne di Xenodonte",
+        "Lacrime di Unicorno",
+        "Cristalli di Nebulite",
+        "Uova di Fenice",
+        "Granuli di Nebbia Arcobaleno",
+        "Biscotti della Galassia"
+      ],
+      "techniques": [
+        "Cryo-Tessitura Energetica Polarizzata"
+      ]
+    },
+    {
+      "name": "Viaggio dei Ricordi Stellari",
+      "ingredients": [
+        "Gnocchi del Crepuscolo",
+        "Liane di Plasmodio",
+        "Granuli di Nebbia Arcobaleno",
+        "Pane degli Abissi",
+        "Nduja Fritta Tanto",
+        "Shard di Prisma Stellare",
+        "Plasma Vitale"
+      ],
+      "techniques": [
+        "Bollitura Termografica a Rotazione Veloce",
+        "Sinergia Elettro-Osmotica Programmabile",
+        "Marinatura Sotto Zero a Polarità Inversa"
+      ]
+    },
+    {
+      "name": "Sinfonia Crepuscolare",
+      "ingredients": [
+        "Gnoccchi del Crepuscolo",
+        "Pane di Luce",
+        "Biscotti della Galassia",
+        "Spore Quantiche",
+        "Petali di Eco"
+      ],
+      "techniques": [
+        "Sinergia Elettro-Osmotica Programmabile",
+        "Marinatura Psionica"
+      ]
+    },
+    {
+      "name": "Sinfonia Celestiale dei Ricordi",
+      "ingredients": [
+        "Biscotti della Galassia",
+        "Farina di Nettuno",
+        "Teste di Idra",
+        "Colonia di Mycoflora",
+        "Spaghi del Sole",
+        "Muffa Lunare",
+        "Salsa Szechuan",
+        "Shard di Materia Oscura"
+      ],
+      "techniques": [
+        "Impasto a Campi Magnetici Dualistici"
+      ]
+    },
+    {
+      "name": "Sfere del Ricordo Astrale",
+      "ingredients": [
+        "Carne di Drago",
+        "Liane di Plasmodio",
+        "Pane degli Abissi",
+        "Funghi dellʼEtere",
+        "Polvere di Pulsar",
+        "Salsa Szechuan"
+      ],
+      "techniques": [
+        "Marinatura Sotto Zero a Polarità Inversa"
+      ]
+    }
+  ],
+  "ristorante": {
+    "name": "L'Essenza delle Dune",
+    "pianeta": "Arrakis",
+    "chef": "Alessandra Luminetti",
+    "skill": [
+      {
+        "name": "Maestria Psionica",
+        "livello": "4"
+      },
+      {
+        "name": "Controllo della Luce",
+        "livello": "3"
+      },
+      {
+        "name": "Magnetico",
+        "livello": "1"
+      },
+      {
+        "name": "Temporale",
+        "livello": "1"
+      },
+      {
+        "name": "Gravitazionale",
+        "livello": "1"
+      },
+      {
+        "name": "Antimateria",
+        "livello": "1"
+      }
+    ]
+  }
+}

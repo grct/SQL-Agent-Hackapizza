@@ -1,0 +1,161 @@
+{
+  "piatti": [
+    {
+      "name": "Sinfonia Cosmica: la Vendetta Fantasma",
+      "ingredients": [
+        "Fusilli del Vento",
+        "Essenza di Vuoto",
+        "Spaghi del Sole",
+        "Colonia di Mycoflora",
+        "Biscotti della Galassia",
+        "scaglie di stelle",
+        "zucchero cosmico"
+      ],
+      "techniques": [
+        "Fermentazione Quantico Biometrica",
+        "Marinatura Psionica",
+        "Affumicatura a Stratificazione Quantica"
+      ]
+    },
+    {
+      "name": "Antipasto Celestiale",
+      "ingredients": [
+        "Carne di Balena Spaziale",
+        "Pane di Luce",
+        "Granuli di Nebbia Arcobaleno",
+        "Carne di Kraken",
+        "Teste di Idra",
+        "Fusilli del Vento",
+        "Frammenti di Supernova",
+        "Erba Pipa"
+      ],
+      "techniques": [
+        "Marinatura Psionica",
+        "Fermentazione Quantico Biometrica",
+        "Amalgamazione Sintetica Molecolare"
+      ]
+    },
+    {
+      "name": "Sinfonia Cosmica: il Ritorno dell'Imperatore",
+      "ingredients": [
+        "Carne di Balena spaziale",
+        "Carne di Mucca",
+        "Spore Quantiche",
+        "Polvere di Crononite",
+        "Erba Pipa"
+      ],
+      "techniques": [
+        "Amalgamazione Sintetica Molecolare"
+      ]
+    },
+    {
+      "name": "Evanescenza Cosmica",
+      "ingredients": [
+        "Fusilli del Vento",
+        "Shard di Materia Oscura",
+        "Foglie di Mandragora",
+        "Fibra di Sintetex",
+        "Uova di Fenice",
+        "Plasma Vitale",
+        "Essenza di Tachioni"
+      ],
+      "techniques": [
+        "Impasto Gravitazionale Vorticoso",
+        "Amalgamazione Sintetica Molecolare"
+      ]
+    },
+    {
+      "name": "Galassia nel Piatto: Sinfonia Universale di Aromi e Sapori",
+      "ingredients": [
+        "Riso di Cassandra",
+        "Carne di Drago",
+        "Carne di Xenodonte",
+        "Salsa Szechuan",
+        "Spaghi del Sole",
+        "Muffa Lunare",
+        "Biscotti della Galassia",
+        "Vero Ghiaccio"
+      ],
+      "techniques": [
+        "Affumicatura a Stratificazione Quantica"
+      ]
+    },
+    {
+      "name": "Sinfonia Galattica di Sapori con Sorpresa di Drago Fiammante",
+      "ingredients": [
+        "Lattuga Namecciana",
+        "Carne di Balena spaziale",
+        "Carne di Teste di Idra",
+        "Fibra di Sintetex",
+        "Funghi Orbitali",
+        "Nduja Fritta Tanto"
+      ],
+      "techniques": [
+        "Marinatura Psionica",
+        "Amalgamazione Sintetica Molecolare"
+      ]
+    },
+    {
+      "name": "Galassia di Sapori di Aurora",
+      "ingredients": [
+        "Carne di Mucca",
+        "Fibra di Sintetex",
+        "uova di Fenice",
+        "Funghi dell’Etere",
+        "Amido di Stellarion",
+        "Nduja Fritta Tanto"
+      ],
+      "techniques": [
+        "Grigliatura Elettro-Molecolare a Spaziatura Variabile",
+        "Affumicatura a Stratificazione Quantica",
+        "Fermentazione Quantico Biometrica",
+        "Impasto Gravitazionale Vorticoso"
+      ]
+    },
+    {
+      "name": "Galassia di Sapore Interdimensionale",
+      "ingredients": [
+        "Cristalli di Memoria",
+        "Carne di Mucca",
+        "Carne di Balena Spaziale",
+        "Riso di Cassandra",
+        "Erba Pipa",
+        "Pane di Luce"
+      ],
+      "techniques": [
+        "Marinatura Psionica"
+      ]
+    },
+    {
+      "name": "Galassia di Sapori: Sinfonia Transdimensionale",
+      "ingredients": [
+        "Granuli di Nebbia Arcobaleno",
+        "Pane degli Abissi",
+        "Spaghi del Sole",
+        "Muffa Lunare"
+      ],
+      "techniques": [
+        "Fermentazione Quantico Biometrica"
+      ]
+    }
+  ],
+  "ristorante": {
+    "name": "Le Dimensioni del Gusto",
+    "pianeta": "Ego",
+    "chef": "Aurora Celestini",
+    "skill": [
+      {
+        "Psionica": "3"
+      },
+      {
+        "Quantistica": "2"
+      },
+      {
+        "Gravitazionale": "1"
+      },
+      {
+        "LTK": "2"
+      }
+    ]
+  }
+}

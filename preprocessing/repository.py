@@ -1,6 +1,8 @@
 import json
 import pymysql
 import os
+
+
 def connect_to_db():
     return pymysql.connect(
         host="77.37.121.60",
@@ -11,21 +13,22 @@ def connect_to_db():
         cursorclass=pymysql.cursors.DictCursor
     )
 
+
 def popolate_dishses(filename):
     with open(filename, 'r') as file:
         data = json.load(file)
-    
+
     connection = connect_to_db()
     try:
         with connection.cursor() as cursor:
-            for k,v in data.items():
+            for k, v in data.items():
                 query = """
                         INSERT INTO PIATTI (id, nome)
                         VALUES (%s, %s)
                         ON DUPLICATE KEY UPDATE nome = VALUES(nome)
                         """
                 cursor.execute(query, (v, k))
-            
+
             connection.commit()
 
     except Exception as e:
@@ -34,7 +37,7 @@ def popolate_dishses(filename):
 
     finally:
         connection.close()
-    
+
 
 def map_dishes(filename):
     # Carica il file JSON
@@ -72,8 +75,8 @@ def map_dishes(filename):
                             VALUES (%s)
                         """
                         cursor.execute(insert_ingredient_query, (ingredient))
-                        ingredient_id=cursor.lastrowid
-                    
+                        ingredient_id = cursor.lastrowid
+
                     # Inserisce il mapping tra piatto e ingrediente
                     insert_dish_ingredient_query = """
                             INSERT INTO PIATTI_INGREDIENTI (id_piatto, id_ingrediente)
@@ -111,7 +114,6 @@ def map_dishes(filename):
         connection.close()
 
 
-
 def map_restaurant(filename):
     """
     Legge i dati del ristorante dal JSON e:
@@ -123,22 +125,23 @@ def map_restaurant(filename):
     """
     with open(filename, 'r', encoding='utf-8') as file:
         data = json.load(file)
-    
+
     connection = connect_to_db()
     try:
         with connection.cursor() as cursor:
             # Estraggo i campi principali del ristorante dal JSON
+            nome = data['ristorante'].get('name','')
             chef = data['ristorante'].get('chef', '')
             pianeta = data['ristorante'].get('pianeta', '')
 
             # Inserisce i dati in RISTORANTE
             insert_query = """
-                INSERT INTO RISTORANTE (pianeta, chef)
-                VALUES (%s, %s)
+                INSERT INTO RISTORANTE (nome, pianeta, chef)
+                VALUES (%s, %s, %s)
             """
-            cursor.execute(insert_query, (pianeta, chef))
+            cursor.execute(insert_query, (nome, pianeta, chef))
             connection.commit()
-            
+
             # Recupero l'id del ristorante appena inserito
             ristorante_id = cursor.lastrowid
 
@@ -151,33 +154,33 @@ def map_restaurant(filename):
                         skill_level = skill_item['level']
                     else:
                         skill_name, skill_level = list(skill_item.items())[0]
-                    
+
                     # Cerca prima licenze per nome (LIKE)
                     select_by_nome = """
                         SELECT id, livello 
                         FROM LICENZE
                         WHERE nome LIKE %s
-                        AND (livello = %s OR livello = "n")
+                        AND (livello = %s )
                     """
-                    cursor.execute(select_by_nome, (f"%{skill_name}%",skill_level))
+                    cursor.execute(select_by_nome, (f"%{skill_name}%", skill_level))
                     found_licenza = cursor.fetchone()
-                    
+
                     if not found_licenza:
                         # Cerca per sigla (LIKE)
                         select_by_sigla = """
                             SELECT id, livello 
                             FROM LICENZE
                             WHERE sigla LIKE %s
-                            AND (livello = %s OR livello = "n")
+                            AND (livello = %s )
                         """
-                        cursor.execute(select_by_sigla, (f"%{skill_name}%",skill_level))
+                        cursor.execute(select_by_sigla, (f"%{skill_name}%", skill_level))
                         found_licenza = cursor.fetchone()
-                    
+
                     # Gestione del risultato della licenza
                     if found_licenza:
                         licenza_id = found_licenza['id']
                         licenza_level = found_licenza['livello']
-                        
+
                         if licenza_level == skill_level or licenza_level == "n":
                             insert_map = """
                                 INSERT INTO RISTORANTE_LICENZE (id_ristorante, id_licenza)
@@ -188,9 +191,7 @@ def map_restaurant(filename):
                         else:
                             print(f"Livello non corrispondente per licenza '{skill_name}': "
                                   f"{licenza_level} != {skill_level}. Ignorata.")
-                    else:
-
-                        print(f"Skill '{skill_name}' non trovata (né come nome né come sigla). Ignorata.")
+                    print(f"Skill '{skill_name}' non trovata (né come nome né come sigla). Ignorata.")
 
             # Ora mappiamo i piatti del ristorante
             if 'piatti' in data:
@@ -198,7 +199,7 @@ def map_restaurant(filename):
                     dish_name = dish.get('name', '')
                     if not dish_name:
                         continue
-                    
+
                     # Controlla se il piatto esiste nella tabella PIATTI (LIKE)
                     check_dish_query = """
                         SELECT id FROM PIATTI 
@@ -220,7 +221,7 @@ def map_restaurant(filename):
 
             # Conferma tutte le operazioni
             connection.commit()
-    
+
     except Exception as e:
         print(f"Errore durante l'inserimento del ristorante o il mapping di licenze/piatti: {e}")
         connection.rollback()
@@ -230,9 +231,9 @@ def map_restaurant(filename):
 
 if __name__ == "__main__":
     # Esegui la funzione con il file JSON fornito
-    path= "../docs/json"
+    path = "../docs/jsonNew"
     # Itera su tutti i file JSON nella directory
-    i=0
+    i = 0
     for filename in os.listdir(path):
         full_path = os.path.join(path, filename)
 
@@ -241,11 +242,10 @@ if __name__ == "__main__":
 
             try:
                 # Lancia le funzioni per ciascun file
-                #popolate_dishses(full_path)
+                # popolate_dishses(full_path)
                 map_dishes(full_path)
                 map_restaurant(full_path)
             except Exception as e:
                 print(f"Errore nel file {filename}: {e}")
             finally:
-                i+=1
-            
+                i += 1
