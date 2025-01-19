@@ -11,5 +11,21 @@ with open("../docs/dish_mapping.json", "r") as f:
     # Read the file json
     json_data = json.load(f)
 
+
+results = []
+default_value = 50
+# Salvare i risultati
 for q in questions:
     print("Domanda:", q)
+    # RISPOSTA
+    result = None
+    results.append(result ? result : default_value)
+
+# Salvare i risultati
+with open("risultati.csv", "w") as f:
+    # Write the file csv
+    csv_writer = csv.writer(f)
+    # Write the data
+    csv_writer.writerow(["risultato"])
+    for r in results:
+        csv_writer.writerow([r])
