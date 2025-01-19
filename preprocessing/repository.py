@@ -84,8 +84,8 @@ def map_dishes(filename):
                 # Processa le tecniche del piatto
                 for technique in dish['techniques']:
                     # Controlla se la tecnica esiste nella tabella TECNICHE
-                    check_technique_query = "SELECT id FROM TECNICHE WHERE tipo = %s"
-                    cursor.execute(check_technique_query, (technique,))
+                    check_technique_query = "SELECT id FROM TECNICHE WHERE descrizione like  %s"
+                    cursor.execute(check_technique_query, (f"%{technique}%"))
                     technique_result = cursor.fetchone()
 
                     if technique_result:
@@ -145,36 +145,40 @@ def map_restaurant(filename):
             # Ora gestiamo le skill => licenze
             if 'skill' in data['ristorante']:
                 for skill_item in data['ristorante']['skill']:
-                    skill_name = skill_item.get('name', '')
-                    skill_level = skill_item.get('level', '')
-
-                    # 1) Cerco prima licenze per nome (LIKE)
+                    # Estrai il nome della skill e il livello
+                    if 'name' in skill_item:
+                        skill_name = skill_item['name']
+                        skill_level = skill_item['level']
+                    else:
+                        skill_name, skill_level = list(skill_item.items())[0]
+                    
+                    # Cerca prima licenze per nome (LIKE)
                     select_by_nome = """
                         SELECT id, livello 
                         FROM LICENZE
                         WHERE nome LIKE %s
+                        AND (livello = %s OR livello = "n")
                     """
-                    cursor.execute(select_by_nome, (f"%{skill_name}%",))
+                    cursor.execute(select_by_nome, (f"%{skill_name}%",skill_level))
                     found_licenza = cursor.fetchone()
                     
                     if not found_licenza:
-                        # 2) Se non esiste per nome, cerco per sigla (LIKE)
+                        # Cerca per sigla (LIKE)
                         select_by_sigla = """
                             SELECT id, livello 
                             FROM LICENZE
                             WHERE sigla LIKE %s
+                            AND (livello = %s OR livello = "n")
                         """
-                        cursor.execute(select_by_sigla, (f"%{skill_name}%",))
+                        cursor.execute(select_by_sigla, (f"%{skill_name}%",skill_level))
                         found_licenza = cursor.fetchone()
                     
-                    # Se dopo i due tentativi found_licenza è ancora None, si ignora
+                    # Gestione del risultato della licenza
                     if found_licenza:
                         licenza_id = found_licenza['id']
                         licenza_level = found_licenza['livello']
                         
-                        # Controllo se il livello corrisponde o se la licenza è generica ('n')
                         if licenza_level == skill_level or licenza_level == "n":
-                            # Mappo nella tabella RISTORANTE_LICENZE
                             insert_map = """
                                 INSERT INTO RISTORANTE_LICENZE (id_ristorante, id_licenza)
                                 VALUES (%s, %s)
@@ -185,6 +189,7 @@ def map_restaurant(filename):
                             print(f"Livello non corrispondente per licenza '{skill_name}': "
                                   f"{licenza_level} != {skill_level}. Ignorata.")
                     else:
+
                         print(f"Skill '{skill_name}' non trovata (né come nome né come sigla). Ignorata.")
 
             # Ora mappiamo i piatti del ristorante
@@ -222,6 +227,7 @@ def map_restaurant(filename):
     finally:
         connection.close()
 
+
 if __name__ == "__main__":
     # Esegui la funzione con il file JSON fornito
     path= "../docs/json"
@@ -235,7 +241,7 @@ if __name__ == "__main__":
 
             try:
                 # Lancia le funzioni per ciascun file
-                popolate_dishses(full_path)
+                #popolate_dishses(full_path)
                 map_dishes(full_path)
                 map_restaurant(full_path)
             except Exception as e:

@@ -1,0 +1,4 @@
+Ecco la documentazione per ogni colonna della tabella DISTANZE nel formato colonna = spiegazione
+name1 = nome del primo pianeta
+name2 = nome del secondo pianeta
+distance = distanza tra i due pianeti
