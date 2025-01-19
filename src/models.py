@@ -6,4 +6,4 @@ from langgraph.graph import add_messages
 class State(TypedDict):
     messages: Annotated[list, add_messages]
     query: str
-    risultati: int
+    result: any

@@ -1,3 +1,5 @@
+import json
+from pprint import pprint
 from typing import TypedDict, Annotated, List, Dict
 
 from langgraph.constants import START
@@ -50,14 +52,7 @@ graph_builder.add_edge("tools", "merger")
 
 graph = graph_builder.compile()
 
-while True:
-    user_input = input("User: ")
-    if user_input.lower() in ["quit", "exit", "q"]:
-        print("Goodbye!")
-        break
-    for event in graph.stream({"messages": ("user", user_input)}):
-        for value in event.values():
-            try:
-                print("Assistant:", value["messages"][-1].content)
-            except:
-                pass
+q = "Quali piatti usano la Sferificazione Filamentare a Molecole Vibrazionali, ma evitano la Decostruzione Magnetica Risonante?"
+r = graph.invoke({"messages": q})
+
+print(r)

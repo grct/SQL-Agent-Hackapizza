@@ -1,13 +1,10 @@
-from langchain_core.tools import tool, StructuredTool
-from langchain_core.documents import Document
-from langchain_core.vectorstores import InMemoryVectorStore, VectorStore
-from sqlalchemy.engine import connection_memoize
-
+from langchain_core.tools import tool
+from src.nodes.merger import Inp
 from src.semaphore import sem
-from src.settings import llm, connect_to_db, vn
+from src.settings import vn
 
 
-#@tool
+@tool
 def tool_ingredienti(ingrediente: str):
     """Chiama questo tool per cercare dei piatti che contengono un ingrediente specifico.
 
@@ -15,8 +12,19 @@ def tool_ingredienti(ingrediente: str):
         ingrediente: Il nome dell' ingrediente
     """
 
+    query = f"Trova i Piatti che utilizzano l'ingrediente {ingrediente}"
+
     sem.acquire()
-    result = vn.ask(f"Trova i Piatti che utilizzano l'ingrediente {ingrediente}")
+    result = vn.ask(query)
     sem.release()
 
-    return result
+    if len(result):
+        return Inp(
+            query=f"Piatti con ingrediente: {ingrediente}",
+            piatti=[e[0] for e in result[1].values]
+        )
+    else:
+        return Inp(
+            query=f"Piatti con ingrediente: {ingrediente}",
+            piatti=[]
+        )

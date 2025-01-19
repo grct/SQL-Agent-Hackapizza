@@ -2,6 +2,18 @@ import csv
 import json
 from tqdm import tqdm
 
+from src.main import graph
+
+
+def palle(q: str):
+    r = graph.invoke({"messages": q})
+    e = str(r.get("result").content)
+
+    e = e.replace("```json", "")
+    e = e.replace("```", "")
+
+    return json.loads(e)
+
 with open("../docs/domande.csv", "r") as f:
     # Read the file csv
     csv_reader = csv.reader(f)
@@ -21,8 +33,10 @@ for q in tqdm(questions, desc="Processing questions"):
     # RISPOSTA
     result = None
     try:
-        pass
+        result = palle(q)
+
     except Exception as e:
+        print(f"Errore su {q} : {e}")
         pass
 
     if result is None:

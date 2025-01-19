@@ -1,39 +1,32 @@
-from langchain_core.tools import tool, StructuredTool
-from langchain_core.documents import Document
-from langchain_core.vectorstores import InMemoryVectorStore, VectorStore
-from sqlalchemy.engine import connection_memoize
+from langchain_core.tools import tool
 
-from src.settings import llm, connect_to_db
+from src.nodes.merger import Inp
+from src.semaphore import sem
+from src.settings import vn
 
 
-#@tool
-def tool_tecniche(tecnica: str):
-    """Chiama questo tool per cercare dei piatti solo quando richiedono una specifica tecnica data in input.
+@tool
+def tool_ingredienti(licenza: str, livello: int):
+    """Chiama questo tool per cercare dei piatti cucinati da Chief o Ristoranti con delle determinate Licenze o Certificazioni.
 
     Args:
-        tecnica: Il nome della tecnica
+        licenza: Il nome della Licenza o Certificazione
+        livello: Il livello della Licenza o Certificazione
     """
 
-    connection = connect_to_db()
+    query = f"Trova i Piatti dei Ristoranti che utilizzano la licenza {licenza} con il livello {livello}"
 
-    query = """
-SELECT P.nome, P.id
-FROM PIATTI_TECNICHE PT
-JOIN (
-    SELECT *
-    FROM TECNICHE
-    WHERE tipo LIKE CONCAT('%%', %(tecnica)s, '%%')
-       OR descrizione LIKE CONCAT('%%', %(tecnica)s, '%%')
-    ORDER BY
-        LENGTH(tipo) - LENGTH(REPLACE(tipo, %(tecnica)s, '')) DESC,
-        LENGTH(descrizione) - LENGTH(REPLACE(descrizione, %(tecnica)s, '')) DESC
-    LIMIT 1
-) TS ON PT.id_tecnica = TS.id
-LEFT JOIN PIATTI AS P ON PT.id_piatto = P.id;
-    """
+    sem.acquire()
+    result = vn.ask(query)
+    sem.release()
 
-    with connection.cursor() as cursor:
-        cursor.execute(query, {'tecnica': tecnica})
-        result = cursor.fetchall()
-    connection.close()
-    return [r["id"] for r in result]
+    if len(result):
+        return Inp(
+            query=f"Piatti con licenza: {licenza} di livello {livello}",
+            piatti=[e[0] for e in result[1].values]
+        )
+    else:
+        return Inp(
+            query=f"Piatti con licenza: {licenza} di livello {livello}",
+            piatti=[]
+        )
