@@ -1,0 +1,47 @@
+Questo database è stato progettato per gestire informazioni relative a ristoranti, piatti, ingredienti, tecniche di cottura e licenze di una galassia aliena.
+Le tabelle sono progettate per rappresentare entità distinte e le relazioni tra di esse.
+
+---
+**TABLES:**
+
+1. **PIATTI**: Represents dishes in the restaurant.
+   - Fields: `id` (Primary Key), `nome` (name of the dish).
+
+2. **INGREDIENTI**: Represents ingredients used in dishes.
+   - Fields: `id` (Primary Key), `nome` (name of the ingredient).
+
+3. **TECNICHE**: Represents cooking techniques.
+   - Fields: `id` (Primary Key), `tipo` (type of technique), `vantaggi` (advantages), `svantaggi` (disadvantages), `descrizione` (description).
+
+4. **LICENZE**: Represents licenses required for restaurants.
+   - Fields: `id` (Primary Key), `nome` (name of the license), `sigla` (abbreviation), `livello` (level), `descrizione` (description).
+
+5. **RISTORANTE**: Represents restaurants.
+   - Fields: `id` (Primary Key), `pianeta` (planet), `chef` (name of the chef).
+
+6. **PIATTI_INGREDIENTI**: A junction table linking dishes and ingredients (many-to-many relationship).
+   - Fields: `id_piatto`, `id_ingrediente` (composite Primary Key).
+
+7. **PIATTI_TECNICHE**: A junction table linking dishes and techniques (many-to-many relationship).
+   - Fields: `id_piatto`, `id_tecnica` (composite Primary Key).
+
+8. **RISTORANTE_LICENZE**: A junction table linking restaurants and licenses (many-to-many relationship).
+   - Fields: `id_ristorante`, `id_licenza` (composite Primary Key).
+
+9. **RISTORANTE_PIATTI**: A junction table linking restaurants and dishes (many-to-many relationship).
+   - Fields: `id_ristorante`, `id_piatto` (composite Primary Key).
+
+10. **PIATTI_SOSTANZE**: Represents the nutritional substances associated with a dish.
+    - Fields: `idPiatto` (Foreign Key referencing PIATTI), `nomeSostanza1`, `valore1`, `nomeSostanza2`, `valore2`.
+
+---
+**RELATIONSHIPS:**
+
+- **PIATTI to INGREDIENTI**: Many-to-Many through the `PIATTI_INGREDIENTI` table. A dish can have multiple ingredients, and an ingredient can be part of multiple dishes.
+- **PIATTI to TECNICHE**: Many-to-Many through the `PIATTI_TECNICHE` table. A dish can involve multiple techniques, and a technique can apply to multiple dishes.
+- **RISTORANTE to LICENZE**: Many-to-Many through the `RISTORANTE_LICENZE` table. A restaurant can have multiple licenses, and a license can be held by multiple restaurants.
+- **RISTORANTE to PIATTI**: Many-to-Many through the `RISTORANTE_PIATTI` table. A restaurant can serve multiple dishes, and a dish can be served at multiple restaurants.
+- **PIATTI to SOSTANZE**: One-to-Many relationship represented in the `PIATTI_SOSTANZE` table, associating a dish with its nutritional substance details.
+
+---
+This database structure ensures modularity and flexibility, supporting complex relationships between entities in a restaurant context.
