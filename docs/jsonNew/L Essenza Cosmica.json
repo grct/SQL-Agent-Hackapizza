@@ -1,0 +1,174 @@
+{
+  "piatti": [
+    {
+      "name": "Nebulosa di Drago Interdimensionale",
+      "ingredients": [
+        "Carne di Drago",
+        "Pane di Luce",
+        "Amido di Stellarion",
+        "Nettare di Sirena",
+        "Salsa Szechuan",
+        "Verdure stagionali"
+      ],
+      "techniques": [
+        "Marinatura Temporale Sincronizzata"
+      ]
+    },
+    {
+      "name": "Sinfonia Cosmica: La Danza dell'Universo",
+      "ingredients": [
+        "Pane di Luce",
+        "Alghe Bioluminescenti",
+        "Foglie di Nebulosa",
+        "Carne di Drago",
+        "Pane degli Abissi",
+        "Lacrime di Andromeda",
+        "Polvere di Crononite",
+        "Mycoflora"
+      ],
+      "techniques": [
+        "Affumicatura a Stratificazione Quantica"
+      ]
+    },
+    {
+      "name": "Interstellar Requiem",
+      "ingredients": [
+        "Colonia di Mycoflora",
+        "Shard di Prisma Stellare",
+        "Alghe Bioluminescenti",
+        "Funghi Orbitali",
+        "Essenza di Speziaria"
+      ],
+      "techniques": [
+        "Fermentazione Psionica Energetica"
+      ]
+    },
+    {
+      "name": "Nebulae Di-Cedri Risvegliati",
+      "ingredients": [
+        "Polvere di Pulsar",
+        "Granuli di Nebbia Arcobaleno",
+        "Radici di Singolarità",
+        "Foglie di Mandragora",
+        "Salsa Szechuan",
+        "Baccacedro"
+      ],
+      "techniques": []
+    },
+    {
+      "name": "Nebulosa dell'Infinito: Un Viaggio attraverso il Cosmo del Gusto",
+      "ingredients": [
+        "Carne di Kraken",
+        "Spaghi del Sole",
+        "Granuli di Nebbia Arcobaleno",
+        "Alghe Bioluminescenti",
+        "Fibra di Sintetex",
+        "Shard di Materia Oscura",
+        "Pane di Luce",
+        "Nettare di Sirena",
+        "Salsa Szechuan",
+        "Carne di Balena spaziale"
+      ],
+      "techniques": [
+        "Affumicatura Temporale Risonante"
+      ]
+    },
+    {
+      "name": "Nebulosa Eterna",
+      "ingredients": [
+        "Riso di Cassandra",
+        "Carne di Drago",
+        "Alghe Bioluminescenti",
+        "Foglie di Nebulosa",
+        "Granuli di Nebbia Arcobaleno",
+        "Pane degli Abissi",
+        "Plasma Vitale",
+        "Essenza di Vuoto",
+        "Cristalli di Memoria"
+      ],
+      "techniques": [
+        "Affumicatura a Stratificazione Quantica"
+      ]
+    },
+    {
+      "name": "Risveglio Cosmico",
+      "ingredients": [
+        "Carpaccio di Carne di Kraken",
+        "Muffa Lunare",
+        "Sale Temporale",
+        "Risotto Galattico",
+        "Farina di Nettuno",
+        "Amido di Stellarion",
+        "Pane di Luce",
+        "Shard di Prisma Stellare"
+      ],
+      "techniques": [
+        "Affumicatura Psionica Sensoriale",
+        "Affumicatura Temporale Risonante"
+      ]
+    },
+    {
+      "name": "Aurora del Cosmo",
+      "ingredients": [
+        "Radici di Singolarità",
+        "Nettare di Sirena",
+        "Shard di Prisma Stellare",
+        "Foglie di Nebulosa",
+        "Fibra di Sintetex",
+        "Petali di Eco"
+      ],
+      "techniques": [
+        "Affumicatura a Stratificazione Quantica"
+      ]
+    },
+    {
+      "name": "Galassia nel Piatto: Sinfonia di Sapori e Dimensioni",
+      "ingredients": [
+        "Gnocchi del Crepuscolo",
+        "Nettare di Sirena",
+        "Lattuga Namecciana",
+        "Radici di Singolarità",
+        "Frammenti di Supernova",
+        "Petali di Eco"
+      ],
+      "techniques": []
+    },
+    {
+      "name": "Nebulosa Celeste di Terrafirma",
+      "ingredients": [
+        "Fusilli del Vento",
+        "Carne di Drago",
+        "Carne di Balena spaziale",
+        "Uovo di Fenice",
+        "Pane di Luce",
+        "Lacrime di Unicorno"
+      ],
+      "techniques": [
+        "Affumicatura Temporale Risonante",
+        "Amalgamazione Sintetica Molecolare"
+      ]
+    }
+  ],
+  "ristorante": {
+    "name": "L'Essenza Cosmica",
+    "pianeta": "Pandora",
+    "chef": "Alessandro Stellanova",
+    "skill": [
+      {
+        "Psionica": "5"
+      },
+      {
+        "Quantistica": "3"
+      },
+      {
+        "Temporali": "1"
+      },
+      {
+        "Gravitazionali": "1"
+      },
+      {
+        "Certificazione LTK": "3"
+      }
+    ]
+  }
+}

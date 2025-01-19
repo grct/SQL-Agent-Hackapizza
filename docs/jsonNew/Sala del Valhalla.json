@@ -1,0 +1,145 @@
+{
+  "piatti": [
+    {
+      "name": "Pane e Carne Rivisitato",
+      "ingredients": [
+        "Frammenti di Supernova",
+        "Lattuga Namecciana",
+        "Baccacedro",
+        "Foglie di Nebulosa",
+        "Carne di Drago",
+        "Pane degli Abissi",
+        "Pane di Luce",
+        "Spaghi del Sole",
+        "Plasma Vitale",
+        "Salsa Szechuan"
+      ],
+      "techniques": [
+        "Impasto Gravitazionale Vorticoso"
+      ]
+    },
+    {
+      "name": "Risotto Cosmico Multiversale",
+      "ingredients": [
+        "Shard di Materia Oscura",
+        "Carne di Xenodonte",
+        "Carne di Mucca",
+        "Granuli di Nebbia Arcobaleno",
+        "Muffa Lunare"
+      ],
+      "techniques": []
+    },
+    {
+      "name": "Il Risveglio del Multiverso",
+      "ingredients": [
+        "Radici di Singolarità",
+        "Alghe Bioluminescenti",
+        "Foglie di Mandragora",
+        "Granuli di Nebbia Arcobaleno",
+        "Plasma Vitale"
+      ],
+      "techniques": []
+    },
+    {
+      "name": "Sinfonia del Cosmo e della Leggenda",
+      "ingredients": [
+        "Carne di Xenodonte",
+        "Carne di Drago",
+        "Teste di Idra",
+        "Funghi Orbitali",
+        "Nduja Fritta Tanto"
+      ],
+      "techniques": [
+        "Affumicatura tramite Big Bang Microcosmico"
+      ]
+    },
+    {
+      "name": "Cosmos Quantum Fusion",
+      "ingredients": [
+        "Vero Ghiaccio",
+        "Carne di Kraken",
+        "Gnocchi del Crepuscolo",
+        "Funghi Orbitali",
+        "Nduja Fritta Tanto"
+      ],
+      "techniques": [
+        "Affumicatura a Stratificazione Quantica"
+      ]
+    },
+    {
+      "name": "Più-dimensionale Sinfonia di Sapori: La Carne del Cosmo",
+      "ingredients": [
+        "Shard di Prisma Stellare",
+        "Carne di Balena spaziale",
+        "Carne di Xenodonte",
+        "Pane degli Abissi",
+        "Muffa Lunare",
+        "Spezie Melange"
+      ],
+      "techniques": [
+        "Impasto Gravitazionale Vorticoso"
+      ]
+    },
+    {
+      "name": "Plasma Celestiale al Risotto di Kraken nell'Aura del Sole",
+      "ingredients": [
+        "Cristalli di Memoria",
+        "Fibra di Sintetex",
+        "Carne di Kraken",
+        "Spaghi del Sole",
+        "Granuli di Nebbia Arcobaleno",
+        "Biscotti della Galassia",
+        "Essenza di Vuoto"
+      ],
+      "techniques": []
+    },
+    {
+      "name": "Risotto Interdimensionale alla Carne di Drago e Balena Spaziale con Biscotti della Galassia Croccanti",
+      "ingredients": [
+        "Baccacedro",
+        "Liane di Plasmodio",
+        "Radici di Gravità",
+        "Carne di Drago",
+        "Carne di Balena spaziale",
+        "Biscotti della Galassia",
+        "Pane di Luce",
+        "Spezie Melange"
+      ],
+      "techniques": []
+    },
+    {
+      "name": "Alternate Realities Risotto",
+      "ingredients": [
+        "Polvere di Stelle",
+        "Radici di Singolarità",
+        "Carne di Balena spaziale",
+        "Carne di Drago",
+        "Riso di Cassandra",
+        "Nettare di Sirena",
+        "Sale Temporale"
+      ],
+      "techniques": [
+        "Sinergia Elettro-Osmotica Programmabile"
+      ]
+    }
+  ],
+  "ristorante": {
+    "name": "Sala del Valhalla",
+    "pianeta": "Asgard",
+    "chef": "Alessandro Quantum",
+    "skill": [
+      {
+        "name": "Licenza Quantistica",
+        "livello": "8"
+      },
+      {
+        "name": "Licenza Gravitazionale",
+        "livello": "1"
+      },
+      {
+        "name": "Licenza Antimateria",
+        "livello": "1"
+      }
+    ]
+  }
+}

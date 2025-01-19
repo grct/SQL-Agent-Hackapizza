@@ -1,0 +1,167 @@
+{
+  "piatti": [
+    {
+      "name": "Pizza Fra",
+      "ingredients": [
+        "Amido di Stellarion",
+        "Fibra di Sintetex",
+        "Vero Ghiaccio",
+        "Radici di Gravità",
+        "Baccacedro",
+        "Farina di Nettuno",
+        "Salsa Szechuan"
+      ],
+      "techniques": [
+        "Marinatura Temporale Sincronizzata",
+        "Fermentazione Quantico Biometrica"
+      ]
+    },
+    {
+      "name": "Pizza Gio",
+      "ingredients": [
+        "Pane di Luce",
+        "Cristalli di Memoria",
+        "Lacrime di Andromeda",
+        "Radici di Gravità",
+        "Liane di Plasmodio",
+        "Erba Pipa"
+      ],
+      "techniques": [
+        "Affumicatura Temporale Risonante",
+        "Marinatura tramite Reazioni d'Antimateria Diluite"
+      ]
+    },
+    {
+      "name": "Pizza Emma",
+      "ingredients": [
+        "Liane di Plasmodio",
+        "Polvere di Stelle",
+        "Colonia di Mycoflora",
+        "Funghi dell'Etere",
+        "Foglie di Mandragora",
+        "Essenza di Speziaria"
+      ],
+      "techniques": []
+    },
+    {
+      "name": "Pizza Luca",
+      "ingredients": [
+        "Alghe Bioluminescenti",
+        "Gnocchi del Crepuscolo",
+        "Pane degli Abissi",
+        "Salsa Szechuan",
+        "Funghi Orbitali",
+        "Farina di Nettuno"
+      ],
+      "techniques": [
+        "Sinergia Elettro-Osmotica Programmabile",
+        "Marinatura Sotto Zero a Polarità Inversa"
+      ]
+    },
+    {
+      "name": "Pizza Raul",
+      "ingredients": [
+        "Teste di Idra",
+        "Riso di Cassandra",
+        "Amido di Stellarion",
+        "Farina di Nettuno",
+        "Spore Quantiche",
+        "Essenza di Vuoto"
+      ],
+      "techniques": [
+        "Marinatura Sotto Zero a Polarità Inversa",
+        "Affumicatura a Stratificazione Quantica"
+      ]
+    },
+    {
+      "name": "Pizza Cri",
+      "ingredients": [
+        "Fusilli del Vento",
+        "Granuli di Nebbia Arcobaleno",
+        "Funghi dell'Etere",
+        "Essenza di Speziaria",
+        "Cristalli di Memoria",
+        "Farina di Nettuno",
+        "Baccacedro",
+        "Radici di Gravità",
+        "Uova di Fenice"
+      ],
+      "techniques": [
+        "Affumicatura a Stratificazione Quantica"
+      ]
+    },
+    {
+      "name": "Pizza Baby Daniele",
+      "ingredients": [
+        "Spaghi del Sole",
+        "Carne di Balena Spaziale",
+        "Lacrime di Andromeda",
+        "Spezie Melange",
+        "Foglie di Nebulosa",
+        "Radici di Singolarità",
+        "Uova di Fenice",
+        "Biscotti della Galassia",
+        "Frammenti di Supernova"
+      ],
+      "techniques": []
+    },
+    {
+      "name": "Pizza Baby Lorenzo",
+      "ingredients": [
+        "Riso di Cassandra",
+        "Carne di Balena spaziale",
+        "Carne di Drago",
+        "Radici di Gravità",
+        "Sale Temporale",
+        "Uova di Fenice",
+        "Baccacedro",
+        "Pane di Luce",
+        "Frammenti di Supernova",
+        "Lacrime di Andromeda"
+      ],
+      "techniques": [
+        "Amalgamazione Sintetica Molecolare"
+      ]
+    },
+    {
+      "name": "Pizza Baby Simone e Alessandro",
+      "ingredients": [
+        "Fusilli del Vento",
+        "Spaghi del Sole",
+        "Nduja Fritta Tanto",
+        "Radici di Singolarità",
+        "Carne di Xenodonte",
+        "Pane di Luce",
+        "Lattuga Namecciana",
+        "Baccacedro",
+        "Crononite"
+      ],
+      "techniques": []
+    }
+  ],
+  "ristorante": {
+    "name": "L'Infinito Sapore",
+    "pianeta": "Pandora",
+    "chef": "Alessandro-Pierpaolo-Jack Quantum",
+    "skill": [
+      {
+        "Quantistica": "11"
+      },
+      {
+        "Temporale": "2"
+      },
+      {
+        "Antimateria": "1"
+      },
+      {
+        "Magnetica": "1"
+      },
+      {
+        "Luce": "1"
+      },
+      {
+        "LTK": "9"
+      }
+    ]
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "piatti": [
+    {
+      "name": "Sinfonia Cosmica: Versione Pizza",
+      "ingredients": [
+        "Polvere di Pulsar",
+        "Radici di Gravità",
+        "Radici di Singolarità",
+        "Spaghi del Sole",
+        "Riso di Cassandra",
+        "Farina di Nettuno",
+        "Funghi Orbitali",
+        "Spezie Melange",
+        "Cioccorane"
+      ],
+      "techniques": [
+        "Amalgamazione Sintetica Molecolare",
+        "Impasto Gravitazionale Vorticoso"
+      ]
+    },
+    {
+      "name": "Galassia di Sapore Interstellare",
+      "ingredients": [
+        "Frammenti di Supernova",
+        "Colonia di Mycoflora",
+        "Foglie di Nebulosa",
+        "Carne di Mucca",
+        "Fibra di Sintetex",
+        "Carne di Kraken",
+        "Spaghi del Sole",
+        "Nettare di Sirena",
+        "Spezie Melange",
+        "Burrobirra"
+      ],
+      "techniques": [
+        "Impasto a Campi Magnetici Dualistici",
+        "Amalgamazione Sintetica Molecolare"
+      ]
+    },
+    {
+      "name": "Sinfonia Cosmica di Sapore",
+      "ingredients": [
+        "Shard di Materia Oscura",
+        "Carne di Xenodonte",
+        "Fibra di Sintetex",
+        "Farina di Nettuno",
+        "Granuli di Nebbia Arcobaleno",
+        "Nduja Fritta Tanto",
+        "Ravioli al Vaporeon"
+      ],
+      "techniques": [
+        "Affumicatura a Stratificazione Quantica"
+      ]
+    },
+    {
+      "name": "Sinfonia Cosmica di Luminiscenze e Contrasti",
+      "ingredients": [
+        "Uova di Fenice",
+        "Carne di Drago",
+        "Carne di Kraken",
+        "Amido di Stellarion",
+        "Riso di Cassandra",
+        "Spezie Melange",
+        "Slurm"
+      ],
+      "techniques": []
+    },
+    {
+      "name": "Sinfonia Cosmica in Otto Movimenti",
+      "ingredients": [
+        "Frammenti di Supernova",
+        "Foglie di Nebulosa",
+        "Alghe Bioluminescenti",
+        "Fibra di Sintetex",
+        "Carne di Mucca",
+        "Gnocchi del Crepuscolo",
+        "Lacrime di Andromeda",
+        "Spezie Melange"
+      ],
+      "techniques": []
+    },
+    {
+      "name": "Portale Cosmico: Sinfonia di Gnocchi del Crepuscolo con Essenza di Tachioni e Sfumature di Fenice",
+      "ingredients": [
+        "Shard di Materia Oscura",
+        "Uova di Fenice",
+        "Gnocchi del Crepuscolo",
+        "Plasma Vitale",
+        "Essenza di Tachioni"
+      ],
+      "techniques": [
+        "Affumicatura Polarizzata a Freddo Iperbarico"
+      ]
+    },
+    {
+      "name": "Sinfonia Cosmica: Versione Data",
+      "ingredients": [
+        "Polvere di Stelle",
+        "Radici di Gravità",
+        "Colonia di Mycoflora",
+        "Fusilli del Vento",
+        "Pane degli Abissi",
+        "Essenza di Tachioni"
+      ],
+      "techniques": [
+        "Affumicatura a Stratificazione Quantica",
+        "Fermentazione Psionica Energetica"
+      ]
+    },
+    {
+      "name": "Sinfonia Cosmologica",
+      "ingredients": [
+        "Shard di Materia Oscura",
+        "Radici di Gravità",
+        "Foglie di Nebulosa",
+        "Biscotti della Galassia",
+        "Essenza di Vuoto"
+      ],
+      "techniques": [
+        "Marinatura Sotto Zero a Polarità Inversa"
+      ]
+    },
+    {
+      "name": "Sinfonia Cosmica di Armonie Terrestri e Celesti",
+      "ingredients": [
+        "Cristalli di Memoria",
+        "Uova di Fenice",
+        "Carne di Kraken",
+        "Fibra di Sintetex",
+        "Granuli di Nebbia Arcobaleno",
+        "Lacrime di Andromeda",
+        "Spezie Melange"
+      ],
+      "techniques": []
+    },
+    {
+      "name": "Cosmo Sferico di Sogni Rigenerativi",
+      "ingredients": [
+        "Radici di Gravità",
+        "Baccacedro",
+        "Lattuga Namecciana",
+        "Teste di Idra",
+        "Carne di Xenodonte",
+        "Farina di Nettuno",
+        "Nettare di Sirena"
+      ],
+      "techniques": []
+    }
+  ],
+  "ristorante": {
+    "name": "Armonia Universale",
+    "pianeta": "Pandora",
+    "chef": "Maestro Alessandro Stellanova",
+    "skill": [
+      {
+        "Psionica": "1"
+      },
+      {
+        "Gravitazionale": "1"
+      },
+      {
+        "Magnetica": "1"
+      },
+      {
+        "Quantistica": "8"
+      },
+      {
+        "Luce": "2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "piatti": [
+    {
+      "name": "Galassia Infinita: Viaggio tra Memorie e Stelle",
+      "ingredients": [
+        "Pane di Luce",
+        "Spore Quantiche",
+        "Proteine di mare e terra",
+        "Essenza di Tachioni",
+        "Farina di Nettuno",
+        "Sferificazione tramite Matrici Biofotiche",
+        "Cristalli di Memoria",
+        "Biscotti della Galassia"
+      ],
+      "techniques": [
+        "Marinatura Temporale Sincronizzata"
+      ]
+    },
+    {
+      "name": "Eterna Sinfonia del Cosmo",
+      "ingredients": [
+        "Carne di mucca",
+        "Nettare di Sirena",
+        "Proteine rigenerative delle teste di idra",
+        "Alghe Bioluminescenti",
+        "Biscotti della Galassia",
+        "Shard di Materia Oscura",
+        "Essenza di Speziaria"
+      ],
+      "techniques": [
+        "Marinatura Sotto Zero a Polarità Inversa",
+        "Marinatura Temporale Sincronizzata"
+      ]
+    },
+    {
+      "name": "Sinfonia Cosmica di Aurora",
+      "ingredients": [
+        "Riso di Cassandra",
+        "Pane di Luce",
+        "Granuli di Nebbia Arcobaleno",
+        "Erba Pipa",
+        "Polvere di Pulsar"
+      ],
+      "techniques": []
+    },
+    {
+      "name": "Galaxia Gustativa",
+      "ingredients": [
+        "Amido di Stellarion",
+        "Shard di Materia Oscura",
+        "Funghi Orbitali",
+        "Granuli di Nebbia Arcobaleno",
+        "Baccacedro"
+      ],
+      "techniques": [
+        "Fermentazione Quantico Biometrica"
+      ]
+    },
+    {
+      "name": "Crescendo Cosmico",
+      "ingredients": [
+        "Spaghi del Sole",
+        "Gnocchi del Crepuscolo",
+        "Carne di Xenodonte",
+        "Radici di Singolarità",
+        "Colonia di Mycoflora",
+        "Spore Quantiche"
+      ],
+      "techniques": [
+        "Amalgamazione Sintetica Molecolare"
+      ]
+    },
+    {
+      "name": "Simfonia Celeste di Aurora",
+      "ingredients": [
+        "Fusilli del Vento",
+        "Carne di Xenodonte",
+        "Amido di Stellarion",
+        "Colonia di Mycoflora",
+        "Alghe Bioluminescenti",
+        "Polvere di Pulsar",
+        "Muffa Lunare"
+      ],
+      "techniques": []
+    },
+    {
+      "name": "Portale del Cosmo: Sinfonia di Sapori e Tempi",
+      "ingredients": [
+        "Pane degli Abissi",
+        "Muffa Lunare",
+        "Fibra di Sintetex",
+        "Radici di Gravità",
+        "Colonia di Mycoflora",
+        "Shard di Prisma Stellare",
+        "Baccacedro",
+        "Nduja Fritta Tanto",
+        "Pane di Luce",
+        "Biscotti della Galassia"
+      ],
+      "techniques": [
+        "Marinatura Psionica",
+        "Affumicatura Temporale Risonante"
+      ]
+    },
+    {
+      "name": "Verso l'Inedito Oltre",
+      "ingredients": [
+        "Lattuga Namecciana",
+        "Carne di Drago",
+        "Carne di Mucca",
+        "Nettare di Sirena",
+        "Teste di Idra",
+        "Spezie Melange"
+      ],
+      "techniques": []
+    },
+    {
+      "name": "Sinfonia di Galassie Perdute",
+      "ingredients": [
+        "Radici di Singolarità",
+        "Lattuga Namecciana",
+        "Sferificazione tramite Matrici Biofotiche",
+        "Muffa Lunare",
+        "Cristalli di Memoria",
+        "Spezie Melange"
+      ],
+      "techniques": [
+        "Affumicatura a Stratificazione Quantica"
+      ]
+    },
+    {
+      "name": "Sinfonia degli Elementi Eterni",
+      "ingredients": [
+        "Liane di Plasmodio",
+        "Radici di Singolarità",
+        "Foglie di Mandragora",
+        "Uova di Fenice",
+        "Carne di Kraken",
+        "Farina di Nettuno",
+        "Pane di Luce",
+        "Lacrime di Andromeda"
+      ],
+      "techniques": [
+        "Marinatura Psionica",
+        "Fermentazione Quantico Biometrica"
+      ]
+    }
+  ],
+  "ristorante": {
+    "name": "L'Eco dei Sapori",
+    "pianeta": "Ego",
+    "chef": "Aurora Vessanti",
+    "skill": [
+      {
+        "name": "Sensibilità Psionica",
+        "livello": "3"
+      },
+      {
+        "name": "Superposizione Culinaria Quantistica",
+        "livello": "4"
+      },
+      {
+        "name": "Padronanza Temporale",
+        "livello": "2"
+      },
+      {
+        "name": "Certificazione Antimateria",
+        "livello": "1"
+      },
+      {
+        "name": "Certificazione Magnetica",
+        "livello": "1"
+      },
+      {
+        "name": "Certificazione Luce",
+        "livello": "2"
+      }
+    ]
+  }
+}

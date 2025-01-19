@@ -1,0 +1,160 @@
+{
+  "piatti": [
+    {
+      "name": "Galassia Riflessa",
+      "ingredients": [
+        "Pane degli Abissi",
+        "Foglie di Nebulosa",
+        "Carne di Balena spaziale",
+        "Colonia di Mycoflora",
+        "Uova di Fenice",
+        "Lacrime di Unicorno",
+        "Petali di Eco"
+      ],
+      "techniques": []
+    },
+    {
+      "name": "Enigma Celeste",
+      "ingredients": [
+        "Carne di drago",
+        "Gnocchi del Crepuscolo",
+        "Spore Quantiche",
+        "Vero Ghiaccio",
+        "Pane di Luce"
+      ],
+      "techniques": [
+        "Affumicatura a Stratificazione Quantica"
+      ]
+    },
+    {
+      "name": "Galassia d'Aromi Perduti",
+      "ingredients": [
+        "Spaghi del Sole",
+        "Pane di Luce",
+        "Erba Pipa",
+        "Lacrime di Unicorno",
+        "Cristalli di Nebulite"
+      ],
+      "techniques": [
+        "Congelamento Bio-Luminiscente Sincronico"
+      ]
+    },
+    {
+      "name": "Galassia a Tavola: Sinfonia di Tempeste Cosmiche",
+      "ingredients": [
+        "Carne di Xenodonte",
+        "Teste di Idra",
+        "Funghi Orbitali",
+        "Liane di Plasmodio",
+        "Foglie di Nebulosa",
+        "Essenza di Tachioni"
+      ],
+      "techniques": []
+    },
+    {
+      "name": "Portale Astrale di Sapori",
+      "ingredients": [
+        "Carne di Kraken",
+        "Carne di Balena spaziale",
+        "Nebulite",
+        "Pane di Luce",
+        "Nettare di Sirena",
+        "Nduja Fritta Tanto"
+      ],
+      "techniques": [
+        "Amalgamazione Sintetica Molecolare",
+        "Marinatura Temporale Sincronizzata"
+      ]
+    },
+    {
+      "name": "Cosmic Harmony Risotto",
+      "ingredients": [
+        "Riso di Cassandra",
+        "Polvere di Pulsar",
+        "Pane di Luce",
+        "Lacrime di Unicorno",
+        "Spezie Melange"
+      ],
+      "techniques": []
+    },
+    {
+      "name": "Galassia di Celestial Delight",
+      "ingredients": [
+        "Soufflé al Vero Ghiaccio",
+        "Uova di Fenice",
+        "Radici di Singolarità",
+        "Colonia di Mycoflora",
+        "Pane di Farina di Nettuno"
+      ],
+      "techniques": [
+        "Impasto Gravitazionale Vorticoso"
+      ]
+    },
+    {
+      "name": "Pioggia Calante dell'Universo",
+      "ingredients": [
+        "Carne di balena spaziale",
+        "Spaghi del Sole",
+        "Shard di materia oscura",
+        "Plasma vitale",
+        "Foglie di mandragora",
+        "Petali di eco",
+        "Buccia del baccacedro"
+      ],
+      "techniques": []
+    },
+    {
+      "name": "Creazione Celestiale: L'Alba del Cosmo",
+      "ingredients": [
+        "Liane di Plasmodio",
+        "Carne di Balena spaziale",
+        "Spaghi del Sole",
+        "Polvere di Pulsar",
+        "Muffa Lunare",
+        "Sale Temporale",
+        "Biscotti della Galassia"
+      ],
+      "techniques": [
+        "Fermentazione Quantico Biometrica",
+        "Congelamento Bio-Luminiscente Sincronico"
+      ]
+    },
+    {
+      "name": "Cosmic Rhapsody",
+      "ingredients": [
+        "Carne di Drago",
+        "Carne di Kraken",
+        "Funghi dell’Etere",
+        "Amido di Stellarion",
+        "Polvere di Pulsar"
+      ],
+      "techniques": [
+        "Cottura a Vapore Termocinetica Multipla",
+        "Affettamento a Pulsazioni Quantistiche"
+      ]
+    }
+  ],
+  "ristorante": {
+    "name": "L'Architetto dell'Universo",
+    "pianeta": "Klyntar",
+    "chef": "Alessandra Tempesti",
+    "skill": [
+      {
+        "name": "LTK",
+        "livello": "5"
+      },
+      {
+        "name": "Temporale",
+        "livello": "3"
+      },
+      {
+        "name": "Luce",
+        "livello": "2"
+      },
+      {
+        "name": "Gravitazionale",
+        "livello": "1"
+      }
+    ]
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "piatti": [
+    {
+      "name": "Viaggio Gastronomico tra le Stelle",
+      "ingredients": [
+        "Fusilli del Vento",
+        "Brodo di Vero Ghiaccio",
+        "Carne di Balena spaziale",
+        "Radici di Singolarità",
+        "Essenza di Tachioni"
+      ],
+      "techniques": []
+    },
+    {
+      "name": "Sinfonia del Cosmo Rigenerante",
+      "ingredients": [
+        "Carne di Balena Spaziale",
+        "Cristalli di Memoria",
+        "Uova di Fenice",
+        "Lacrime di Unicorno",
+        "Biscotti della Galassia",
+        "Sale Temporale"
+      ],
+      "techniques": [
+        "Affumicatura tramite Big Bang Microcosmico"
+      ]
+    },
+    {
+      "name": "Delizia Astrale all'Essenza del Multiverso",
+      "ingredients": [
+        "Radici di Singolarità",
+        "Carne di Kraken",
+        "Foglie di Nebulosa",
+        "Granuli di Nebbia Arcobaleno",
+        "Lacrime di Andromeda",
+        "Uova di Fenice",
+        "Alghe Bioluminescenti",
+        "Vero Ghiaccio",
+        "Essenza di Tachioni"
+      ],
+      "techniques": [
+        "Sinergia Elettro-Osmotica Programmabile",
+        "Amalgamazione Sintetica Molecolare"
+      ]
+    },
+    {
+      "name": "Melodia del Multiverso Parallelo",
+      "ingredients": [
+        "Carne di Mucca",
+        "Nettare di Sirena",
+        "Uova di Fenice",
+        "Nduja Fritta Tanto",
+        "Fusilli del Vento",
+        "Amido di Stellarion",
+        "Pane degli Abissi",
+        "Teste di Idra",
+        "Polvere di Crononite"
+      ],
+      "techniques": [
+        "Marinatura Temporale Sincronizzata",
+        "Affumicatura Psionica Sensoriale"
+      ]
+    },
+    {
+      "name": "Portale Interdimensionale di Sapori",
+      "ingredients": [
+        "Gnocchi del Crepuscolo",
+        "Carne di Kraken",
+        "Foglie di Mandragora",
+        "Shard di Materia Oscura",
+        "Riso di Cassandra",
+        "Lacrime di Andromeda"
+      ],
+      "techniques": []
+    },
+    {
+      "name": "Ode al Crepuscolo del Multiverso",
+      "ingredients": [
+        "Carne di Mucca",
+        "Gnocchi del Crepuscolo",
+        "Pane degli Abissi",
+        "Cristalli di Memoria",
+        "Lacrime di Unicorno",
+        "Pane di Luce"
+      ],
+      "techniques": [
+        "Affumicatura Polarizzata a Freddo Iperbarico"
+      ]
+    },
+    {
+      "name": "Sinfonia Interstellare di Fusilli del Vento con Nettare di Sirena",
+      "ingredients": [
+        "Fusilli del Vento",
+        "Teste di Idra",
+        "Radici di Gravità",
+        "Foglie di Mandragora",
+        "Nettare di Sirena",
+        "Polvere di Pulsar"
+      ],
+      "techniques": [
+        "Marinatura a Infusione Gravitazionale"
+      ]
+    },
+    {
+      "name": "La Voce del Vento",
+      "ingredients": [
+        "Carne di Balena Spaziale",
+        "Polvere di Pulsar",
+        "Foglie di Nebulosa",
+        "Funghi dell’Etere",
+        "Sale Temporale"
+      ],
+      "techniques": []
+    },
+    {
+      "name": "Nebulose a Strati",
+      "ingredients": [
+        "Farina di Nettuno",
+        "Essenza di Speziaria",
+        "Carne di Mucca",
+        "Carne di Kraken",
+        "Colonia di Mycoflora",
+        "Radici di Gravità",
+        "Baccacedro",
+        "Shard di Prisma Stellare",
+        "Plasma Vitale"
+      ],
+      "techniques": []
+    },
+    {
+      "name": "Sinfonia Aromatica del Multiverso",
+      "ingredients": [
+        "Lattuga Namecciana",
+        "Foglie di Nebulosa",
+        "Cristalli di Memoria",
+        "Spore Quantiche",
+        "Sale Temporale"
+      ],
+      "techniques": []
+    }
+  ],
+  "ristorante": {
+    "name": "L'Essenza del Multiverso su Pandora",
+    "pianeta": "Pandora",
+    "chef": "Matteo Nexus",
+    "skill": [
+      {
+        "name": "Tecnologia",
+        "livello": "6"
+      },
+      {
+        "name": "Gravitazionale",
+        "livello": "2"
+      },
+      {
+        "name": "Psionico",
+        "livello": "3"
+      },
+      {
+        "name": "Licenza Quantistica",
+        "livello": "2"
+      },
+      {
+        "name": "Temporale",
+        "livello": "1"
+      },
+      {
+        "name": "Antimateria",
+        "livello": "1"
+      },
+      {
+        "name": "Magnetismo",
+        "livello": "1"
+      },
+      {
+        "name": "Luce",
+        "livello": "1"
+      }
+    ]
+  }
+}

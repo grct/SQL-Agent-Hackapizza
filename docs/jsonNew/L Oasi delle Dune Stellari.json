@@ -1,0 +1,182 @@
+{
+  "piatti": [
+    {
+      "name": "La Creazione di Nova",
+      "ingredients": [
+        "Frammenti di Supernova",
+        "Lattuga Namecciana",
+        "Radici di Gravità",
+        "Fibra di Sintetex",
+        "Teste di Idra",
+        "Carne di Drago",
+        "Riso di Cassandra",
+        "Essenza di Vuoto"
+      ],
+      "techniques": [
+        "Fermentazione Psionica Energetica"
+      ]
+    },
+    {
+      "name": "Eterea Sinfonia di Gravità con Infusione Temporale",
+      "ingredients": [
+        "Colonia di Mycoflora",
+        "Radici di Gravità",
+        "Carne di Xenodonte",
+        "Teste di Idra",
+        "Funghi dell’Etere",
+        "Essenza di Tachioni"
+      ],
+      "techniques": [
+        "Sinergia Elettro-Osmotica Programmabile"
+      ]
+    },
+    {
+      "name": "Universo in Fusilli - Variazione Celestiale",
+      "ingredients": [
+        "Teste di Idra",
+        "Carne di Xenodonte",
+        "Pane degli Abissi",
+        "Fusilli del Vento",
+        "Muffa Lunare"
+      ],
+      "techniques": [
+        "Modellatura Onirica Tetrazionale"
+      ]
+    },
+    {
+      "name": "Cosmic Serenade",
+      "ingredients": [
+        "Shard di Materia Oscura",
+        "Foglie di Mandragora",
+        "Carne di Balena spaziale",
+        "Carne di Kraken",
+        "Amido di Stellarion",
+        "Nettare di Sirena",
+        "Essenza di Tachioni"
+      ],
+      "techniques": [
+        "Sferificazione a Gravità Psionica Variabile"
+      ]
+    },
+    {
+      "name": "Ecosistema Celeste",
+      "ingredients": [
+        "Colonia di Mycoflora",
+        "Liane di Plasmodio",
+        "Baccacedro",
+        "Amido di Stellarion",
+        "Lacrime di Andromeda",
+        "Nduja Fritta Tanto"
+      ],
+      "techniques": [
+        "Decostruzione Ancestrale",
+        "Surgelamento Antimaterico a Risonanza Inversa",
+        "Sinergia Elettro-Osmotica Programmabile"
+      ]
+    },
+    {
+      "name": "Universo in Un Boccone",
+      "ingredients": [
+        "Frammenti di Supernova",
+        "Radici di Singolarità",
+        "Alghe Bioluminescenti",
+        "Teste di Idra",
+        "Carne di Drago",
+        "Gnocchi del Crepuscolo",
+        "Pane di Luce",
+        "Muffa Lunare",
+        "Nduja Fritta Tanto"
+      ],
+      "techniques": [
+        "Cottura Sottovuoto Bioma Sintetico",
+        "Sferificazione con Campi Magnetici Entropici",
+        "Idro-Cristallizzazione Sonora Quantistica"
+      ]
+    },
+    {
+      "name": "Nebulosa Celestiale di Sogni Quantici",
+      "ingredients": [
+        "Polvere di Crononite",
+        "Baccacedro",
+        "Colonia di Mycoflora",
+        "Liane di Plasmodio",
+        "Granuli di Nebbia Arcobaleno",
+        "Amido di Stellarion",
+        "Lacrime di Unicorno",
+        "Salsa Szechuan"
+      ],
+      "techniques": [
+        "Affumicatura Temporale Risonante",
+        "Affumicatura tramite Big Bang Microcosmico",
+        "Surgelamento Antimaterico a Risonanza Inversa",
+        "Sferificazione Cromatica Interdimensionale"
+      ]
+    },
+    {
+      "name": "Universo Cosmico nel Piatto",
+      "ingredients": [
+        "Vero Ghiaccio",
+        "Lattuga Namecciana",
+        "Colonia di Mycoflora",
+        "Uova di Fenice",
+        "Carne di Kraken",
+        "Spaghi del Sole",
+        "Muffa Lunare",
+        "Erba Pipa"
+      ],
+      "techniques": [
+        "Ebollizione Magneto-Cinetica Pulsante",
+        "Bollitura Entropica Sincronizzata",
+        "Sferificazione tramite Matrici Biofotiche",
+        "Incisione Elettromagnetica Plasmica",
+        "Idro-Cristallizzazione Sonora Quantistica"
+      ]
+    },
+    {
+      "name": "Galassia Speculare",
+      "ingredients": [
+        "Polvere di Pulsar",
+        "Colonia di Mycoflora",
+        "Radici di Singolarità",
+        "Liane di Plasmodio",
+        "Pane di Luce",
+        "Fusilli del Vento",
+        "Essenza di Tachioni"
+      ],
+      "techniques": [
+        "Sferificazione tramite Matrici Biofotiche",
+        "Ebollizione Magneto-Cinetica Pulsante",
+        "Affumicatura Polarizzata a Freddo Iperbarico",
+        "Cryo-Tessitura Energetica Polarizzata"
+      ]
+    }
+  ],
+  "ristorante": {
+    "name": "L'Oasi delle Dune Stellari",
+    "pianeta": "Tatooine",
+    "chef": "Alessandra \"Nova\" Celestini",
+    "skill": [
+      {
+        "Psionica": "4"
+      },
+      {
+        "Luce": "3"
+      },
+      {
+        "Temporale": "3"
+      },
+      {
+        "Quantistica": "9"
+      },
+      {
+        "Gravitazionale": "1"
+      },
+      {
+        "Antimateria": "1"
+      },
+      {
+        "Magnetica": "1"
+      }
+    ]
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "piatti": [
+    {
+      "name": "Sinfonia del Multiverso Nascente",
+      "ingredients": [
+        "Polvere di Crononite",
+        "Carne di Balena spaziale",
+        "Fibra di Sintetex",
+        "Gnocchi del Crepuscolo",
+        "Muffa Lunare",
+        "Essenza di Vuoto"
+      ],
+      "techniques": [
+        "Affumicatura Temporale Risonante",
+        "Fermentazione Psionica Energetica"
+      ]
+    },
+    {
+      "name": "Antipasto Stellare dell'Eterna Armonia",
+      "ingredients": [
+        "Polvere di Crononite",
+        "Baccacedro",
+        "Fibra di Sintetex",
+        "Teste di Idra",
+        "Pane di Luce",
+        "Farina di Nettuno",
+        "Spore Quantiche",
+        "Essenza di Speziaria"
+      ],
+      "techniques": []
+    },
+    {
+      "name": "Essenze dell'Infinito",
+      "ingredients": [
+        "Lattuga Namecciana",
+        "Baccacedro",
+        "Carne di Kraken",
+        "Funghi Orbitali",
+        "Essenza di Vuoto"
+      ],
+      "techniques": [
+        "Affumicatura Temporale Risonante",
+        "Affumicatura tramite Big Bang Microcosmico",
+        "Fermentazione Quantico Biometrica"
+      ]
+    },
+    {
+      "name": "Etereo Crepuscolare",
+      "ingredients": [
+        "Vero Ghiaccio",
+        "Colonia di Mycoflora",
+        "Lattuga Namecciana",
+        "Gnocchi del Crepuscolo",
+        "Granuli di Nebbia Arcobaleno"
+      ],
+      "techniques": [
+        "Marinatura tramite Reazioni d'Antimateria Diluite"
+      ]
+    },
+    {
+      "name": "Sinfonia del Multiverso Calante",
+      "ingredients": [
+        "Shard di Prisma Stellare",
+        "Granuli di Nebbia Arcobaleno",
+        "Fusilli del Vento",
+        "Pane degli Abissi",
+        "Lacrime di Unicorno"
+      ],
+      "techniques": [
+        "Sinergia Elettro-Osmotica Programmabile"
+      ]
+    },
+    {
+      "name": "Sinfonia Quantica dell’Oceano Interstellare",
+      "ingredients": [
+        "Vero Ghiaccio",
+        "Carne di Xenodonte",
+        "Teste di Idra",
+        "Carne di Kraken",
+        "Nettare di Sirena",
+        "Essenza di Vuoto"
+      ],
+      "techniques": [
+        "Sinergia Elettro-Osmotica Programmabile",
+        "Marinatura Temporale Sincronizzata",
+        "Fermentazione Psionica Energetica"
+      ]
+    },
+    {
+      "name": "Sinfonia Temporale di Fenice e Xenodonte su Pane degli Abissi",
+      "ingredients": [
+        "Polvere di Crononite",
+        "Uova di Fenice",
+        "Carne di Xenodonte",
+        "Pane degli Abissi",
+        "Plasma Vitale"
+      ],
+      "techniques": []
+    },
+    {
+      "name": "Nebulare Asteroideo con Crepuscolo di Mucca",
+      "ingredients": [
+        "Cristalli di Nebulite",
+        "Foglie di Nebulosa",
+        "Liane di Plasmodio",
+        "Fibra di Sintetex",
+        "Teste di Idra",
+        "Carne di Mucca",
+        "Pane degli Abissi",
+        "Fusilli del Vento",
+        "Gnocchi del Crepuscolo",
+        "Plasma Vitale",
+        "Erba Pipa"
+      ],
+      "techniques": []
+    },
+    {
+      "name": "Sinfonia Temporale del Drago",
+      "ingredients": [
+        "Polvere di Crononite",
+        "Radici di Gravità",
+        "Baccacedro",
+        "Carne di Drago",
+        "Amido di Stellarion",
+        "Biscotti della Galassia",
+        "Nettare di Sirena"
+      ],
+      "techniques": []
+    },
+    {
+      "name": "Il Viaggio delle Dimensioni Confluenti",
+      "ingredients": [
+        "Polvere di Crononite",
+        "Baccacedro",
+        "Carne di Balena spaziale",
+        "Teste di Idra",
+        "Carne di Mucca",
+        "Riso di Cassandra",
+        "Amido di Stellarion",
+        "Funghi dell’Etere",
+        "Essenza di Speziaria"
+      ],
+      "techniques": [
+        "Marinatura Sotto Zero a Polarità Inversa"
+      ]
+    }
+  ],
+  "ristorante": {
+    "name": "L'Equilibrio Quantico",
+    "pianeta": "Mos Eisley",
+    "chef": "Alessandro Quantum",
+    "skill": [
+      {
+        "name": "Licenza Quantistica",
+        "livello": "11"
+      },
+      {
+        "name": "Luce",
+        "livello": "3"
+      },
+      {
+        "name": "Magnetica",
+        "livello": "1"
+      },
+      {
+        "name": "Gravitazionale",
+        "livello": "1"
+      },
+      {
+        "name": "Antimateria",
+        "livello": "1"
+      },
+      {
+        "name": "Psionica",
+        "livello": "2"
+      },
+      {
+        "name": "Temporale",
+        "livello": "2"
+      }
+    ]
+  }
+}

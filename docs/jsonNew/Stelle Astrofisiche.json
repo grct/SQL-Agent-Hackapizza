@@ -1,0 +1,135 @@
+{
+  "piatti": [
+    {
+      "name": "Viaggio Cosmico tra Mare e Stelle",
+      "ingredients": [
+        "Carne di Balena Spaziale",
+        "Carne di Kraken",
+        "Teste di Idra",
+        "Lacrime di Andromeda",
+        "Riso di Cassandra",
+        "Pane degli Abissi",
+        "Spezie Melange"
+      ],
+      "techniques": []
+    },
+    {
+      "name": "Nebulosa di Dragone all'Essenza di Vuoto",
+      "ingredients": [
+        "Lattuga Namecciana",
+        "Carne di Drago",
+        "Spore Quantiche",
+        "Essenza di Vuoto"
+      ],
+      "techniques": [
+        "Sinergia Elettro-Osmotica Programmabile"
+      ]
+    },
+    {
+      "name": "Il Viaggio Cosmico di Marinetti",
+      "ingredients": [
+        "Pane degli Abissi",
+        "Polvere di Crononite",
+        "Teste di Idra",
+        "Granuli di Nebbia Arcobaleno",
+        "Alghe Bioluminescenti",
+        "Colonia di Mycoflora"
+      ],
+      "techniques": [
+        "Amalgamazione Sintetica Molecolare"
+      ]
+    },
+    {
+      "name": "Piastrella Celestiale di Gnocchi del Crepuscolo",
+      "ingredients": [
+        "Gnocchi del Crepuscolo",
+        "Riso di Cassandra",
+        "Lacrime di Unicorno",
+        "Materia Oscura"
+      ],
+      "techniques": [
+        "Amalgamazione Sintetica Molecolare"
+      ]
+    },
+    {
+      "name": "Sinfonia Celeste di Granuli Arcobaleno e Riso di Cassandra",
+      "ingredients": [
+        "Granuli di Nebbia Arcobaleno",
+        "Riso di Cassandra",
+        "Fusilli del Vento",
+        "Essenza di Speziaria",
+        "Nettare di Sirena"
+      ],
+      "techniques": [
+        "Amalgamazione Sintetica Molecolare"
+      ]
+    },
+    {
+      "name": "Cosmos in Tavola",
+      "ingredients": [
+        "Gnocchi del Crepuscolo",
+        "Carne di Drago",
+        "Cristalli di Nebulite",
+        "Amido di Stellarion",
+        "Nettare di Sirena",
+        "Biscotti della Galassia"
+      ],
+      "techniques": []
+    },
+    {
+      "name": "Eclissi del Drago nell'Abbraccio del Kraken",
+      "ingredients": [
+        "Carne di Drago",
+        "Carne di Kraken",
+        "Riso di Cassandra",
+        "Colonia di Mycoflora",
+        "Plasma Vitale",
+        "Shard di Materia Oscura"
+      ],
+      "techniques": []
+    },
+    {
+      "name": "Sinfonia Quantica Galattica",
+      "ingredients": [
+        "Lattuga Namecciana",
+        "Carne di Drago",
+        "Riso di Cassandra",
+        "Salsa Szechuan",
+        "Biscotti della Galassia"
+      ],
+      "techniques": []
+    },
+    {
+      "name": "Sinfonia Galattica Agentica",
+      "ingredients": [
+        "Pane di Luce",
+        "Carne di Drago",
+        "Carne di Balena spaziale",
+        "Carne di Kraken",
+        "Plasma Vitale"
+      ],
+      "techniques": [
+        "Sinergia Elettro-Osmotica Programmabile"
+      ]
+    }
+  ],
+  "ristorante": {
+    "name": "Stelle Astrofisiche",
+    "pianeta": "Krypton",
+    "chef": "Alessandro Zod-Marinetti",
+    "skill": [
+      {
+        "Licenza Quantistica Q": "4"
+      },
+      {
+        "Licenza Luce c": "3"
+      },
+      {
+        "Licenza Gravitazionale G": "2"
+      },
+      {
+        "Licenza Antimateria e+": "1"
+      }
+    ]
+  }
+}

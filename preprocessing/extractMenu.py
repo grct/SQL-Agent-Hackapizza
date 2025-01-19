@@ -19,6 +19,7 @@ class Dish(BaseModel):
 
 class Restaurant(BaseModel):
     name: str = Field(description="Nome del ristorante")
+    pianeta: str = Field(description="Pianeta di apparteneneza del ristorante")
     chef: str = Field(description="Nome dello Chef")
     skill: List[Dict[str, str]] = Field(description="Lista di Certificazioni o Skill con nome e livello")
 
@@ -63,6 +64,7 @@ class MenuProcessor:
             template="""
                 Analizza il menu per recuperare le informazioni sul ristorante:
                 - Il nome del ristorante
+                - Il pianeta di appartenenza del pianeta
                 - Il nome della chef
                 - La lista di Skill e Certificazioni con il proprio livello
                 
@@ -113,7 +115,7 @@ class MenuProcessor:
             data (MenuResponse): Dati da salvare
         """
         # Crea la cartella json se non esiste
-        json_dir = Path("../docs/json")
+        json_dir = Path("../docs/jsonNew")
         json_dir.mkdir(exist_ok=True)
 
         # Rimuovi l'estensione .pdf e aggiungi .json
@@ -157,7 +159,7 @@ class MenuProcessor:
 
         for pdf_file in path.glob("*.pdf"):
             try:
-                if not os.path.exists("../docs/json/"+ Path(str(pdf_file.name)).stem + ".json"):
+                if not os.path.exists("../docs/jsonNew/"+ Path(str(pdf_file.name)).stem + ".json"):
                     print("Process file:  " + str(pdf_file.name))
                     menu_response = self.process_pdf(str(pdf_file))
                     results[pdf_file.name] = menu_response

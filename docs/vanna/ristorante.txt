@@ -1,0 +1,6 @@
+Ecco la documentazione per ogni colonna della tabella Ristorante nel formato colonna = spiegazione
+Ristorante.id = id del ristorante
+Ristorante.nome = nome del ristorante
+Ristorante.pianeta = pianeta di appartenenza del ristorante
+Ristorante.chef = chef che lavora al ristorante
+
