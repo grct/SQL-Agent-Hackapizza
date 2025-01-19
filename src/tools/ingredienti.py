@@ -3,7 +3,7 @@ from langchain_core.documents import Document
 from langchain_core.vectorstores import InMemoryVectorStore, VectorStore
 from sqlalchemy.engine import connection_memoize
 
-from src.settings import llm, connect_to_db
+from src.settings import llm, connect_to_db, vn
 
 
 #@tool
@@ -14,28 +14,6 @@ def tool_ingredienti(ingrediente: str):
         ingrediente: Il nome dell' ingrediente
     """
 
-    connection = connect_to_db()
+    result = vn.ask(f"Trova i Piatti che utilizzano l'ingrediente {ingrediente}")
 
-    query = """
-SELECT P.nome, P.id
-FROM PIATTI_INGREDIENTI PT
-JOIN (
-    SELECT *
-    FROM INGREDIENTI
-    WHERE nome LIKE CONCAT('%%', %(ingrediente)s, '%%')
-    ORDER BY
-        LENGTH(nome) - LENGTH(REPLACE(nome, %(ingrediente)s, '')) DESC
-    LIMIT 1
-) TS ON PT.id_ingrediente = TS.id
-LEFT JOIN PIATTI AS P ON PT.id_piatto = P.id;
-    """
-
-    with connection.cursor() as cursor:
-        cursor.execute(query, {'ingrediente': ingrediente})
-        result = cursor.fetchall()
-    connection.close()
-
-    if result:
-        return [{
-            "id": r["id"] for r in result
-        }]
+    return result
