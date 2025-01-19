@@ -28,29 +28,33 @@ def training(vn):
                         INNER JOIN TECNICHE T ON PT.id_tecnica = T.id
                          where T.descrizione LIKE '%Marinatura a infusione%'
                     """)
-    vn.train(question="Dimmi tutti i telefoni Samsung con 12 GB di RAM.",
+    vn.train(question="Quali sono i piatti disponibili nei ristoranti entro 126 anni luce da Cybertron, quest ultimo incluso, che non includono Funghi dell Etere?",
              sql="""
-                        SELECT p.Brand,p.Model, p.id
-                        FROM Product p
-                        JOIN Product_Stats ps ON p.Product_Stats = ps.Id
-                        WHERE p.Brand = 'SAMSUNG' AND ps.RAM = '12 GB';
-                    """)
-    vn.train(question="Mostra tutti i telefoni Google con più di 128 GB di memoria ROM",
-             sql="""
-                        SELECT p.Model, p.Price, ps.ROM, p.id
-                        FROM Product p
-                        JOIN Product_Stats ps ON p.Product_Stats = ps.Id
-                        WHERE p.Brand = 'Google'
-                        AND CAST(SUBSTRING_INDEX(ps.ROM, ' ', 1) AS UNSIGNED) > 128;
-                    """)
-    vn.train(question="Che piatti posso mangiare da ristoranti che hanno le corrette licenze e certificazioni descritte dal Codice Galattico?",
-             sql="""
-                        SELECT p.Model, p.Price, ps.ROM, p.id
-                        FROM Product p
-                        JOIN Product_Stats ps ON p.Product_Stats = ps.Id
-                        WHERE p.Brand = 'Google'
-                        AND CAST(SUBSTRING_INDEX(ps.ROM, ' ', 1) AS UNSIGNED) > 128;
-                    """)
+                            SELECT DISTINCT 
+                                p.id
+                            FROM RISTORANTE r
+                            JOIN (
+                                SELECT 
+                                    CASE 
+                                        WHEN name1 = 'Cybertron' THEN name2
+                                        WHEN name2 = 'Cybertron' THEN name1
+                                    END AS pianeta,
+                                    distance
+                                FROM DISTANZE
+                                WHERE 'Cybertron' IN (name1, name2)
+                            ) d ON r.pianeta = d.pianeta
+                            JOIN RISTORANTE_PIATTI rp ON r.id = rp.id_ristorante
+                            JOIN PIATTI p ON p.id = rp.id_piatto
+                            WHERE d.distance <= 126
+                            AND NOT EXISTS (
+                                SELECT 1 
+                                FROM PIATTI_INGREDIENTI pi
+                                JOIN INGREDIENTI i ON i.id = pi.id_ingrediente
+                                WHERE pi.id_piatto = p.id 
+                                AND i.nome = 'Funghi dell''Etere'
+                            )
+                        """)
 
-    vn.train(documentation="Includi sempre nella risposta la colonna product.id")
+
+
 
