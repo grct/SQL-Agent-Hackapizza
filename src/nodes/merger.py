@@ -37,7 +37,7 @@ def merger(state: Dict):
         {x}
         
         In base alla domanda dell'utente, tieni solo i piatti che ha chiesto e rispondimi con la lista in json.
-        Rispondi solo con la lista json e nient'altro
+        Rispondi solo con un array in json e nient'altro, esempio: [32, 5, 14, 7]
 """)
 
     chain = prompt | llm
