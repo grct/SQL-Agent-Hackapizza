@@ -5,5 +5,5 @@ This project utilizes **LangGraph** for orchestrating agents and **Vanna AI** fo
 
 
 
-![Graph](https://github.com/grct/SQL-Agent-Hackapizza/blob/main/docs/draw.png?raw=true?raw=true)
+![Graph]([https://github.com/grct/SQL-Agent-Hackapizza/blob/main/docs/draw.png?raw=true?raw=true](https://github.com/grct/SQL-Agent-Hackapizza/blob/main/docs/chart.png?raw=true))
 
